@@ -1,0 +1,68 @@
+.team {
+  background-color: black;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.success {
+  font-size: 100px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: 4%;
+}
+
+.pipe img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pont {
+  position: relative;
+  left: -40px;
+}
+
+.lctnslide {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .pipe img {
+    width: 29%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pipe img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .postpoint {
+    display: none;
+  }
+
+  .lctnslide {
+    display: block;
+  }
+
+  .success {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .success {
+    font-size: 35px;
+    text-align: center;
+  }
+}

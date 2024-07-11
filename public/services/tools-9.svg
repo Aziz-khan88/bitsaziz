@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.846" height="50" viewBox="0 0 53.846 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14227" data-name="Rectangle 14227" width="53.846" height="50" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="sketch_1_" data-name="sketch (1)" clip-path="url(#clip-path)">
+    <path id="Path_84406" data-name="Path 84406" d="M10.941,18.017,26.867,49.994.1,18.017Z" transform="translate(0 -0.051)" fill="#ea6c00" fill-rule="evenodd"/>
+    <path id="Path_84407" data-name="Path 84407" d="M42.874,18.017,26.948,49.994,53.717,18.017Z" transform="translate(-0.077 -0.051)" fill="#ea6c00" fill-rule="evenodd"/>
+    <path id="Path_84408" data-name="Path 84408" d="M10.972,18.017H42.824L26.9,49.994Z" transform="translate(-0.031 -0.051)" fill="#fdad00" fill-rule="evenodd"/>
+    <path id="Path_84409" data-name="Path 84409" d="M26.9.245,11.81,1.881l-.838,16.085Z" transform="translate(-0.031 -0.001)" fill="#fdd231" fill-rule="evenodd"/>
+    <path id="Path_84410" data-name="Path 84410" d="M26.943.245,42.031,1.881l.838,16.085Z" transform="translate(-0.077 -0.001)" fill="#fdd231" fill-rule="evenodd"/>
+    <path id="Path_84411" data-name="Path 84411" d="M53.76,17.971,42.079,1.886l.838,16.085Z" transform="translate(-0.12 -0.005)" fill="#fdad00" fill-rule="evenodd"/>
+    <path id="Path_84412" data-name="Path 84412" d="M.1,17.971,11.78,1.886l-.838,16.085Z" transform="translate(0 -0.005)" fill="#fdad00" fill-rule="evenodd"/>
+    <path id="Path_84413" data-name="Path 84413" d="M26.9.245,10.972,17.966H42.824Z" transform="translate(-0.031 -0.001)" fill="#feeeb7" fill-rule="evenodd"/>
+  </g>
+</svg>

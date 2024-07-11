@@ -1,0 +1,166 @@
+.dubaiSec {
+    padding: 40px 0 60px;
+    position: relative;
+}
+
+.txt {
+    position: relative !important;
+    z-index: 999999 !important;
+}
+
+.dubaiSec h2 {
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 75px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.mainPara {
+    font-size: 17px !important;
+    line-height: 26px !important;
+    text-align: justify;
+    max-width: 760px !important;
+}
+
+.dubaiSec h4 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 500;
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+
+.dubaiSec p {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.buildingImage {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -99999999;
+}
+
+.buildingImageTwo img {
+    width: 90%;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1920px) {
+    .buildingImageTwo {
+        position: absolute;
+        bottom: 14%;
+        right: 256px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .buildingImageTwo {
+        position: absolute;
+        bottom: 14%;
+        right: 86px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .dubaiSec h2 {
+        font-size: 65px;
+        line-height: 85px;
+    }
+
+    .buildingImageTwo {
+        position: absolute;
+        bottom: 14%;
+        right: 56px;
+    }
+
+    .buildingImage img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .dubaiSec h2 {
+        font-size: 55px;
+        margin-bottom: 0px;
+    }
+
+    .mainPara {
+        font-size: 18px !important;
+        line-height: 27px !important;
+        max-width: 100%;
+    }
+
+    .dubaiSec p {
+        font-size: 16px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+
+    .buildingImage img {
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .buildingImage {
+        right: -6%;
+    }
+
+    .buildingImageTwo {
+        position: unset;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .dubaiSec {
+        padding: 0px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dubaiSec {
+        padding: 40px 0;
+    }
+
+    .dubaiSec h2 {
+        font-size: 36px;
+        line-height: 56px;
+        margin-bottom: 0px;
+    }
+
+    .dubaiSec h4 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .dubaiSec {
+        padding: 50px 0;
+    }
+
+    .dubaiSec h2 {
+        font-size: 32px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    .dubaiSec h4 {
+        font-size: 30px;
+        line-height: 1.1;
+        padding-top: 0;
+    }
+
+    .dubaiSec p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+        text-align: justify;
+    }
+}
+
+/* Media Query End */

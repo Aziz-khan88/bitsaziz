@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14224" data-name="Rectangle 14224" width="50" height="50" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.149" y1="0.507" x2="1.093" y2="-0.149" gradientUnits="objectBoundingBox">
+      <stop offset="0.23" stop-color="#f89822"/>
+      <stop offset="1" stop-color="#c27818"/>
+    </linearGradient>
+  </defs>
+  <g id="sublime" clip-path="url(#clip-path)">
+    <path id="Path_84386" data-name="Path 84386" d="M25.2,50.026A24.829,24.829,0,1,0,.367,25.2,24.829,24.829,0,0,0,25.2,50.026Z" transform="translate(-0.039 -0.039)" fill="#4d4d4e"/>
+    <path id="Path_84387" data-name="Path 84387" d="M16.254,18.565l20.711-6.579s1.467-.77,1.118.658l.053,6.336s.257.928-1.02,1.158l-8.4,2.638Z" transform="translate(-1.741 -1.262)" fill="#f89820"/>
+    <path id="Path_84388" data-name="Path 84388" d="M16.178,19.379s-.816.2-.572,1.586l-.046,6.112s-.072.77,1.388,1.079l20.526,6.579s.658.27.612-.579V27.379s.2-.7-1.079-1.158l-8.368-2.632Z" transform="translate(-1.667 -2.076)" fill="#f89820"/>
+    <path id="Path_84389" data-name="Path 84389" d="M25.226,32.178l-8.737,2.671s-1.053.033-.928,2.007,0,5.921,0,5.921.086.737,1.092.309l20.711-6.579s.737-.191.118-.395S25.226,32.178,25.226,32.178Z" transform="translate(-1.666 -3.448)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

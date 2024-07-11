@@ -1,0 +1,81 @@
+.expertapp {
+  padding: 80px 0;
+  background: #000;
+  background-image: url(../public/images/expert/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border: 2px solid #3d3d3d;
+  border-radius: 15px;
+  height: 201px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 10px;
+  transition: all 1s ease-out;
+}
+
+.app p {
+  height: 100px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.connect {
+  width: 436px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.app:hover {
+  background-color: #f32f53;
+  transition: all 1s ease-out;
+}
+
+.tested1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .expertapp {
+    padding: 0 0 80px;
+    background-image: none;
+  }
+
+  .app {
+    height: 225px;
+    margin: 0 5px;
+  }
+
+  .copy {
+    width: 100%;
+  }
+
+  .tested1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .expertapp {
+    padding: 0 0 50px;
+    background-image: none;
+  }
+}

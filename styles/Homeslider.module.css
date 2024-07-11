@@ -1,0 +1,40 @@
+.peace {
+  background-color: #f5f5ff;
+  padding-top: 100px;
+}
+
+.slider,
+.view1sec {
+  background-color: #f5f5ff;
+}
+
+.view {
+  width: 207px;
+  height: 57px;
+  background-color: #f32f53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 18px;
+  box-shadow: rgb(235 51 91 / 43%) 0px 7px 29px 0px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .peace {
+    background-color: unset;
+    padding-top: 100px;
+  }
+  
+}
+@media screen and (max-width: 991px) {
+  .peace {
+    background-color: #f5f5ff;
+    padding-top: 100px;
+  }
+
+}

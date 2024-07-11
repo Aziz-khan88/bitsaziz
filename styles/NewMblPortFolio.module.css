@@ -1,0 +1,72 @@
+.newHomeBg {
+  background-color: #000;
+  padding-bottom: 00px;
+}
+
+.poliBox {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.poliBox1 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio1.png);
+}
+
+.poliBox2 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio2.png);
+}
+
+.poliBox3 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio3.png);
+}
+
+.poliBox4 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio4.png);
+}
+
+.poliBox5 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio5.png);
+}
+
+.poliBox6 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio6.png);
+}
+
+.polioTxt {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sucssBtn {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.poliBox img {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .polioTxt {
+    bottom: 15%;
+  }
+}

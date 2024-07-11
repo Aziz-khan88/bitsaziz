@@ -1,0 +1,301 @@
+.blogcontent {
+    padding: 80px 0;
+}
+
+.blogcontent .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogcontent .form form {
+    position: relative;
+}
+
+.blogcontent .form form input {
+    width: 662px;
+    height: 60px;
+    background: #F3F3F3;
+    border: 2px solid #BFBFBF;
+    border-radius: 10px;
+    padding: 0 20px 0 190px;
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.blogcontent .form .search {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border: 0;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.blogcontent .form .search option {
+    background: #F3F3F3;
+}
+
+.blogcontent .form form button {
+    background-color: #000;
+    width: max-content;
+    height: 46px;
+    border-radius: 8px;
+    padding: 0 30px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.blogcontent .tabs ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px 0px;
+    padding: 0;
+}
+
+.blogcontent .active {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid #F32F53;
+    padding: 0 10px 10px;
+    transition: all ease-in-out 0.4s;
+}
+
+.blogcontent .nonActive {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #BFBFBF;
+    padding: 0 10px 10px;
+    transition: all ease-in-out 0.4s;
+    border-bottom: 3px solid #fff;
+}
+
+.blogcontent .card {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    border: 0;
+}
+
+.blogcontent .cardContent {
+    padding: 0 25px 25px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.blogcontent .cardContent p:first-of-type {
+    color: #F32F53;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-top: 24px;
+}
+
+.blogcontent .cardContent h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.blogcontent .cardContent p:last-of-type {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+.blogcontent .cardContent .btn {
+    display: flex;
+    align-items: center;
+}
+
+.blogcontent .cardContent .btn a {
+    margin-left: auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.blogcontent .cardBottom {
+    padding: 25px 25px 10px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.blogcontent .cardBottomImg {
+    width: 30%;
+}
+
+.blogcontent .cardBottom .cardbottomContent h3 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.blogcontent .cardBottom .cardbottomContent p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #AEAEAE;
+    margin-bottom: 0;
+}
+
+.blogcontent .cardTwo {
+    background: linear-gradient(to bottom right, #4A78EF, #F32FC2, #F32F53);
+    padding: 0 25px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blogcontent .cardTwo h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blogcontent .cardTwo p:first-of-type {
+    font-size: 17px;
+    line-height: 28px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.blogcontent .cardTwo p:last-of-type {
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+}
+
+.blogcontent .cardTwo p:last-of-type a {
+    text-decoration: underline !important;
+}
+
+.blogcontent .cardTwo .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogcontent .cardTwo .form form {
+    position: relative;
+    width: 100%;
+}
+
+.blogcontent .cardTwo .form form input {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.blogcontent .cardTwo .form form input::placeholder {
+    font-size: 13px;
+}
+
+.blogcontent .cardTwo .form form button {
+    background-color: #000;
+    width: max-content;
+    height: 46px;
+    border-radius: 8px;
+    padding: 0 30px;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.blogcontent .loadMoreBtn a {
+    background: #000;
+    color: white;
+    box-shadow: 0px 3px 25px rgba(65, 59, 59, 0.75);
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px auto 0;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1299px) {
+    .blogcontent .cardTwo {
+        padding: 0 15px;
+    }
+
+    .blogcontent .cardTwo h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .blogcontent .cardTwo p:first-of-type {
+        font-size: 15px;
+        line-height: 24px;
+        color: white;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .blogcontent {
+        padding: 50px 0;
+    }
+
+    .blogcontent .form form {
+        width: 100%;
+    }
+
+    .blogcontent .form form input {
+        width: 100%;
+    }
+
+    .blogcontent .cardTwo {
+        padding: 25px 15px;
+    }
+
+    .blogcontent .cardTwo h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+}

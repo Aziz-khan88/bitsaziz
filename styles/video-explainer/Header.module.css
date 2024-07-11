@@ -1,0 +1,53 @@
+.logo {
+  width: 15%;
+  height: auto;
+  object-fit: contain;
+}
+
+.btn {
+  color: white !important;
+  font-size: 16px !important;
+  font-family: "Montserrat";
+}
+
+.chatIcon {
+  filter: grayscale(1) brightness(100);
+}
+
+.popupBtn {
+  color: #fff !important;
+  background: #000;
+  margin-right: 0;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  transition-duration: 0.6s;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  box-shadow: 0 11px 21px 0 rgba(0, 0, 0, 0.16);
+}
+
+.popupBtn:hover {
+  background: #e0252f !important;
+}
+
+/* media Query Start */
+
+@media only screen and (max-width: 991px) {
+  .header {
+    position: relative;
+    z-index: 9999;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .logo {
+    width: 80%;
+  }
+
+  .btn {
+    font-size: 13px !important;
+  }
+}

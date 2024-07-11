@@ -1,0 +1,305 @@
+.newHomeBg {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background: #000;
+}
+
+.newHomeBg h1 {
+  margin: 0 auto;
+}
+
+.para {
+  font-size: 15px;
+  max-width: 495px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.para1 {
+  font-size: 14px;
+
+  color: white;
+}
+
+.cardImage {
+  min-height: 550px;
+}
+
+.app {
+  background-image: url(../public/nativemobiledevelopment/card1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app1 {
+  background-image: url(../public/nativemobiledevelopment/card2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pont {
+  display: flex;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.book {
+  width: 198px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.app7 {
+  border-radius: 15px;
+  border: 4px solid;
+  border-image: linear-gradient(#f32f53, #f32fc2, #4a78ef) 10;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 460px;
+}
+
+.para2 {
+  font-size: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  height: 75px;
+}
+
+.para3 {
+  font-size: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  height: 75px;
+}
+
+.app6 {
+  border-radius: 15px;
+  border: 10px solid transparent;
+  background: linear-gradient(#f32f53, #f32fc2, #4a78ef) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 465px;
+}
+
+.pick {
+  display: flex;
+}
+
+.power {
+  width: 100%;
+}
+
+.custom {
+  width: 75%;
+}
+
+@media screen and (min-width: 1500px) {
+  .app3 {
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app {
+    height: 533px;
+  }
+
+  .app1 {
+    height: 533px;
+  }
+
+  .app2 {
+    height: 533px;
+  }
+
+  .app4,
+  .app5 {
+    height: 560px;
+  }
+
+  .custom {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app4 {
+    height: auto;
+  }
+
+  .app5 {
+    height: auto;
+  }
+
+  .app3 {
+    background-size: cover;
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app3 img {
+    max-width: 24%;
+    margin-top: 2%;
+  }
+
+  .app7 {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .app1,
+  .app {
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+      linear-gradient(#fff 0 0);
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: 440px;
+  }
+
+  .app2 {
+    height: 440px;
+  }
+
+  .app4 {
+    height: 440px;
+    background-size: cover;
+  }
+
+  .app5 {
+    height: 440px;
+    background-size: cover;
+  }
+
+  .cardContent {
+    margin-bottom: -8%;
+  }
+
+  .app4,
+  .app5 .cardContent {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .newHomeBg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .pick {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .power {
+    width: 100%;
+  }
+
+  .app6 {
+    height: 460px;
+  }
+
+  .app {
+    height: 460px;
+  }
+
+  .app1 {
+    height: 460px;
+  }
+
+  .app2 {
+    height: 460px;
+  }
+
+  .app3 {
+    height: 330px;
+    display: block;
+  }
+
+  .app4 {
+    height: 460px;
+  }
+
+  .app5 {
+    height: 460px;
+  }
+
+  .cardContent {
+    margin-bottom: 15%;
+  }
+
+  .app4,
+  .app5 .cardContent {
+    margin-bottom: -25%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .book,
+  .about {
+    font-size: 12px;
+  }
+
+  .app6 {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .app {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .app1 {
+    height: 300px;
+    padding: 10px;
+  }
+
+  .app2 {
+    height: 300px;
+    padding: 10px;
+  }
+}

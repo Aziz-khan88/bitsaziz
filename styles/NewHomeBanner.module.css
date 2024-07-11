@@ -1,0 +1,111 @@
+.newHomeBg {
+  padding: 50px 0;
+  background: #000;
+  background-image: url(../public/newHomePageImages/banner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.just {
+  color: white;
+}
+
+.develop {
+  max-width: 985px;
+  margin: 0 auto;
+  color: white;
+}
+
+.book {
+  width: 198px;
+  height: 45px;
+  background-color: #4a78ef;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.pont {
+  display: flex;
+  gap: 20px;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .secImage {
+    width: 80%;
+    object-fit: contain;
+    max-height: 320px;
+  }
+
+  .just {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .just {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .just {
+    font-size: 25px;
+  }
+
+  .develop {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 9px;
+  }
+
+  .newHomeBg {
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .just {
+    font-size: 18px;
+  }
+
+  .develop {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .book,
+  .about {
+    font-size: 12px;
+  }
+
+  .secImage {
+    width: 100%;
+    max-height: 220px;
+  }
+}

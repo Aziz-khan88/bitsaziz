@@ -1,0 +1,104 @@
+.faqsSec {
+    padding: 50px 0;
+    background-image: url(../../public/videoexplainer/faq-bg.jpg);
+    background-color: #f7f9fc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faqsSec h2 {
+    font-size: 30px;
+    color: #231f20;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.faqsSec p {
+    font-size: 18px;
+    color: #231f20;
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: "Montserrat";
+}
+
+.isActive {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background: #003466;
+    border-top: 0 !important;
+    border-bottom: 0 solid #d8d8d8;
+    border-radius: 8px !important;
+}
+
+.isActive h3 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.isActive .icon {
+    color: white;
+}
+
+.nonActive .icon {
+    color: #222;
+}
+
+.nonActive h3 {
+    color: #222;
+    font-weight: 500;
+}
+
+.nonActive {
+    background: #e6e7e8;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px !important;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+
+.icon {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Montserrat";
+}
+
+.answer {
+    font-size: 16px;
+    font-weight: 400;
+    color: #231f20;
+    font-family: "Montserrat";
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1280px) {
+    .faqsSec h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .answer {
+        font-size: 14px;
+    }
+
+    .question h3 {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 17px;
+    }
+}

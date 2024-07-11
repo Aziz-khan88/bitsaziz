@@ -1,0 +1,143 @@
+.hook {
+  margin-top: -272px;
+  background-color: #f5f5ff;
+}
+
+.dev {
+  display: flex;
+  background-color: #1e1e1e;
+  border-radius: 50px;
+  align-items: center;
+  padding: 5%;
+  padding-bottom: 50px;
+}
+
+.eve {
+  width: 60%;
+  padding-top: 4%;
+}
+
+.post {
+  position: relative;
+  width: 70%;
+}
+
+.post img {
+  position: absolute;
+  bottom: -245px;
+}
+
+.eve p {
+  color: white;
+  font-size: 13px;
+}
+
+.btnpost {
+  width: 205px;
+  height: 56px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 23px;
+}
+
+.point {
+  background-color: black;
+  background: #000;
+  background-image: url(../public/images/projectprocess/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+  padding-left: 65px;
+  border-radius: 30px;
+  padding-top: 36%;
+  margin-top: -353px;
+  z-index: 1;
+  position: relative;
+  background-position: -95px center;
+}
+
+.btnpost {
+  width: 205px;
+  height: 56px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 23px;
+}
+
+.what {
+  border: 2px solid #f32f53;
+  border-radius: 30px;
+  text-align: center;
+  padding: 4%;
+  margin-top: 5% !important;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.what p {
+  color: #707070;
+  font-weight: 500;
+}
+
+.what h4 {
+  color: #f32f53;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+@media screen and (min-width: 1400px) {
+  .post {
+    position: relative;
+    width: 56%;
+  }
+
+  .point {
+    background-position: unset;
+  }
+
+  .hook {
+    margin-top: -415px;
+    background-color: #f5f5ff;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .hook {
+    margin-top: -415px;
+    background-color: #f5f5ff;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hook {
+    margin-top: 0px;
+    padding-top: 100px;
+   
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dev {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post img {
+    position: unset;
+    margin-top: 45px;
+  }
+
+  .eve {
+    width: unset;
+    padding-top: 8%;
+  }
+}

@@ -1,0 +1,98 @@
+.newHomeBg {
+  background: #000;
+  padding-bottom: 150px;
+  background-image: url(../public/newHomePageImages/what_bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mixColor1 {
+  height: 50px;
+  z-index: 1;
+  position: relative;
+  bottom: 15px;
+  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
+}
+
+.mixColor2 {
+  height: 50px;
+  z-index: 1;
+  position: relative;
+  bottom: -175px;
+  background: linear-gradient(360deg, #00120600, #050505, #050505, #00000000);
+}
+
+.wid {
+  max-width: 702px;
+  margin-right: auto;
+  line-height: 35px;
+  font-size: 30px;
+}
+
+.width {
+  color: white;
+  max-width: 640px;
+  margin-right: auto;
+}
+
+.sec_btn {
+  text-align: start;
+}
+
+.btn_txt {
+  background: linear-gradient(to right, #f32f53 0%, #4a78ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+
+.btn_txt span {
+  margin-left: 17px;
+}
+
+.secImage {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .secImage {
+    width: 100%;
+    object-fit: contain;
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .newHomeBg {
+    padding-bottom: 50px;
+  }
+
+  .mixColor2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn_txt {
+    font-size: 19px;
+  }
+
+  .wid {
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .secImage {
+    width: 95%;
+    height: 230px;
+  }
+
+  .newHomeBg {
+    padding-bottom: 30px;
+  }
+
+  .cardContent {
+    margin-bottom: 0;
+  }
+}

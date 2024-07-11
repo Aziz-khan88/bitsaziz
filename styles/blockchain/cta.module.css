@@ -1,0 +1,20 @@
+.asnumber {
+  font-size: 20px;
+  color: #fff;
+  margin: 5px;
+}
+.asnumber:hover {
+  color: var(--mry);
+}
+.btn-primary {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .asnumber {
+    text-align: center;
+  }
+  span.px-3 .asnumber {
+    margin-top: 20px;
+  }
+}

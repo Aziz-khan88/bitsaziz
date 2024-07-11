@@ -1,0 +1,197 @@
+.creative2 {
+  background: #000;
+  background-image: url(../public/newHomePageImages/bg-image_done.png);
+  background-position: 150% 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.tested1 {
+  text-align: center;
+}
+
+.gredient1 {
+  width: 100%;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15%;
+}
+.gredient1 a {
+  color: white;
+}
+
+.dscool {
+  display: flex;
+  gap: 15px;
+  z-index: 1;
+  position: relative;
+}
+
+.dscool h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.dscool p {
+  font-size: 14px;
+  color: white;
+  height: 100px;
+  overflow: auto;
+}
+
+.dscool .gredient {
+  border-radius: 0;
+  width: 100%;
+  padding-top: 4%;
+  padding-left: 3%;
+  padding-right: 1%;
+  border-image: linear-gradient(90deg, #4a78ef, #f32fc2, #f32f53) 30;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.game h2 {
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.3;
+}
+
+.game h3 {
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.creative {
+  position: relative;
+}
+
+.tested img {
+  position: absolute;
+  width: 990px;
+  right: 0;
+  height: 864px;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1900px) {
+  .tested img {
+    position: absolute;
+    width: 1044px;
+    right: 0;
+    height: 864px;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .creative2 {
+    background-position: 140% 10%;
+  }
+
+  .tested img {
+    position: absolute;
+    width: 889px;
+    right: 0;
+    height: 788px;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .tested img {
+    position: absolute;
+    width: 789px;
+    right: 0;
+    height: 688px;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .colname {
+    width: 100%;
+  }
+
+  .tested img {
+    display: none;
+  }
+
+  .creative2 {
+    padding: 50px 0 0;
+    background-image: unset;
+  }
+
+  .tested1 {
+    margin-top: 30px;
+  }
+
+  .game h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 10px;
+  }
+
+  .game h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .creative2 {
+    background-color: black;
+    padding-top: 0px;
+  }
+
+  .game h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .game h3 {
+    font-size: 20px;
+  }
+
+  .dscool h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gredient1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .creative {
+    text-align: center;
+  }
+
+  .dscool h3 {
+    font-size: 25px;
+  }
+
+  .dscool {
+    flex-direction: column;
+  }
+}

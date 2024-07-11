@@ -1,0 +1,152 @@
+.hearfelt {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  background-color: #000;
+}
+
+.hearfelt:before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 35%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+.rightpadding {
+  padding: 6%;
+  height: 600px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 2px solid #f32f53;
+}
+
+.leftpadding {
+  padding: 6%;
+  height: 600px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 2px solid #f32f53;
+}
+
+@-moz-document url-prefix() {
+  .rightpadding:before {
+    -webkit-mask-composite: exclude;
+  }
+  .leftpadding::before {
+    -webkit-mask-composite: exclude;
+  }
+}
+
+.rightpadding img,
+.leftpadding img {
+  filter: invert(1) brightness(0.5);
+}
+
+.makes {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.arrowBtn {
+  display: flex;
+  align-items: center;
+  background-color: #f32f53;
+  padding: 2% 10%;
+  width: fit-content;
+  color: white;
+}
+.arrowBtn img {
+  margin-left: 3%;
+}
+.arrowBtn span {
+  letter-spacing: 0.8px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 1200px) {
+  .hearfelt:after {
+    background-image: none;
+    margin: 0;
+  }
+  .makes {
+    padding-bottom: 50px;
+  }
+  .rightpadding,
+  .leftpadding {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rightpadding,
+  .leftpadding {
+    height: 500px;
+    align-items: center;
+  }
+
+  .rightpadding,
+  .leftpadding {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .hearfelt {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hearfelt {
+    padding-bottom: 0px;
+    padding-top: 50px;
+  }
+
+  .makes {
+    padding-bottom: 25px;
+  }
+
+  .arrowBtn {
+    justify-content: center;
+  }
+
+  .cardImg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .crdImg {
+    width: 80%;
+  }
+
+  .cardImg img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .rightpadding,
+  .leftpadding {
+    height: 420px;
+    align-items: center;
+  }
+
+  .rightpadding img {
+    display: none;
+  }
+  .leftpadding img {
+    display: none;
+  }
+}

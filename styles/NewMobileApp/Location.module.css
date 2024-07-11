@@ -1,0 +1,205 @@
+.locationSec {
+  padding: 50px 0;
+  background: #f3f3f3;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+}
+
+.locationSec h2 {
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.locationSec h2 span {
+  color: #f32f53;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.locations {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+
+.locations::before {
+  content: url(../../public/newmobileapp/hLine.png);
+  position: absolute;
+  top: 15%;
+  left: -5%;
+}
+
+.locate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 14px;
+}
+
+.locate::before {
+  content: url(../../public/newmobileapp/vLine.png);
+  position: absolute;
+  top: 0%;
+  left: -12%;
+}
+
+.locate:first-child::before {
+  display: none;
+}
+
+.locations h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.locations p {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.locations .address {
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+  height: 50px;
+}
+
+.number a {
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+}
+
+@media screen and (max-width: 1280px) {
+  .locationSec {
+    padding: 50px 0 10px;
+  }
+
+  .number a {
+    font-size: 10px;
+  }
+
+  .locate {
+    gap: 10px;
+  }
+
+  .number {
+    padding-bottom: 23px;
+  }
+
+  .locate::before {
+    left: -14%;
+  }
+
+  .locations h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+
+  .locate h3 {
+    margin-bottom: 5px;
+  }
+
+  .locate p {
+    line-height: 20px;
+  }
+
+  .number {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .locations br{
+    display: none !important;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .locations h3 {
+    margin-bottom: 0px;
+  }
+
+  .number a {
+    font-size: 12px;
+  }
+
+  .locations .address {
+    font-size: 14px;
+  }
+
+  .locations::before {
+    left: -60%;
+  }
+
+  .locate::before {
+    content: url(../../public/newmobileapp/hLine.png);
+    top: 100%;
+    left: -60%;
+  }
+
+  .locations {
+    gap: 35px 30px;
+    flex-wrap: wrap;
+  }
+
+  .locations .address {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .locationSec {
+    margin-top: 50px;
+    padding: 50px 0 0px;
+  }
+
+  .locationSec h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .locations {
+    gap: 10px 30px;
+  }
+
+  .locations::before {
+    top: 16%;
+    left: -120%;
+    display: block;
+  }
+
+  .locate::before {
+    content: url(../../public/newmobileapp/hLine.png);
+    top: 102%;
+    left: -120%;
+  }
+
+  .number {
+    padding-top: 5px;
+  }
+
+  .locate {
+    margin-bottom: 20px;
+  }
+}

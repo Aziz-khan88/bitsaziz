@@ -1,0 +1,40 @@
+.transform {
+  background-color: #000;
+  padding: 80px 0;
+  background-image: url(../public/images/lp-images/bg-image.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.walk {
+  text-align: center;
+}
+
+.dus {
+  width: 280px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 25px auto 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #f32f53;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+  .transform {
+    padding: 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .transform {
+    padding: 0 0 50px;
+  }
+}

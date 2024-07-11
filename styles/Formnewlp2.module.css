@@ -1,0 +1,130 @@
+.team {
+  background-color: black;
+  position: relative;
+  padding: 80px 0;
+}
+.star {
+  background-color: #f32f53;
+  height: 387px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  padding-left: 5%;
+}
+
+.your h2 {
+  color: #f32f53;
+}
+
+.star h3 {
+  text-align: left;
+}
+
+.your {
+  border: 3px solid #f32f53;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  box-shadow: rgb(235 51 91 / 43%) 0px 7px 29px 0px;
+}
+
+.your input {
+  height: 55px;
+  border: 1px solid #f52674;
+  background-color: #0c0c0c;
+  border-radius: 13px;
+  color: white;
+}
+.your input::placeholder {
+  color: white;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.your textarea {
+  height: 134px;
+  border: 1px solid #f52674;
+  background-color: #0c0c0c;
+  border-radius: 13px;
+  color: white;
+}
+.your textarea::placeholder {
+  color: white;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.your .value {
+  background-color: #f32f53;
+  width: 40%;
+  border: unset;
+  border-radius: unset;
+  color: white;
+  font-weight: bold;
+  margin-top: 4%;
+  display: block;
+  margin-left: auto;
+  border-radius: 10px;
+}
+
+.your textarea:focus {
+  background-color: unset;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.your input:focus {
+  background-color: unset;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+@media (max-width: 1400px) {
+  .star h2 {
+    font-size: 34px !important;
+  }
+  .star h2 span {
+    font-size: 34px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .team {
+    padding: 0 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .your {
+    margin-top: 5%;
+  }
+
+  .team {
+    padding: 0 0 50px;
+  }
+
+  .star {
+    height: 180px;
+    padding: 0 8%;
+  }
+
+  .star h3 {
+    font-size: 18px !important;
+    margin-bottom: 15px;
+  }
+
+  .star h2 {
+    font-size: 20px !important;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .star h2 span {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+}

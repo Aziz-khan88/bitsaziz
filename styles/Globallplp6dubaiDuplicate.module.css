@@ -1,0 +1,123 @@
+.team {
+    background-color: white;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.loop,
+.pont {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postpoint {
+    text-align: center;
+}
+
+.renew h3 {
+    color: #F32F53;
+    padding-bottom: 15px;
+}
+
+.success {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+    margin-bottom: 4%;
+    letter-spacing: 2px;
+}
+
+.lctnslide {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .newHomeBg {
+        padding-bottom: 50px;
+        height: 100%;
+    }
+
+    .pipe img {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .loop img {
+        width: 10%;
+    }
+
+    .pont img {
+        width: 10%;
+    }
+
+    .team {
+        padding-bottom: 50px;
+    }
+
+    .pipe img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .loop img {
+        width: auto;
+    }
+
+    .pont img {
+        width: auto;
+    }
+
+    .postpoint {
+        display: none;
+    }
+
+    .team {
+        padding: 0 0 80px;
+    }
+
+    .lctnslide img.minImg {
+        width: 10% !important;
+    }
+
+    .lctnslide img {
+        width: 22% !important;
+    }
+
+    .lctnslide {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .success {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team {
+        padding-bottom: 50px;
+    }
+
+    .success {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .newclassglobe {
+        padding-top: 50px;
+    }
+
+    .team {
+        text-align: center;
+    }
+}

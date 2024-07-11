@@ -1,0 +1,28 @@
+.newHomeBg {
+  background: #000;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  border-bottom: 1px solid black;
+}
+
+.wid {
+  max-width: 1100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .secImage {
+    width: 100%;
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wid {
+    font-size: 16px;
+  }
+
+  .newHomeBg {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}

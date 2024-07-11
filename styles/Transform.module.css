@@ -1,0 +1,37 @@
+.transform {
+  background-color: black;
+  padding-top: 140px;
+  padding-bottom: 50px;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 600px center;
+  background-color: black;
+}
+
+.dus {
+  width: 273px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1400px) {
+  .transform h2 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .transform {
+    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 700px center;
+    background-color: black;
+  }
+}

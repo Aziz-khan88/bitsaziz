@@ -1,0 +1,147 @@
+.ctaForm {
+  padding: 30px 15px 50px 15px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  background-color: rgb(106 106 106 / 19%);
+  border: 0.5px solid #ffffff;
+  clip-path: polygon(
+    0 10%,
+    10% 0,
+    90% 0,
+    100% 10%,
+    100% 90%,
+    90% 100%,
+    10% 100%,
+    0% 90%,
+    0% 10%
+  );
+}
+
+.FormHo::before {
+  background-image: url(../public/images/corner.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  left: -5px;
+  top: -4px;
+}
+.FormHo::after {
+  background-image: url(../public/images/corner-r.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  right: -5px;
+  top: -4px;
+}
+.FormHoo::before {
+  background-image: url(../public/images/corner-lb.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  left: -5px;
+  bottom: -4px;
+}
+.FormHoo::after {
+  background-image: url(../public/images/corner-rb.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  right: -5px;
+  bottom: -4px;
+}
+
+.ctaForm input {
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid var(--white);
+  padding: 9px 20px 21px 3px;
+  color: var(--mry);
+  border-radius: 0px;
+}
+.ctaForm textarea {
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid var(--white);
+  padding: 9px 20px 21px 3px;
+  color: var(--mry);
+  width: 100%;
+  border-radius: 0px;
+  height: 110px;
+}
+.ctaForm input::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+.ctaForm textarea::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.ctaForm label {
+  color: var(--white);
+  font-size: 12px;
+}
+
+.ctaForm input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+  outline: 0px;
+  border-bottom: 1px solid var(--mry);
+  background: transparent;
+}
+
+.ctaForm textarea:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+  outline: 0px;
+  border-bottom: 1px solid var(--mry);
+  background: transparent;
+}
+
+.ctaForm .btnprimary {
+  background: var(--mry);
+  border: none;
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 100%;
+  color: var(--white);
+}
+.ctaForm .btnprimary:hover {
+  color: var(--mry);
+  background-color: var(--white);
+}
+
+.input-group {
+  width: auto !important;
+}
+
+.partnerLogos {
+  padding: 12px 0px 12px 0px;
+  border-top: 1px solid #5c5c5c;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.HomeBanner {
+  position: relative;
+}

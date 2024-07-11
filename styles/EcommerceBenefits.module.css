@@ -1,0 +1,136 @@
+.benefits {
+  padding-bottom: 120px;
+  background: #000;
+}
+
+.lists {
+  position: relative;
+  height: 660px;
+  background-image: url(../public/ecommerce/advantages.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 100px;
+}
+
+.itemsOne {
+  left: 15%;
+  top: 0;
+  position: absolute;
+}
+
+.lists p {
+  color: #ed1644;
+}
+
+.itemsSecond {
+  top: 35%;
+  left: 5%;
+  position: absolute;
+}
+
+.itemsThree {
+  bottom: 13%;
+  left: 15%;
+  position: absolute;
+}
+
+.itemsfour {
+  right: 15%;
+  top: 10%;
+  position: absolute;
+}
+
+.itemsfive {
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.itemsSix {
+  bottom: 5%;
+  right: 10%;
+  position: absolute;
+}
+
+@media screen and (max-width: 991px) {
+  .itemsOne {
+    left: -6%;
+  }
+
+  .itemsSecond {
+    left: -6%;
+  }
+
+  .itemsThree {
+    left: -6%;
+  }
+
+  .itemsfour {
+    right: -6%;
+    top: -5%;
+  }
+
+  .itemsfive {
+    right: -6%;
+  }
+
+  .itemsSix {
+    right: -6%;
+    bottom: -12%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .benefits {
+    padding-bottom: 50px;
+    background: #000;
+  }
+  .lists {
+    background-image: none;
+    margin-top: 60px;
+    height: auto;
+  }
+
+  .itemsOne {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .itemsSecond {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .itemsThree {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .itemsfour {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .itemsfive {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .itemsSix {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .lists p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .benefits {
+    padding-bottom: 20px;
+    background: #000;
+  }
+}

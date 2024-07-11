@@ -1,0 +1,17 @@
+.slider {
+  padding: 40px 0 150px;
+  background: #000;
+}
+.post img {
+  border: 2px solid #ed017b;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 767px) { 
+
+  .slider {
+    padding: 0px 0 0px;
+    background: #000;
+  }
+}

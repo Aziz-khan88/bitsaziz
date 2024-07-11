@@ -1,0 +1,278 @@
+/* Industry Section */
+.IndustrySec {
+    padding: 50px 0;
+    overflow-x: hidden;
+}
+
+.IndustrySec h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.services_item {
+    background: #2E2E2E;
+    padding: 70px 50px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.services_item:hover {
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #f32f53, #f32fc2, #4a78ef);
+}
+
+
+.services_item h4 {
+    font-size: 25px;
+    line-height: 33px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.services_item P {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.button_main {
+    border-radius: 6px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px 5px #00000021;
+    background: #f32f53;
+    width: max-content;
+    width: max-content;
+    padding: 0 20px;
+    color: #fff;
+    margin: 30px auto 0px;
+}
+
+
+.industry_items {
+    padding: 0px 0px;
+    max-width: 400px;
+}
+
+.industry_items .item_list {
+    border: 1px solid #CECECE;
+    border-radius: 10px;
+
+}
+
+.industry_items h4 {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.industry_items .img_item {
+    height: 230px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.industry_items .img_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.industry_items .txt_item {
+    padding: 10px 25px;
+}
+
+/*Expertise Section */
+.ExpertiseSec {
+    padding: 50px 0;
+    background: #2E2E2E;
+    overflow-x: hidden;
+}
+
+.ExpertiseSec h2 {
+    font-size: 40px;
+    line-height: 55px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.techExpert {
+    padding-left: 20px;
+}
+
+.techExpert h3 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.techExpert p {
+    color: #fff;
+}
+
+.techExpert .button_main {
+    margin: 0px;
+}
+
+.expert_item {
+    height: 70px;
+    transition: height 0.3s ease;
+    overflow: hidden;
+    background: rgb(255, 255, 255, 0.3);
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.expert_item h5 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.expert_item.active {
+    height: auto;
+    border-bottom: 2px solid #F32F53;
+    transition: all 0.3s ease;
+}
+
+.expert_item svg {
+    transform: rotate(298deg);
+    transition: height 0.3s ease;
+}
+
+.expert_item.active svg {
+    transform: rotate(0deg);
+    transition: all 0.3s ease;
+}
+
+.expert_item p {
+    padding: 0px 15px;
+    margin-top: 12px;
+}
+
+/* Benefits Section */
+.benefitsSec {
+    padding: 90px 0px;
+}
+
+.benefitsSec a {
+    margin: 20px 0px;
+}
+
+.benefitsSec .ImgBox {
+    margin: 30px 0px;
+}
+
+.benefitsSec .benefit_main {
+    height: 700px;
+    overflow-y: auto;
+    padding: 20px;
+    background: #F3F3F3;
+}
+
+.benefitsSec .benefit_item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.benefitsSec .benefit_item h4 {
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.benefitsSec .benefit_item p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1400px) {
+    .industry_items {
+        max-width: 340px;
+    }
+
+    .services_item h4,
+    .industry_items h4,
+    .benefitsSec .benefit_item h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .services_item p,
+    .industry_items p,
+    .benefitsSec .benefit_item p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .services_item {
+        padding: 50px 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .services_item {
+        padding: 30px 20px;
+    }
+
+    .industry_items {
+        max-width: 360px;
+    }
+
+    .services_item h4,
+    .industry_items h4,
+    .benefitsSec .benefit_item h4,
+    .techExpert h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .techExpert a {
+        margin-bottom: 20px !important;
+    }
+
+    .techExpert {
+        padding: 0px;
+    }
+
+    .services_item p,
+    .industry_items p,
+    .benefitsSec .benefit_item p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .expert_item h5 {
+        font-size: 17px;
+    }
+
+    .ExpertiseSec h2 {
+        padding-bottom: 20px;
+    }
+
+    .benefitsSec .benefit_main {
+        height: 500px;
+        padding: 15px 15px;
+    }
+}

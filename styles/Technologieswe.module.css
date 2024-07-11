@@ -1,0 +1,176 @@
+.tech {
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-position: 180% center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.UIUXTechnology {
+  background-image: url(../public/ui-ux-page/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.analpost {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 2%;
+  margin-top: 5%;
+}
+
+.analpost div {
+  color: #707070;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.analpost div.active {
+  color: white;
+}
+
+.active {
+  position: relative;
+}
+
+.active::before {
+  position: absolute;
+  content: "";
+  background-color: #f32f53;
+
+  width: auto;
+  height: 3px;
+  bottom: -98%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.newyork {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  flex-wrap: wrap;
+  gap: 30px 100px;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.newyork p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.newyork div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (min-width: 1400px) {
+  .active:before {
+    bottom: -112%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tech {
+    background-color: black;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tech {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background-image: none;
+  }
+
+  .active::before {
+    bottom: -67%;
+  }
+
+  .work {
+    font-size: 40px;
+  }
+
+  .analpost {
+    margin-top: 4%;
+  }
+
+  .analpost select {
+    width: 80%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #909090;
+  }
+
+  .selOpt {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tech {
+    padding-bottom: 50px;
+  }
+
+  .appdev {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .analpost div {
+    color: #707070;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .newyork {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px 45px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .work {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .analpost select {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .analpost div {
+    color: #707070;
+    font-size: 11px;
+    cursor: pointer;
+  }
+}

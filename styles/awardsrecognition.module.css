@@ -1,0 +1,169 @@
+.award {
+  background-color: black;
+}
+
+.thriving {
+  text-align: center;
+}
+
+.thriving h3 {
+  font-size: 45px;
+  line-height: 55px;
+  color: #f32f53;
+  font-weight: 700;
+}
+.thriving h3 span {
+  color: white;
+}
+.thriving p {
+  color: white;
+}
+
+.imgfold {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.imgfold .awardImg {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.phoneSlider .awardImg {
+  width: 80% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 60px;
+}
+
+.welcome span {
+  color: #f32f53;
+  font-weight: 600;
+}
+
+.newpost {
+  text-align: center;
+  margin-top: 70px;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@media screen and (max-width: 1920px) {
+  .donothing {
+    position: relative;
+  }
+  .donothing::before {
+    position: absolute;
+    content: "";
+    background-image: url(../public/images/mobilelpfinal/bgimage.webp);
+    width: 728px;
+    height: 728px;
+    top: -300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .donothing {
+    position: relative;
+  }
+  .donothing::before {
+    position: absolute;
+    content: "";
+    background-image: url(../public/images/mobilelpfinal/bgimage.webp);
+    width: 728px;
+    height: 728px;
+    top: -300px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .donothing {
+    background-image: unset;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-size: 57%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .imgfold {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donothing::before {
+    position: unset;
+    background-image: unset;
+  }
+
+  .welcome {
+    font-size: 20px;
+  }
+
+  .thriving h3 {
+    font-size: 30px;
+    color: #f32f53;
+    font-weight: 500;
+  }
+
+  .award {
+    padding-top: 50px;
+  }
+
+  .imgfold img {
+    min-width: 10%;
+    object-fit: contain;
+  }
+
+  .imgfold {
+    display: flex;
+    margin-top: 50px;
+    gap: 13px;
+    flex-wrap: unset;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .thriving h3 {
+    font-size: 24px;
+    color: #f32f53;
+    font-weight: 500;
+  }
+}

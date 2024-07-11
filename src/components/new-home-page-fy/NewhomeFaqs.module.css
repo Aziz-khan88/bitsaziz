@@ -1,0 +1,123 @@
+.faqs {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: black;
+}
+
+.plus {
+  font-size: 30px;
+}
+
+.faqs h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  background: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.about {
+  width: 250px;
+  height: 50px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 70px auto 0;
+}
+
+.heading {
+  border-image: linear-gradient(90deg, #f32fc261, #4a78ef) 10;
+  border-width: 4px;
+  border-style: solid;
+  padding: 10px 20px;
+  margin-top: 1%;
+  cursor: pointer;
+  padding-bottom: unset;
+  background-color: black;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  -webkit-mask: /*4*/ linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+}
+
+.description {
+  margin-top: 1%;
+}
+
+.faqs p {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.faqs ul {
+  padding-left: 15px;
+}
+
+.faqs ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  margin: 5px 0;
+  list-style: disc;
+}
+
+.faqs a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f32fc2;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.faqs a:hover {
+  color: var(--p-color);
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 991px) {
+  .faqs {
+    padding: 0 0 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .faqs h3 {
+    font-size: 14px;
+    gap: 5px;
+  }
+
+  .faqs {
+    padding: 0 0 50px;
+  }
+
+  .comfort h2 {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .about {
+    margin-right: auto;
+    margin-top: 50px;
+  }
+}

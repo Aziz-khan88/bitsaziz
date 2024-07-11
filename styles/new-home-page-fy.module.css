@@ -1,0 +1,64 @@
+.awardsFold {
+  background-color: black;
+  padding: 100px 3%;
+}
+
+.textWhite {
+  color: #ffffff;
+}
+
+.textPink {
+  color: #f32f63;
+}
+
+.borderLeft {
+  border-left: 1px solid #f32f53;
+}
+
+.newmob {
+  display: block;
+  margin: 0 auto;
+}
+
+.mobileapps {
+  position: relative;
+}
+
+.mobileapps::before {
+  position: absolute;
+  content: "";
+  background-color: #f32f53;
+  width: 1px;
+  height: 190px;
+  left: -8px;
+  top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .awardsFold {
+    text-align: center;
+  }
+
+  .appdev p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .mobileapps::before {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .awardsFold {
+    background-color: black;
+    padding: 80px 3%;
+  }
+}
+
+@media (max-width: 767px) {
+  .awardsFold {
+    background-color: black;
+    padding: 50px 3%;
+  }
+}

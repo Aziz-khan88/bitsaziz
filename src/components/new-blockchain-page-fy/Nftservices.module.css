@@ -1,0 +1,56 @@
+.provideserv {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.blocknew {
+  display: flex;
+  gap: 25px;
+}
+
+.create {
+  width: 500px;
+}
+
+.intlong {
+  position: absolute;
+  right: 0;
+}
+
+.intlong img {
+  position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+  .intlong {
+    position: unset;
+    right: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .provideserv {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .blocknew {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .create {
+    width: auto;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .provideserv {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}

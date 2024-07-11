@@ -1,0 +1,80 @@
+.expertapp {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.appno {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border: 2px solid #3d3d3d;
+  border-radius: 15px;
+  height: 201px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 10px;
+  transition: all 1s ease-out;
+}
+
+.expertapp {
+  padding: 80px 0;
+  background: #000;
+  background-image: url(../public/images/expert/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
+
+.copy {
+  width: 91%;
+}
+.connect {
+  width: 436px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.app:hover {
+  background-color: #f32f53;
+  transition: all 1s ease-out;
+}
+
+@media screen and (max-width: 991px) {
+  .expertapp {
+    padding: 0 0 80px;
+    background-image: none;
+  }
+
+  .app {
+    height: 225px;
+    margin: 0 5px;
+  }
+
+  .copy {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .expertapp {
+    padding: 0 0 50px;
+    background-image: none;
+  }
+}

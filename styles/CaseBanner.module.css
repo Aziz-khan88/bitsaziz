@@ -1,0 +1,101 @@
+.banner {
+  background: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0 80px;
+}
+
+.banSec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banSec h1 {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* =============================== */
+
+.graceMonkey {
+  background-image: url(../public/images/case-studies/case-monkey/banner-bg.png);
+}
+
+.cravecourier {
+  background-image: url(../public/images/case-studies/case-crave/banner-bg.png);
+}
+
+.homepro {
+  background-image: url(../public/images/case-studies/case-homepro/banner-bg.png);
+}
+
+.readyApp {
+  background-image: url(../public/images/case-studies/case-ready/banner-bg.png);
+}
+
+.soulscribe {
+  background-image: url(../public/images/case-studies/case-scribe/banner-bg.png);
+}
+
+.fitnow {
+  background-image: url(../public/images/case-studies/case-fitnow/banner-bg.png);
+}
+
+.beats {
+  background-image: url(../public/images/case-studies/case-beats/banner-bg.png);
+  background-position: 40px -200px;
+}
+
+.healthcare {
+  background-image: url(../public/images/case-studies/case-health/banner-bg.png);
+}
+
+.dreamhome {
+  background-image: url(../public/images/case-studies/case-dreamhome/banner-bg.png);
+}
+
+.rideme {
+  background-image: url(../public/images/case-studies/case-ride/banner-bg.png);
+}
+
+.tourista {
+  background-image: url(../public/images/case-studies/case-travel/banner-bg.png);
+}
+
+.sponsord {
+  background-image: url(../public/images/case-studies/case-sponsord/banner-bg.png);
+}
+
+.wisu {
+  background-image: url(../public/images/case-studies/case-wisu/banner-bg.png);
+}
+
+/* =========================================== */
+
+@media screen and (max-width: 991px) {
+  .banner {
+    padding: 0;
+    background-image: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .banSec h1 {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 90vh;
+  }
+}

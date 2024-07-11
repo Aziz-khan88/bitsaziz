@@ -1,0 +1,75 @@
+.industryclass {
+  background-color: black;
+  padding: 100px 0 80px;
+}
+
+.health {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  width: 212px;
+  height: 121px;
+}
+
+.vender {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.health h4 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.health:hover {
+  background-color: #f32f53;
+  border: unset;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .health {
+    text-align: center;
+  }
+
+  .health img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .health h4 {
+    margin-top: 10px;
+  }
+
+  .health {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .industryclass {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .industryclass {
+    padding: 50px 0;
+  }
+
+  .reveal {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .health {
+    margin: 0 auto;
+    display: block !important;
+  }
+}

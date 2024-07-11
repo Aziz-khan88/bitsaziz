@@ -1,0 +1,113 @@
+.homeclass {
+  padding-top: 0px;
+  padding-bottom: 80px;
+  background: #000;
+  margin-top: -1%;
+}
+.iosclass {
+  padding-top: 0px;
+  padding-bottom: 80px;
+  background: #000;
+  margin-top: -1%;
+}
+
+.possibilities {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.cardimg img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.appclass {
+  position: relative;
+}
+
+.cardContent {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .possibilities {
+    font-size: 13px;
+  }
+
+  .homeclass {
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+  .iosclass {
+    padding-top: 80px;
+  }
+
+  .cardContent h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .cardContent h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .homeclass {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    background: #000;
+    margin-top: -1%;
+  }
+  .iosclass {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #000;
+    margin-top: -1%;
+  }
+
+  .possibilities {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .homeclass {
+    padding-top: 80px;
+  }
+  .iosclass {
+    padding-top: 80px;
+  }
+
+  .possibilities {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .homeclass {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #000;
+    margin-top: -1%;
+  }
+
+  .iosclass {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    background: #000;
+    margin-top: -1%;
+  }
+
+  .possibilities {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,200 @@
+.tech {
+
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.work {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.analpost {
+  display: flex;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  justify-content: space-between;
+
+}
+
+.tech {
+  position: relative;
+
+}
+
+.tech::after {
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 100%;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: -250px;
+  right: -400px;
+}
+
+.analpost .new1 {
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  opacity: .5;
+}
+
+.analpost div {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.analpost .active {
+  color: white;
+}
+
+.active {
+  position: relative;
+}
+
+.active::before {
+  position: absolute;
+  content: "";
+  background-color: #F32F53;
+  width: 156px;
+  height: 3px;
+  bottom: -98%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.stook {
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.colpont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newyork p {
+  font-size: 16px;
+  color: white;
+}
+
+.buld {
+  width: max-content;
+  padding: 20px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+@media screen and (min-width: 1400px) {
+  .active:before {
+    bottom: -112%;
+  }
+
+  .york p {
+    padding-left: 70px;
+    padding-right: 70px;
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tech {
+    background-color: black;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .analpost select {
+    width: 80%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #909090;
+  }
+
+  .active::before {
+    bottom: -67%;
+  }
+
+  .tech {
+    padding: 0 0 80px;
+    background-image: none;
+  }
+
+  .work {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .analpost select {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .analpost div {
+    color: #707070;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .newyork {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px 45px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .work {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .tech {
+    padding: 0px 0 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+
+  .analpost div {
+    color: #707070;
+    font-size: 11px;
+    cursor: pointer;
+  }
+
+  .work {
+    margin-top: 5%;
+    padding-bottom: 5%;
+  }
+}

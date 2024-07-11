@@ -1,0 +1,124 @@
+.newHomeBg {
+  background-color: #000;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.lpFolio {
+  padding-bottom: 150px;
+}
+
+.poliBox {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.poliBox1 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio1.png);
+}
+
+.poliBox2 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio2.png);
+}
+
+.poliBox3 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio3.png);
+}
+
+.poliBox4 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio4.png);
+}
+
+.poliBox5 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio5.png);
+}
+
+.poliBox6 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio6.png);
+}
+
+.poliBox7 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio7.png);
+}
+
+.poliBox8 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio8.png);
+}
+
+.poliBox9 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio9.png);
+}
+
+.poliBox10 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio10.png);
+}
+
+.poliBox11 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio11.png);
+}
+
+.poliBox12 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio12.png);
+}
+
+.poliBox13 {
+  background-image: url(../public/newMobilePageImages/portfolio/folio13.png);
+}
+
+.polioTxt {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sucssBtn {
+  width: 200px;
+  height: 41px;
+  background-color: #f32f53;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: unset;
+}
+
+.sucssBtn2 {
+  width: 350px;
+  height: 50px;
+}
+
+.poliBox img {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .newHomeBg {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .newHomeBg {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .newHomeBg {
+    background-color: #000;
+  }
+}

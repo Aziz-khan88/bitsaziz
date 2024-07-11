@@ -1,0 +1,158 @@
+.clientSec {
+    padding: 50px 0;
+    background: url(../../public/videoexplainer/testi-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.smallClient {
+    padding: 50px 0;
+    background: url(../../public/videoexplainer/clinet-logo-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.smallClient img {
+    width: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+.clientSec::before {
+    content: '';
+    background: url(../../public/videoexplainer/testi-bf.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 299px;
+    height: 762px;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    z-index: -1;
+    animation: testi 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes testi {
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(-20px)
+    }
+}
+
+.txt h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.txt p {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 11px 8px 0 rgb(0 0 0 / 14%);
+    padding: 0;
+    transition-duration: 1s;
+    top: 0;
+    position: relative;
+}
+
+.card:hover {
+    top: -20px;
+    transition-duration: 1s;
+}
+
+.quoteLeft {
+    font-size: 75px;
+    color: #222;
+    position: relative;
+    left: 18px;
+    top: 20px;
+}
+
+.card p {
+    margin: 25px 0;
+    padding: 20px;
+    font-family: "Montserrat";
+}
+
+.cardBottom {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f1f0f0;
+}
+
+.content {
+    padding-left: 15px;
+}
+
+.content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    gap: 0px 5px;
+}
+
+.reviews svg {
+    color: #ffd100;
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1024px) {
+    .card p {
+        font-size: 14px;
+        margin: 14px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .card {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .smallClient {
+        padding: 30px 0 10px;
+    }
+
+    .txt h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .txt p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .clientSec::before {
+        display: none;
+    }
+}

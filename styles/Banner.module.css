@@ -1,0 +1,709 @@
+/* =====Home Banner===== */
+
+.cross {
+  position: absolute;
+  top: -15px;
+  right: -17px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-family: Poppins;
+  cursor: pointer;
+  border: 1px solid #ff004a;
+  background-color: #ff004a;
+}
+
+.banner {
+  background-color: #f3f2f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner ul {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-bottom: 6px !important;
+}
+
+.banner h1 {
+  margin-top: -50px;
+}
+
+.banner .banerTxt {
+  margin-left: 25px;
+}
+
+.banner .banerTxt p {
+  font-size: 16px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.call img {
+  width: 35px;
+}
+
+.bttns1 {
+  width: 198px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #e83468;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 1s;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+.bttns2 {
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #e83468;
+  justify-content: center;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: background-color 1s;
+  background-color: #000;
+}
+
+.bttns2:hover {
+  transition: background-color 1s;
+  color: #e83468;
+  background-color: transparent;
+}
+
+.bttns1:hover {
+  transition: background-color 1s;
+  color: #e83468;
+  background-color: transparent;
+}
+
+.notice:hover {
+  transition: background-color 1s;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #e83468;
+}
+
+.bttnsto {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bttnsto img {
+  filter: grayscale();
+}
+
+.bannerform {
+  background-color: #272727;
+  height: 100%;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.discuss {
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 30px;
+}
+
+.alignment p,
+.califonia p {
+  font-size: 18px;
+}
+
+.bannnerproject {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discuss a {
+  text-decoration: none;
+}
+
+.make {
+  background-color: #4d4c4c;
+  padding-top: 29px;
+  padding-bottom: 30px;
+}
+
+.free {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.formsbanner .forminput {
+  background-color: #272727;
+  border: unset;
+  height: 45px;
+  width: 100%;
+  border-radius: unset;
+  margin-bottom: 2%;
+  padding-left: 4%;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formsbanner .forminput::placeholder {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.formsbanner .forminput:focus-visible {
+  outline: none;
+}
+
+.formsbanner .formarea:focus-visible {
+  outline: none;
+}
+
+.formsbanner .formarea::placeholder {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.formsbanner .formarea {
+  background-color: #272727;
+  border: unset;
+  height: 100px;
+  width: 100%;
+  border-radius: unset;
+  margin-bottom: 4%;
+  padding-left: 4%;
+  padding-top: 4%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  resize: none;
+}
+
+.formsbanner {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.notice {
+  background-color: #e83468;
+  width: 40%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: unset;
+}
+
+.take {
+  display: flex;
+  justify-content: space-between;
+}
+
+.read {
+  padding-top: 15px;
+  background-color: #272727;
+  padding-bottom: 50px;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.locInner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.locImg {
+  text-align: center;
+}
+
+.subInner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bannerimg {
+  position: relative;
+}
+
+.bannerimg img {
+  position: absolute;
+  left: 0;
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bannerimg1 {
+  display: flex;
+  gap: 50px;
+  margin-top: 4%;
+}
+
+.logo13 {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+.logo14 {
+  transform: translatey(0px);
+  animation: float1 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float1 {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.bottom {
+  animation: buger-bottom;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom1 {
+  animation: buger-bottom;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom2 {
+  animation: buger-bottom;
+  animation-delay: 0.8s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom3 {
+  animation: buger-bottom;
+  animation-delay: 1.3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+.bottom4 {
+  animation: buger-bottom;
+  animation-delay: 1.6s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+
+@keyframes buger-bottom {
+  0% {
+    transform: translate(0, 200%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.bannerimg2 {
+  position: absolute;
+  display: block;
+  top: auto;
+  bottom: -12px;
+  left: 0;
+  width: 100%;
+}
+
+/* =========== About Banner ========== */
+
+.aboutBanner {
+  background-color: #e7eaf1;
+  background-image: unset;
+}
+
+.abtBannerImg img {
+  width: 100%;
+  margin-left: 50px;
+}
+
+/* =========== Services Banner ========== */
+
+.webDevelpmnt {
+  background-color: #000;
+}
+
+.srvcBannerImg img {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.startSlide img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ============================================= */
+
+@media screen and (min-width: 2020px) {
+  .call {
+    gap: 12px;
+  }
+
+  .call p {
+    font-size: 24px;
+  }
+
+  .formA {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .bannerform {
+    height: 100%;
+  }
+  .alignment {
+    gap: 30px;
+  }
+
+  .sharjah a {
+    display: block;
+    font-size: 12px;
+  }
+
+  .alignment p {
+    font-size: 14px;
+  }
+
+  .califonia p {
+    font-size: 14px;
+  }
+
+  .califonia {
+    gap: 50px;
+  }
+
+  .sharjah {
+    justify-content: space-between;
+  }
+
+  .formsbanner .forminput {
+    height: 40px;
+    margin-bottom: 4%;
+  }
+
+  .read {
+    padding-top: 50px;
+  }
+
+  .bannerimg img {
+    top: 0px;
+  }
+
+  .bttnsto {
+    margin-top: 0px !important;
+  }
+
+  .bannerform {
+    width: 550px;
+  }
+  .call p {
+    font-size: 18px;
+  }
+
+  .formA {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .alignment {
+    gap: 15px;
+  }
+
+  .alignment p {
+    font-size: 17px;
+  }
+
+  .califonia p {
+    font-size: 17px;
+  }
+
+  .sharjah a {
+    font-size: 11px;
+  }
+
+  .read {
+    padding-top: 25px;
+  }
+
+  .discuss {
+    height: 55px;
+  }
+
+  .bannerimg img {
+    top: 15px;
+  }
+
+  .bannerform {
+    width: 486px;
+  }
+
+  .call p {
+    font-size: 16px;
+  }
+
+  .formA {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .sharjah a {
+    font-size: 10px;
+  }
+
+  .bannerform {
+    width: 450px;
+  }
+
+  .call img {
+    width: 22px;
+  }
+
+  .call p {
+    font-size: 14px;
+  }
+
+  .formA {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .bannerimg1 {
+    position: absolute;
+  }
+
+  .alignment p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .sharjah a {
+    font-size: 9px;
+  }
+
+  .califonia p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .califonia {
+    gap: 35px;
+  }
+
+  .banner {
+    height: auto;
+  }
+
+  .bannerform {
+    width: 400px;
+  }
+
+  .aboutBanner .bannerform {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .sharjah a {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .call p {
+    font-size: 11px;
+  }
+
+  .alignment p {
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .califonia p {
+    font-size: 10px;
+    line-height: 1;
+  }
+
+  .discuss a {
+    font-size: 11px;
+  }
+
+  .sharjah a {
+    font-size: 6px;
+  }
+
+  .free p {
+    font-size: 16px;
+  }
+
+  .bannerform {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .bannerimg1 img {
+    display: none;
+  }
+
+  .read {
+    display: none;
+  }
+
+  .take p {
+    font-size: 16px;
+  }
+
+  .banner {
+    background-color: #f6f1ff;
+    height: auto;
+  }
+
+  .bannerimg img {
+    position: unset;
+  }
+
+  .bannerform {
+    width: 100%;
+  }
+
+  .banner .banerTxt {
+    padding: 0;
+    margin: 14px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner h1 {
+    padding-top: 0px;
+  }
+
+  .bannerimg2 {
+    display: none;
+  }
+
+  .abtBannerImg,
+  .srvcBannerImg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cross {
+    top: 10px;
+    right: 10px;
+  }
+
+  .take p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .read {
+    display: none;
+  }
+
+  .discuss {
+    display: none !important;
+  }
+
+  .bannerform {
+    height: auto;
+  }
+
+  .bannerimg img {
+    height: 420px;
+    display: none;
+  }
+
+  .free p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .take p {
+    color: white;
+    font-size: 11px;
+  }
+}

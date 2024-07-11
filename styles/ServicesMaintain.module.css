@@ -1,0 +1,1844 @@
+.newHomeBg {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+  margin-top: -1%;
+}
+
+.newHomeBg h1 {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.newHomeBg h3 {
+  color: #f32f53;
+}
+
+.para {
+  overflow: auto;
+  font-size: 14px;
+  max-width: 330px;
+  color: #fff;
+  height: 57px;
+  padding-right: 7px;
+}
+
+.contentPara {
+  max-width: 315px;
+}
+
+.para1 {
+  font-size: 14px;
+
+  color: white;
+}
+
+.cardImage {
+  min-height: 550px;
+}
+
+.cardContent {
+  margin-bottom: 30px;
+}
+
+.app {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app1 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app2 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px 28px 9px 33px;
+  height: 460px;
+  display: flex;
+}
+
+.app4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+.app5 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+.app01 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+.app02 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+.app03 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 10px 30px 40px;
+  height: 531px;
+}
+
+.app03 h3,
+.app03 p {
+  text-align: left !important;
+  max-width: 100%;
+}
+
+.app04 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app04 p {
+  height: 57px;
+  overflow: auto;
+  text-align: left;
+  padding-right: 5px;
+}
+
+.app04 .cardContent {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.app05 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app06 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app07 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+/* ============================== */
+
+.app6 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+.app7 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+/* =======================Ios====================== */
+
+.ios .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/hireios/1.png);
+}
+
+.ios .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/hireios/2.png);
+}
+
+.ios .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/hireios/3.png);
+}
+
+.ios .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/hireios/4.png);
+}
+
+.ios .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/hireios/5.png);
+}
+
+.ios .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/hireios/6.png);
+}
+
+/* =======================Mobile====================== */
+
+.mobile .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newMobilePageImages/card1.png);
+}
+
+.mobile .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newMobilePageImages/card2.png);
+}
+
+.mobile .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newMobilePageImages/card3.png);
+}
+
+.mobile .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newMobilePageImages/card4.png);
+}
+
+.mobile .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newMobilePageImages/card5.png);
+}
+
+.mobile .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newMobilePageImages/card6.png);
+}
+
+/* =======================Android====================== */
+
+.android .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/andriodtaile/1.png);
+}
+
+.android .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/andriodtaile/2.png);
+}
+
+.android .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/andriodtaile/3.png);
+}
+
+.android .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/andriodtaile/4.png);
+}
+
+.android .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/andriodtaile/5.png);
+}
+
+.android .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/andriodtaile/6.png);
+}
+
+/* =======================Flutter====================== */
+
+.flutter .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/fluttermobiledevelopment/card1.png);
+}
+
+.flutter .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/fluttermobiledevelopment/card2.png);
+}
+
+.flutter .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/fluttermobiledevelopment/card3.png);
+}
+
+.flutter .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/fluttermobiledevelopment/card4.png);
+}
+
+.flutter .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/fluttermobiledevelopment/card5.png);
+}
+
+.flutter .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/fluttermobiledevelopment/card6.png);
+}
+
+/* =======================React====================== */
+
+.react .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/reactnativedevelopment/card1.png);
+}
+
+.react .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/reactnativedevelopment/card2.png);
+}
+
+.react .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/reactnativedevelopment/card3.png);
+}
+
+.react .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/reactnativedevelopment/card4.png);
+}
+
+.react .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/reactnativedevelopment/card5.png);
+}
+
+.react .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/reactnativedevelopment/card6.png);
+}
+
+/* =======================Hybrid====================== */
+
+.hybrid .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/hybridmbldevelopment/card1.png);
+}
+
+.hybrid .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/hybridmbldevelopment/card2.png);
+}
+
+.hybrid .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/hybridmbldevelopment/card3.png);
+}
+
+.hybrid .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/hybridmbldevelopment/card4.png);
+}
+
+/* =======================Cross====================== */
+
+.cross .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/cross/1.png);
+}
+
+.cross .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/cross/2.png);
+}
+
+.cross .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/cross/3.png);
+}
+
+.cross .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/cross/4.png);
+}
+
+.cross .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/cross/5.png);
+}
+
+.cross .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/cross/6.png);
+}
+
+/* =======================Augmented====================== */
+.augmented .app01 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/augmentapp/1.png);
+}
+
+.augmented .app02 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/augmented/2.png);
+}
+
+.augmented .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../public/images/augmented/3.png);
+}
+
+.augmented .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../public/images/augmented/5.png);
+}
+
+.augmented .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../public/images/augmented/4.png);
+}
+
+/* =======================CustomApp====================== */
+
+.customApp .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card1.png);
+}
+
+.customApp .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card2.png);
+}
+
+.customApp .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card3.png);
+}
+
+.customApp .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card4.png);
+}
+
+.customApp .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card5.png);
+}
+
+.customApp .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/custommobiledevelopment/card6.png);
+}
+
+/* =======================AI====================== */
+
+.ai .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/1.png);
+}
+
+.ai .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/2.png);
+}
+
+.ai .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/3.png);
+}
+
+.ai .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/images/aipost/4.png);
+}
+
+.ai .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/aipost/6.png);
+}
+
+.ai .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/images/aipost/5.png);
+}
+
+/* =======================GameApp====================== */
+
+.gameApp {
+  padding-top: 180px;
+}
+
+.gameApp .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePage/images/game1.png);
+}
+
+.gameApp .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePage/images/game2.png);
+}
+
+.gameApp .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePage/images/game3.png);
+}
+
+.gameApp .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePage/images/game4.png);
+}
+
+.gameApp .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePage/images/game5.png);
+}
+
+.gameApp .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePage/images/game6.png);
+}
+
+.gameApp .app03 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/game8.png);
+}
+
+.gameApp .app04 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/game7.png);
+}
+
+/* =======================Game2d====================== */
+
+.game2d {
+  padding-top: 0px;
+}
+
+.game2d .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gamed.png);
+}
+
+.game2d .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/game3d.png);
+}
+
+.game2d .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/game4d.png);
+}
+
+.game2d .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gameapp4.png);
+}
+
+.game2d .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gamme.png);
+}
+
+.game2d .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/gum.png);
+}
+
+/* =======================Game3d====================== */
+
+.game3d {
+  padding-top: 180px;
+}
+
+.game3d .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain1.png);
+}
+
+.game3d .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain2.png);
+}
+
+.game3d .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain3.png);
+}
+
+.game3d .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/3d-game-development/images/maintain4.png);
+}
+
+.game3d .app03 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/3d-game-development/images/maintain5.png);
+}
+
+.game3d .app04 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/3d-game-development/images/maintain6.png);
+}
+
+/* =======================NFTGame====================== */
+
+.gameNft {
+  padding-top: 0px;
+}
+
+.gameNft .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft.png);
+}
+
+.gameNft .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft1.png);
+}
+
+.gameNft .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft2.png);
+}
+
+.gameNft .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft3.png);
+}
+
+.gameNft .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/appnft4.png);
+}
+
+.gameNft .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePageImages/appnft5.png);
+}
+
+.gameNft .app05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft00.png);
+}
+
+.gameNft .app06 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft001.png);
+}
+
+.gameNft .app07 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/newHomePageImages/appnft002.png);
+}
+
+/* =======================GameBlckChain====================== */
+
+.gameBlckChain {
+  padding-top: 0px;
+}
+
+.gameBlckChain .app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming1.png);
+}
+
+.gameBlckChain .app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming2.png);
+}
+
+.gameBlckChain .app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming3.png);
+}
+
+.gameBlckChain .app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming4.png);
+}
+
+.gameBlckChain .app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/blockchaindevelopment/images/gaming5.png);
+}
+
+.gameBlckChain .app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/blockchaindevelopment/images/gaming6.png);
+}
+
+.gameBlckChain .app05 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming7.png);
+}
+
+.gameBlckChain .app06 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming8.png);
+}
+
+.gameBlckChain .app07 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming9.png);
+}
+
+.gameBlckChain .app08 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming10.png);
+}
+
+.gameBlckChain .app09 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../public/blockchaindevelopment/images/gaming11.png);
+}
+
+/* ========================================================= */
+
+.app,
+.app1,
+.app2,
+.app01,
+.app02 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.app4,
+.app5 {
+  display: flex;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.app5 {
+  display: flex;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.app7 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+}
+
+.app6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 0;
+}
+
+.power {
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+}
+
+.para2 {
+  font-size: 14px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  height: 65px;
+  overflow: auto;
+}
+
+.para9 {
+  font-size: 14px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  overflow: auto;
+}
+
+.app2 {
+  border-radius: 30px;
+  background-color: transparent;
+  height: 531px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.app2 .para {
+  color: white;
+}
+
+.pont {
+  display: flex;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.book {
+  width: 198px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.app7 .appImage {
+  max-width: 417px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.para3 {
+  font-size: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  height: 65px;
+  overflow: auto;
+}
+
+.possibilities {
+  font-size: 14px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  /* padding: 0 9px 0 9px; */
+}
+
+.pick {
+  display: flex;
+  width: 44%;
+}
+
+.custom {
+  width: 75%;
+}
+
+@media screen and (min-width: 1500px) {
+  .app3 {
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app {
+    height: 530px;
+  }
+
+  .app1 {
+    height: 530px;
+  }
+
+  .app2 {
+    height: 530px;
+    border-radius: 28px;
+  }
+
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: 531px;
+  }
+
+  .custom {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .font25 {
+    font-size: 25px;
+  }
+
+  .app {
+    height: 456px;
+  }
+
+  .app1 {
+    height: 456px;
+  }
+
+  .app2 {
+    height: 456px;
+    border-radius: 24px;
+  }
+
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: 457px;
+  }
+
+  .app6 {
+    height: 457px;
+  }
+
+  .app7 {
+    height: 457px;
+  }
+
+  .app7 .appImage {
+    max-width: 357px;
+  }
+
+  .app03,
+  .app04 {
+    height: 458px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .newHomeBg {
+    padding-bottom: 50px;
+    background: #000;
+    height: 100%;
+  }
+
+  .app,
+  .app1,
+  .app2,
+  .app3,
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: 456px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .app3 {
+    background-size: cover;
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app3 img {
+    max-width: 24%;
+    margin-top: 2%;
+  }
+
+  .app7 {
+    height: 381px;
+  }
+
+  .app7 .appImage {
+    max-width: 99%;
+  }
+
+  .app6 {
+    height: 381px;
+  }
+
+  .power {
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .para {
+    max-width: unset;
+  }
+
+  .game3d {
+    padding-top: 80px;
+  }
+
+  .app1,
+  .app,
+  .app2,
+  .app11,
+  .app22,
+  .app33,
+  .app3,
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: auto;
+    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  .app,
+  .app1,
+  .app2,
+  .app4,
+  .app01,
+  .app02,
+  .app5 {
+    padding: 0 20px;
+  }
+
+  .app,
+  .app1,
+  .app2,
+  .app11,
+  .app22,
+  .app33 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: 428px;
+  }
+
+  .app03 {
+    padding: 0px 50px;
+    height: 285px;
+    background-size: contain;
+  }
+
+  .app04 {
+    height: 285px;
+    padding: 0;
+    background-size: contain;
+  }
+
+  .app03 p,
+  .app03 h3 {
+    text-align: center !important;
+  }
+
+  .app04 .cardContent {
+    padding: 0 20px;
+  }
+
+  .app04 p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .app04 h3 {
+    text-align: center;
+    font-size: 18px !important;
+  }
+
+  .app2 {
+    height: 878px;
+    width: 700px;
+    border-radius: 24px;
+  }
+
+  .app3 {
+    height: 231px;
+  }
+
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: 282px;
+  }
+
+  .app6 {
+    height: auto;
+  }
+
+  .app7 {
+    height: auto;
+    background-image: none;
+    border: 3px solid #f32f53;
+    border-radius: 22px;
+  }
+
+  .app7 .appImage {
+    width: 100%;
+    max-width: 99%;
+    margin-left: 3px;
+  }
+
+  .gameApp {
+    padding-top: 80px;
+  }
+
+  .app08 {
+    position: relative;
+    top: 102%;
+  }
+
+  .gameBlckChain {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .earn,
+  .map {
+    width: 100%;
+    text-align: center;
+  }
+  .app1 .para {
+    max-width: unset;
+  }
+  .para {
+    text-overflow: unset;
+    display: unset;
+  }
+
+  .possibilities {
+    height: auto;
+  }
+
+  .newHomeBg {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .gameNft,
+  .game2d {
+    padding-bottom: 0;
+  }
+
+  .pick {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .power {
+    width: 100%;
+  }
+
+  .app6 {
+    padding: 0 40px;
+  }
+
+  .app6,
+  .app7 {
+    height: auto;
+  }
+
+  .app2 {
+    height: auto;
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .app1,
+  .app {
+    height: auto;
+  }
+
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: auto;
+  }
+
+  .app6 {
+    background-image: url(../public/newHomePage/images/newMaintain10.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pick {
+    width: 100%;
+  }
+
+  .app7 .appImage {
+    max-width: 100%;
+    width: 99%;
+  }
+
+  .app7 {
+    gap: 14px;
+  }
+
+  .power {
+    padding-left: 0%;
+  }
+
+  .app03 {
+    padding: 5px 10px;
+    height: 227px;
+    background-size: contain;
+  }
+
+  .app04 {
+    height: 460px;
+    background-size: contain;
+  }
+
+  .app04 p {
+    text-align: center;
+    font-size: 14px;
+    height: auto;
+  }
+  .app04 h3 {
+    text-align: center;
+    font-size: 25px !important;
+  }
+
+  .app03 .cardContent {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .book,
+  .about {
+    font-size: 10px !important;
+  }
+
+  .app,
+  .app01,
+  .app02,
+  .app4,
+  .app6,
+  .app2,
+  .app5,
+  .app7 {
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app01,
+  .app02,
+  .app4,
+  .app5 {
+    height: 305px;
+    background-size: contain;
+  }
+
+  .app6,
+  .app7 {
+    height: auto;
+    border-image: linear-gradient(45deg, #f32fc2, #4a78ef) 1;
+    border-radius: 3px;
+    border: 3px solid #4a78ef;
+  }
+
+  .app1,
+  .app,
+  .app2 {
+    height: 460px;
+    background-size: contain;
+  }
+
+  .newHomeBg h1 {
+    font-size: 30px;
+  }
+
+  .app7 .appImage {
+    display: none;
+  }
+
+  .app7 {
+    flex-direction: inherit;
+  }
+
+  .app3 {
+    height: auto;
+    border-radius: 16px;
+    border: 3px solid #4a78ef;
+  }
+
+  .mblBuild1,
+  .mblBuild3 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .mblBuild3 .app05,
+  .mblBuild3 .app06,
+  .mblBuild3 .app07,
+  .mblBuild1 .app,
+  .mblBuild1 .app1,
+  .mblBuild1 .app2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 463px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild3 .cardContent,
+  .mblBuild1 .cardContent {
+    width: 330px;
+    margin-bottom: 10px;
+  }
+
+  /* ==================== */
+
+  .mblBuild2,
+  .mblBuild {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    overflow: scroll;
+  }
+  .mblBuild .app01,
+  .mblBuild .app02,
+  .mblBuild2 .app4,
+  .mblBuild2 .app5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 305px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .mblBuild .cardContent,
+  .mblBuild2 .cardContent {
+    width: 330px;
+    margin-bottom: 10px;
+  }
+
+  .app08 {
+    position: unset;
+    top: unset;
+  }
+}
+
+/* Home Page Maintain Section CSS start */
+
+.newHomeBg {
+  padding-top: 80px;
+  background: #000;
+  margin-top: -1%;
+}
+
+.para {
+  font-size: 14px;
+  max-width: 375px;
+  color: #fff;
+  height: 65px;
+  overflow: auto;
+}
+
+.contentPara {
+  max-width: 315px;
+}
+
+.para1 {
+  font-size: 14px;
+
+  color: white;
+}
+
+.cardImage {
+  min-height: 550px;
+}
+
+.app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain1.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.cardContent {
+  margin-bottom: 30px;
+}
+
+.app1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain2.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain3.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  height: 531px;
+}
+
+.app1,
+.app2,
+.app,
+.app4,
+.app5 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.app7 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+}
+
+.app6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 0;
+}
+
+.power {
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+}
+
+.para2 {
+  font-size: 14px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  height: 65px;
+  overflow: auto;
+}
+
+.para9 {
+  font-size: 14px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  overflow: auto;
+}
+
+.app2 {
+  border-radius: 30px;
+  background-color: transparent;
+  height: 531px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.app2 .para {
+  color: white;
+}
+
+.app3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px 28px 9px 33px;
+  height: 460px;
+}
+
+.paraThreeContent {
+  margin-top: 160px;
+}
+
+.pont {
+  display: flex;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.book {
+  width: 198px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about {
+  width: 198px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.app4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+.app7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain10.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  height: 531px;
+}
+
+.app7 .appImage {
+  max-width: 417px;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.para3 {
+  font-size: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  height: 65px;
+  overflow: auto;
+}
+
+.possibilities {
+  font-size: 14px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.app5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 531px;
+}
+
+.app6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/newHomePage/images/newMaintain8.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  height: 531px;
+  position: relative;
+  z-index: 99999;
+}
+
+.pick {
+  display: flex;
+  width: 44%;
+}
+
+.custom {
+  width: 75%;
+}
+
+/* =============================================== */
+
+@media screen and (min-width: 1500px) {
+  .app3 {
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app {
+    height: 530px;
+  }
+
+  .app1 {
+    height: 530px;
+  }
+
+  .app2 {
+    height: 530px;
+    border-radius: 28px;
+  }
+
+  .app4,
+  .app5 {
+    height: 531px;
+  }
+
+  .custom {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .app {
+    height: 456px;
+  }
+
+  .app1 {
+    height: 456px;
+  }
+
+  .app2 {
+    height: 456px;
+    border-radius: 24px;
+  }
+
+  .app3 {
+    height: 400px;
+  }
+
+  .app4 {
+    height: 457px;
+  }
+
+  .app5 {
+    height: 457px;
+  }
+
+  .app6 {
+    height: 457px;
+  }
+
+  .app7 {
+    height: 457px;
+  }
+
+  .app7 .appImage {
+    max-width: 357px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .newHomeBg {
+    padding: 50px 0;
+    background: #000;
+    height: 100%;
+  }
+
+  .app,
+  .app1,
+  .app2,
+  .app3,
+  .app4,
+  .app5 {
+    height: 381px;
+  }
+
+  .app3 {
+    background-size: cover;
+    padding: 30px 28px 9px 33px;
+  }
+
+  .app3 img {
+    max-width: 24%;
+    margin-top: 2%;
+  }
+
+  .app7 {
+    height: 381px;
+  }
+
+  .app7 .appImage {
+    max-width: 99%;
+  }
+
+  .app6 {
+    height: 381px;
+  }
+
+  .power {
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .newHomeBg {
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+
+  .servSlider .app {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding: 0;
+    display: flex !important;
+  }
+
+  .servSlider .app1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain1.png);
+  }
+  .servSlider .app2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain2.png);
+  }
+  .servSlider .app3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain3.png);
+  }
+  .servSlider .app4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain12.png);
+  }
+  .servSlider .app5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain5.png);
+  }
+  .servSlider .app6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain6.png);
+    justify-content: flex-end;
+  }
+  .servSlider .app7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/maintain8_bg.png);
+  }
+  .servSlider .app8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../public/newHomePage/images/newMaintain11.png);
+  }
+
+  .servSlider .app .cardContent {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .servSlider .app .para {
+    max-width: 100%;
+    height: 120px;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .newHomeBg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .servSlider .app .cardContent {
+    width: 85%;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .book,
+  .about {
+    font-size: 10px !important;
+  }
+
+  .newHomeBg h1 {
+    font-size: 30px;
+  }
+}

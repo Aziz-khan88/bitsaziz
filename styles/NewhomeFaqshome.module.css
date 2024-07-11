@@ -1,0 +1,160 @@
+.faqs {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 250px;
+  background-color: #f5f5ff;
+  margin-top: -17%;
+}
+.comfort {
+  position: relative;
+}
+.comfort::after {
+  position: absolute;
+  content: "";
+  background-color: #f5f5ff;
+  width: 126px;
+  height: 10px;
+  left: -113px;
+  bottom: -110px;
+}
+.comfort::before {
+  position: absolute;
+  content: "";
+  background-color: #f5f5ff;
+  width: 126px;
+  height: 10px;
+  right: -113px;
+  bottom: -108px;
+}
+.plus {
+  font-size: 30px;
+}
+
+.faqs h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  background: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.about {
+  width: 250px;
+  height: 45px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 80px auto 0;
+}
+
+.heading {
+  border-image: unset;
+  border-width: 4px;
+  padding: 10px 20px;
+  margin-top: 1%;
+  cursor: pointer;
+  padding-bottom: unset;
+  background-color: #f9f9f9;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  color: black;
+  border: 2px solid white;
+}
+.comfort p {
+  text-align: center;
+  color: #7a719b !important;
+}
+.load p {
+  text-align: justify;
+}
+.description {
+  margin-top: 1%;
+}
+
+.faqs p {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.faqs ul {
+  padding-left: 15px;
+}
+
+.faqs ul li {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  margin: 5px 0;
+  list-style: disc;
+}
+
+.faqs a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f32fc2;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.faqs a:hover {
+  color: var(--p-color);
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (min-width: 1400px) {
+  .faqs {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 250px;
+    background-color: #f5f5ff;
+    margin-top: -7%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faqs {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .comfort h2 {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .about {
+    margin-right: auto;
+    margin-bottom: 5%;
+  }
+}
+
+
+@media screen and (max-width: 1350px) { 
+  .faqs {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #f5f5ff;
+    margin-top: unset;
+}
+
+}

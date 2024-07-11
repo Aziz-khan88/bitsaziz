@@ -1,0 +1,43 @@
+.ThankYouSec {
+    padding: 150px 0 80px;
+}
+
+.ThankYouSec h1 {
+    font-size: 50px;
+    line-height: 68px;
+}
+
+.btn a {
+    background: #f32f53;
+    border-radius: 6px;
+    width: 210px;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px 5px #00000021;
+    margin: 20px auto 0;
+}
+/* Media Query Start */
+@media only screen and (max-width: 1099px) {
+    .ThankYouSec {
+        padding: 40px 0;
+    }
+
+    .ThankYouSec h1 {
+        font-size: 35px;
+        line-height: 53px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ThankYouSec h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/* Media Query End */

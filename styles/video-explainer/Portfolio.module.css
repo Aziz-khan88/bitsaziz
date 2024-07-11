@@ -1,0 +1,163 @@
+.portfolioSec {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.portfolioSec h2 {
+    font-size: 30px;
+    color: #231f20;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.tabItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tabLink {
+    font-size: 18px;
+    padding: 10px 36px;
+    font-family: "montserrat";
+    color: black;
+    font-weight: 300;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+.isActive {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 20px;
+}
+
+.thumbnailImage {
+    min-height: 200px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: auto;
+    border: 2px solid rgba(214, 213, 213, 0.421);
+    margin-top: 30px;
+}
+
+.overlayMain {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    height: 262px;
+    width: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) translateY(395px);
+    background: rgba(255, 0, 0, 0.422);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.overlayMain:hover .overlay {
+    transform: translateY(30px) translateX(-50%);
+    transition: all 0.4s ease-in-out;
+}
+
+.overlay img {
+    height: 60px;
+    width: 60px;
+    filter: brightness(200) invert(0);
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1399px) {
+    .thumbnailImage {
+        max-height: 152px;
+        max-width: 350px;
+    }
+
+    .overlay {
+        height: 200px;
+    }
+
+    .overlayMain:hover .overlay {
+        transform: translateY(-84px) translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .thumbnailImage {
+        max-height: 142px;
+        min-height: 164px;
+        max-width: 270px;
+    }
+
+    .flexWrap {
+        justify-content: center;
+    }
+
+    .tabLink {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+    .overlay {
+        height: 160px;
+    }
+
+    .overlayMain:hover .overlay {
+        transform: translateY(-65px) translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .thumbnailImage {
+        max-height: 100%;
+        min-height: auto;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .overlay {
+        height: 93%;
+    }
+
+    .overlayMain:hover .overlay {
+        transform: translateY(30px) translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .portfolioSec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .portfolioSec h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .overlay {
+        height: 100%;
+    }
+
+    .overlayMain:hover .overlay {
+        transform: translateY(0px) translateX(-50%);
+    }
+
+    .tabItems {
+        padding-left: 0;
+    }
+}

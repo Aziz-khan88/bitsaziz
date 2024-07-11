@@ -1,0 +1,98 @@
+.EcommerceSec {
+  padding: 100px 0 180px;
+  position: relative;
+  background: #000;
+}
+
+.EcommerceSec::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  display: block;
+  background-image: url(../public/ecommerce/clients-txt.webp);
+  top: 50px;
+  left: 0;
+  width: 1301px;
+  height: 418px;
+  margin: auto;
+  opacity: 0.2;
+  filter: grayscale(1.3);
+}
+
+.mobileImage {
+  margin-top: -276px;
+  margin-left: -143px;
+}
+
+.EcommerceSec a:last-child {
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 2rem;
+  white-space: nowrap;
+  display: block;
+  font-size: 14px;
+}
+
+.EcommerceSec a:first-child {
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 2rem;
+  white-space: nowrap;
+  display: block;
+  font-size: 14px;
+}
+
+.EcommerceSec a:first-child {
+  background-color: #4a78ef;
+  border: 1px solid white;
+  color: white;
+  border-radius: 2px;
+}
+
+.EcommerceSec a:last-child {
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  border: inherit;
+  border: 1px solid white;
+}
+
+.btns {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991px) {
+  .mobileImage {
+    display: none;
+  }
+
+  .EcommerceSec::before {
+    background: none;
+  }
+
+  .EcommerceSec img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 115px;
+  }
+
+  .EcommerceSec {
+    padding: 65px 0 140px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btns a {
+    width: 100%;
+  }
+
+  .EcommerceSec {
+    padding: 65px 0 70px;
+    position: relative;
+  }
+}

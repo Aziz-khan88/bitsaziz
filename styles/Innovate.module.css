@@ -1,0 +1,177 @@
+.innovate {
+  background-color: black;
+  padding: 80px 0;
+}
+
+.lead {
+  text-align: center;
+  font-size: 45px;
+  line-height: 55px;
+  color: #f32f53;
+  font-weight: 700;
+}
+
+.excellence {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+}
+
+.launching {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.just {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f32f53;
+  text-align: center;
+}
+
+.potential {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.need {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.turn {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f32f53;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.exactly {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.solutions {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.whether {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.journey {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f32f53;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.build {
+  font-size: 45px;
+  line-height: 55px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.expert {
+  width: 255px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.innovate {
+  position: relative;
+}
+
+.innovate::before {
+  position: absolute;
+  content: "";
+  background-image: url(../public/images/mobilelpfinal/bglong.webp);
+  width: 1954px;
+  height: 1954px;
+  top: -663px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-size: contain;
+  background-position: -200px center;
+}
+
+@media screen and (max-width: 991px) {
+  .innovate {
+    padding: 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .innovate::before {
+    position: unset;
+    background-image: unset;
+  }
+
+  .lead {
+    font-size: 30px;
+  }
+
+  .excellence {
+    font-size: 30px;
+  }
+
+  .build {
+    font-size: 30px;
+  }
+
+  .innovate {
+    padding: 0 0 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .just,
+  .need,
+  .turn,
+  .solutions,
+  .journey {
+    font-size: 18px;
+  }
+  .innovate::before {
+    position: unset;
+    background-image: unset;
+  }
+
+  .lead {
+    font-size: 24px;
+  }
+
+  .excellence {
+    font-size: 24px;
+  }
+
+  .build {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,133 @@
+.aboutus {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.decade {
+  display: flex;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.spaceimg {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.aboutbtn {
+  width: 226px;
+  height: 45px;
+  font-family: "Montserrat";
+  border: unset;
+  border-radius: unset;
+  margin-top: 7%;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+}
+
+.aboutbtn:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.nextalign1 {
+  display: none;
+}
+
+.toltip {
+  position: relative;
+}
+
+.toltip .tolImg {
+  position: absolute;
+  width: 380px;
+  height: 238px;
+  top: -260px;
+  left: -140px;
+  display: none;
+  transition: all 0.5s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.spaceimg:hover .toltip .tolImg {
+  display: block;
+}
+
+/* ===== About Us Page ===== */
+
+.aboutus.aboutUsSec {
+  padding-bottom: 0;
+}
+
+.bttns1 {
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+
+.bttns1:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/* ================== Media Query ================== */
+
+@media screen and (max-width: 1366px) {
+  .smlp p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nextalign1 {
+    display: block;
+  }
+
+  .decade {
+    display: none;
+  }
+
+  .spaceimg {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .aboutbtn {
+    margin-top: 15%;
+  }
+
+  .aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .aboutus h2 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}

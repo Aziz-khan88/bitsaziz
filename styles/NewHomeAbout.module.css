@@ -1,0 +1,1654 @@
+.active h4,
+.active h5,
+.active1 h4,
+.active1 h5,
+.active2 h4,
+.active2 h5,
+.active3 h4,
+.active3 h5,
+.active4 h4,
+.active4 h5,
+.active5 h4,
+.active5 h5,
+.active6 h4,
+.active6 h5,
+.active7 h4,
+.active7 h5,
+.active8 h4,
+.active8 h5,
+.active9 h4,
+.active9 h5,
+.active10 h4,
+.active10 h5,
+.active11 h4,
+.active11 h5,
+.active12 h4,
+.active12 h5,
+.active13 h4,
+.active13 h5,
+.active14 h4,
+.active14 h5,
+.active15 h4,
+.active15 h5,
+.active16 h4,
+.active16 h5,
+.active17 h4,
+.active17 h5,
+.active18 h4,
+.active18 h5,
+.active19 h4,
+.active19 h5,
+.active20 h4,
+.active20 h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.active h4,
+.active1 h4,
+.active2 h4,
+.active3 h4,
+.active4 h4,
+.active5 h4,
+.active6 h4,
+.active7 h4,
+.active8 h4,
+.active9 h4,
+.active10 h4,
+.active11 h4,
+.active12 h4,
+.active13 h4,
+.active14 h4,
+.active15 h4,
+.active16 h4,
+.active17 h4,
+.active18 h4,
+.active19 h4,
+.active20 h4 {
+  padding-right: 10px;
+}
+
+.secImage1 h5,
+.secImage2 h5,
+.secImage3 h5,
+.secImage4 h5,
+.secImage5 h5,
+.secImage6 h5,
+.secImage7 h5,
+.secImage8 h5,
+.secImage9 h5,
+.secImage10 h5,
+.secImage11 h5,
+.secImage12 h5,
+.secImage13 h5,
+.secImage14 h5,
+.secImage15 h5,
+.secImage16 h5,
+.secImage17 h5,
+.secImage18 h5,
+.secImage19 h5,
+.secImage20 h5,
+.secImage21 h5 {
+  margin-bottom: 0;
+}
+
+.secImage1 p,
+.secImage2 p,
+.secImage3 p,
+.secImage4 p,
+.secImage5 p,
+.secImage6 p,
+.secImage7 p,
+.secImage8 p,
+.secImage9 p,
+.secImage10 p,
+.secImage11 p,
+.secImage12 p,
+.secImage13 p,
+.secImage14 p,
+.secImage15 p,
+.secImage16 p,
+.secImage17 p,
+.secImage18 p,
+.secImage19 p,
+.secImage20 p,
+.secImage21 p {
+  font-style: italic;
+  font-size: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.active h5,
+.active1 h5,
+.active2 h5,
+.active3 h5,
+.active4 h5,
+.active5 h5,
+.active6 h5,
+.active7 h5,
+.active8 h5,
+.active9 h5,
+.active10 h5,
+.active11 h5,
+.active12 h5,
+.active13 h5,
+.active14 h5,
+.active15 h5,
+.active16 h5,
+.active17 h5,
+.active18 h5,
+.active19 h5,
+.active20 h5 {
+  margin-bottom: 0;
+}
+
+.active p,
+.active1 p,
+.active2 p,
+.active3 p,
+.active4 p,
+.active5 p,
+.active6 p,
+.active7 p,
+.active8 p,
+.active9 p,
+.active10 p,
+.active11 p,
+.active12 p,
+.active13 p,
+.active14 p,
+.active15 p,
+.active16 p,
+.active17 p,
+.active18 p,
+.active19 p,
+.active20 p {
+  font-style: italic;
+  font-size: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.newHomeBg {
+  position: relative;
+}
+
+.secImage1,
+.secImage2,
+.secImage3,
+.secImage4,
+.secImage5,
+.secImage6,
+.secImage7,
+.secImage8,
+.secImage9,
+.secImage10,
+.secImage11,
+.secImage12,
+.secImage13,
+.secImage14,
+.secImage15,
+.secImage16,
+.secImage17,
+.secImage18,
+.secImage19,
+.secImage20,
+.secImage21 {
+  display: none;
+}
+
+.active h4,
+.active1 h4,
+.active2 h4,
+.active3 h4,
+.active4 h4,
+.active5 h4,
+.active6 h4,
+.active7 h4,
+.active8 h4,
+.active9 h4,
+.active10 h4,
+.active11 h4,
+.active12 h4,
+.active13 h4,
+.active14 h4,
+.active15 h4,
+.active16 h4,
+.active17 h4,
+.active18 h4,
+.active19 h4,
+.active20 h4 {
+  height: 100px;
+  overflow: auto;
+}
+
+.active {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 33%;
+  width: 35%;
+  text-align: left;
+}
+
+.active1 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 33%;
+  margin-left: 15%;
+  width: 35%;
+  text-align: left;
+}
+
+.active2 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active3 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 30%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active4 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 15%;
+  width: 35%;
+  text-align: left;
+}
+
+.active5 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 15%;
+  width: 35%;
+  text-align: left;
+}
+
+.active6 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 15%;
+  width: 35%;
+  text-align: left;
+}
+
+.active7 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 25%;
+  width: 35%;
+  text-align: left;
+}
+
+.active8 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 25%;
+  width: 35%;
+  text-align: left;
+}
+
+.active9 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 25%;
+  width: 35%;
+  text-align: left;
+}
+
+.active10 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 25%;
+  width: 35%;
+  text-align: left;
+}
+
+.active11 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 25%;
+  width: 35%;
+  text-align: left;
+}
+
+.active12 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 15%;
+  width: 35%;
+  text-align: left;
+}
+
+.active13 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  margin-left: 15%;
+  width: 35%;
+  text-align: left;
+}
+
+.active14 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active15 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active16 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active17 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active18 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active19 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.active20 {
+  display: block;
+  border: 2px solid #4a78ef;
+  width: fit-content;
+  padding: 3%;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgb(44 39 39 / 67%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(9px);
+  padding: 33px;
+  margin: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: left;
+}
+
+.client {
+  cursor: pointer;
+}
+
+.newHomeBg {
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -700px center;
+  background-color: #000;
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+.wid {
+  max-width: 1100px;
+}
+
+.mblHire {
+  padding: 80px 0;
+}
+
+.game3d {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1900px) {
+  .james::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 97px;
+    height: 70px;
+    left: 27%;
+    border-radius: unset;
+    border-radius: unset;
+    top: 31%;
+    cursor: pointer;
+  }
+
+  .james1::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 97px;
+    height: 94px;
+    left: 32%;
+    border-radius: unset;
+    top: 60%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james2::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 79px;
+    height: 75px;
+    left: 62%;
+    border-radius: unset;
+    top: 67%;
+    cursor: pointer;
+  }
+
+  .james3::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 104px;
+    height: 90px;
+    left: 68%;
+    border-radius: 0;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  .james4::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 111px;
+    height: 83px;
+    left: 37%;
+    border-radius: unset;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james5::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 130px;
+    height: 90px;
+    left: 45%;
+    border-radius: unset;
+    top: 69%;
+    cursor: pointer;
+  }
+
+  .james6::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 133px;
+    height: 82px;
+    left: 44%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+  }
+
+  .james7::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 69px;
+    height: 74px;
+    left: 54%;
+    border-radius: unset;
+    top: 41%;
+    cursor: pointer;
+  }
+
+  .james8::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 133px;
+    height: 67px;
+    left: 64%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+    transform: rotate(355deg);
+  }
+
+  .james9::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 67px;
+    height: 67px;
+    left: 60%;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james10::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 98px;
+    height: 67px;
+    left: 44%;
+    top: 42%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james11::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 153px;
+    height: 72px;
+    left: 35%;
+    top: 35%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james12::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 101px;
+    height: 68px;
+    left: 24%;
+    top: 53%;
+    transform: rotate(61deg);
+  }
+
+  .james13::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 96px;
+    height: 71px;
+    left: 26%;
+    top: 38%;
+    top: 39%;
+    transform: rotate(14deg);
+  }
+
+  .james14::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 96px;
+    height: 71px;
+    left: 64%;
+    top: 38%;
+    top: 76%;
+    transform: rotate(84deg);
+  }
+
+  .james15::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 50px;
+    height: 75px;
+    right: 38.5%;
+    top: 66%;
+    transform: rotate(356deg);
+  }
+
+  .james16::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 48px;
+    height: 75px;
+    right: 42%;
+    top: 51%;
+    transform: rotate(356deg);
+  }
+
+  .james17::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 44%;
+    top: 64%;
+    transform: rotate(356deg);
+  }
+
+  .james18::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 57%;
+    top: 54%;
+    transform: rotate(6deg);
+  }
+
+  .james19::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 55px;
+    height: 57px;
+    right: 45%;
+    top: 48%;
+    transform: rotate(355deg);
+  }
+
+  .james20::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 55px;
+    height: 48px;
+    right: 37%;
+    top: 57%;
+    transform: rotate(355deg);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .james::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 122px;
+    height: 88px;
+    left: 27%;
+    border-radius: 50px;
+    top: 31%;
+    cursor: pointer;
+  }
+
+  .james1::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 121px;
+    height: 134px;
+    left: 31%;
+    border-radius: 50px;
+    top: 59%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james2::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 124px;
+    height: 137px;
+    left: 61%;
+    border-radius: 50px;
+    top: 61%;
+    cursor: pointer;
+  }
+
+  .james3::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 104px;
+    height: 90px;
+    left: 68%;
+    border-radius: 0;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  .james4::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 125px;
+    height: 98px;
+    left: 37%;
+    border-radius: unset;
+    top: 43%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james5::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 254px;
+    height: 211px;
+    left: 40%;
+    border-radius: unset;
+    top: 65%;
+    cursor: pointer;
+  }
+
+  .james6::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 133px;
+    height: 82px;
+    left: 45%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+  }
+
+  .james7::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 100px;
+    height: 103px;
+    left: 53%;
+    border-radius: unset;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  .james8::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 133px;
+    height: 67px;
+    left: 63%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+    transform: rotate(355deg);
+  }
+
+  .james9::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 67px;
+    height: 67px;
+    left: 58%;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james10::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 98px;
+    height: 67px;
+    left: 44%;
+    top: 42%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james11::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 72px;
+    left: 35%;
+    top: 35%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james12::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 72px;
+    left: 24%;
+    top: 38%;
+    top: 54%;
+    transform: rotate(61deg);
+  }
+
+  .james13::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 96px;
+    height: 71px;
+    left: 26%;
+    top: 38%;
+    top: 39%;
+    transform: rotate(14deg);
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .james::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 98px;
+    height: 73px;
+    left: 23%;
+    top: 31.5%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james1::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 85px;
+    height: 91px;
+    left: 28.5%;
+    border-radius: unset;
+    top: 61%;
+    cursor: pointer;
+    transform: rotate(6deg);
+  }
+
+  .james2::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 49px;
+    height: 46px;
+    left: 65%;
+    border-radius: unset;
+    top: 68%;
+    cursor: pointer;
+  }
+
+  .james3::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 85px;
+    height: 110px;
+    left: 75%;
+    border-radius: 50px;
+    top: 39%;
+    cursor: pointer;
+  }
+
+  .james4::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 94px;
+    height: 77px;
+    left: 35%;
+    border-radius: unset;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james5::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 120px;
+    height: 73px;
+    left: 43%;
+    border-radius: unset;
+    top: 70%;
+    cursor: pointer;
+    transform: rotate(0deg);
+  }
+
+  .james6::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 74px;
+    left: 43.5%;
+    border-radius: unset;
+    top: 55%;
+    cursor: pointer;
+    transform: rotate(1deg);
+  }
+
+  .james7::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 65px;
+    height: 73px;
+    left: 55%;
+    border-radius: unset;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  .james8::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 121px;
+    height: 67px;
+    left: 67%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+  }
+
+  .james9::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 67px;
+    height: 67px;
+    left: 60%;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james10::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 98px;
+    height: 67px;
+    left: 43%;
+    top: 42%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james11::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 72px;
+    left: 32%;
+    top: 35%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james12::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 72px;
+    left: 17%;
+    top: 53%;
+    top: 54%;
+    transform: rotate(61deg);
+  }
+
+  .james13::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 96px;
+    height: 71px;
+    left: 20%;
+    top: 38%;
+    transform: rotate(14deg);
+  }
+
+  .james14::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 78px;
+    height: 71px;
+    left: 67%;
+    top: 76%;
+    transform: rotate(61deg);
+  }
+
+  .james15::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 75px;
+    right: 36%;
+    top: 66%;
+    transform: rotate(356deg);
+  }
+
+  .james16::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 75px;
+    right: 40%;
+    top: 51%;
+    transform: rotate(356deg);
+  }
+
+  .james17::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 43%;
+    top: 64%;
+    transform: rotate(356deg);
+  }
+
+  .james18::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 59%;
+    top: 54%;
+    transform: rotate(6deg);
+  }
+
+  .james19::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 55px;
+    height: 57px;
+    right: 45%;
+    top: 48%;
+    transform: rotate(355deg);
+  }
+
+  .james20::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 55px;
+    height: 48px;
+    right: 34%;
+    top: 57%;
+    transform: rotate(355deg);
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .james::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 98px;
+    height: 55px;
+    left: 19%;
+    top: 32%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james1::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 85px;
+    height: 91px;
+    left: 25.5%;
+    border-radius: unset;
+    top: 61%;
+    cursor: pointer;
+    transform: rotate(6deg);
+  }
+
+  .james2::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 49px;
+    height: 46px;
+    left: 68%;
+    border-radius: unset;
+    top: 68%;
+    cursor: pointer;
+  }
+
+  .james3::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 85px;
+    height: 110px;
+    left: 77%;
+    border-radius: 50px;
+    top: 39%;
+    cursor: pointer;
+  }
+
+  .james4::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 94px;
+    height: 77px;
+    left: 33%;
+    border-radius: unset;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(8deg);
+  }
+
+  .james5::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 120px;
+    height: 73px;
+    left: 43%;
+    border-radius: unset;
+    top: 70%;
+    cursor: pointer;
+    transform: rotate(0deg);
+  }
+
+  .james6::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 74px;
+    left: 43.5%;
+    border-radius: unset;
+    top: 55%;
+    cursor: pointer;
+    transform: rotate(1deg);
+  }
+
+  .james7::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 65px;
+    height: 73px;
+    left: 55%;
+    border-radius: unset;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  .james8::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 121px;
+    height: 67px;
+    left: 69%;
+    border-radius: unset;
+    top: 54%;
+    cursor: pointer;
+  }
+
+  .james9::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 67px;
+    height: 67px;
+    left: 62%;
+    top: 44%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james10::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 98px;
+    height: 67px;
+    left: 43%;
+    top: 42%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james11::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 72px;
+    left: 32%;
+    top: 35%;
+    cursor: pointer;
+    transform: rotate(359deg);
+  }
+
+  .james12::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 140px;
+    height: 72px;
+    left: 13%;
+    top: 53%;
+    top: 54%;
+    transform: rotate(61deg);
+  }
+
+  .james13::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 104px;
+    height: 57px;
+    left: 17%;
+    top: 39%;
+    transform: rotate(14deg);
+  }
+
+  .james14::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 78px;
+    height: 71px;
+    left: 70%;
+    top: 76%;
+    transform: rotate(61deg);
+  }
+
+  .james15::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 75px;
+    right: 34%;
+    top: 66%;
+    transform: rotate(356deg);
+  }
+
+  .james16::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 75px;
+    right: 38%;
+    top: 51%;
+    transform: rotate(356deg);
+  }
+
+  .james17::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 43%;
+    top: 64%;
+    transform: rotate(356deg);
+  }
+
+  .james18::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 62px;
+    height: 57px;
+    right: 60%;
+    top: 54%;
+    transform: rotate(6deg);
+  }
+
+  .james19::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 55px;
+    height: 57px;
+    right: 45%;
+    top: 48%;
+    transform: rotate(355deg);
+  }
+
+  .james20::after {
+    position: absolute;
+    content: "";
+    background-color: #ff000000;
+    width: 55px;
+    height: 48px;
+    right: 32%;
+    top: 57%;
+    transform: rotate(355deg);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .newHomeBg {
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .secImage {
+    width: 80%;
+    object-fit: contain;
+    max-height: 320px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .secImage1 {
+    width: 50%;
+  }
+
+  .hover1 h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .hover1 h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .client h4 {
+    font-size: 14px;
+  }
+
+  .secImage1 {
+    width: 70%;
+  }
+
+  .newHomeBg {
+    text-align: center;
+  }
+
+  .secImage {
+    width: 100%;
+    max-height: 220px;
+  }
+
+  .hover1 h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .active,
+  .active1,
+  .active2,
+  .active3,
+  .active4,
+  .active5,
+  .active6,
+  .active7,
+  .active8,
+  .active9,
+  .active10,
+  .active11,
+  .active12,
+  .active13,
+  .active14,
+  .active15,
+  .active16,
+  .active17,
+  .active18,
+  .active19,
+  .active20 {
+    width: 50%;
+    padding: 20px;
+  }
+}

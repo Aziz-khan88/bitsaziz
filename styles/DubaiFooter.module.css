@@ -1,0 +1,160 @@
+.footer {
+    background-color: var(--b-color);
+    position: relative;
+    z-index: 2;
+}
+
+.footerNav {
+    padding-top: 60px;
+    border-bottom: 1px solid #5e5c5c;
+}
+
+.footTitle {
+    border-bottom: 1px solid #5e5c5c;
+    padding: 0;
+}
+
+.footTitle h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerNav ul li a {
+    color: #b5b5b5;
+    font-weight: 600;
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    transition: 0.5s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footerNav ul li a:hover {
+    color: white;
+}
+
+.footerNav .contacts li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.footNotes {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 0;
+}
+
+.socials img {
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.contacts img {
+    filter: grayscale();
+}
+
+.termsMain {
+    float: right;
+}
+
+.termsCo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.trmCon a:hover {
+    color: #fff;
+}
+
+.termsCo li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline !important;
+}
+
+.startup1 img {
+    margin: 0 auto;
+    width: 55%;
+}
+
+.minImg img {
+    width: 75%;
+}
+
+.strpImg {
+    text-align: center;
+}
+
+.project {
+    padding: 50px 0 0;
+}
+
+.projectlp {
+    padding: 0px 0 150px;
+}
+
+/* =================Media Queries=================== */
+
+@media screen and (max-width: 991px) {
+    .projectlp {
+        padding: 0px 0 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footerNav {
+        padding-top: 50px;
+    }
+
+    .trmCon {
+        margin: 20px 0px;
+    }
+
+    .footerNav .contacts li a {
+        font-weight: 400;
+    }
+
+    .trmCon {
+        text-align: left;
+    }
+
+    .termsMain {
+        float: left;
+    }
+
+    .termsCo {
+        padding: 0;
+    }
+
+    .project {
+        padding: 0 0 50px;
+        padding-top: 50px;
+    }
+
+    .footerNav {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 50px 0;
+    }
+}

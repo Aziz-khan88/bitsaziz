@@ -1,0 +1,149 @@
+.newcolorp{
+  background-image: linear-gradient(to right, black, black, white, white, white);
+}
+
+.application{
+  background-color: black;
+  height: 600px;
+  padding-left: 30px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.application h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  color: #F32F53;
+  font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.application a{
+  width: fit-content;
+    height: 45px;
+    background-color: #f32f53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.understand h3 {
+  background-color: #F32F53;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  font-size: 37px;
+  font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+  font-weight: bold;
+}
+.understand h2 {
+  color: black;
+  font-size: 37px;
+  font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.understand  p{
+  font-size: 14px;
+}
+.understand ul li{
+  position: relative;
+  margin-bottom: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.understand ul{
+  margin: 0;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.understand ul li::before{
+  position: absolute;
+  content: "";
+  background-color: #F32F53;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  left: -19px;
+  margin-top: 9px;
+  font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+}
+.understand{
+ height: 600px;
+  padding-left: 30px;
+  padding-right: 40px;
+  overflow: auto;
+  padding-top: 8%;
+
+
+
+}
+
+@media screen and (max-width: 1200px) { 
+
+  .application h2 {
+    font-size: 30px;
+}
+
+}
+
+@media screen and (max-width: 991px) { 
+
+
+  .newcolorp{
+    background-image: unset;
+  }
+
+  .understand  {
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 40px;
+    overflow: auto;
+    padding-top: 50px;
+}
+
+ }
+@media screen and (max-width: 767px) { 
+
+ 
+.understand  h2 {
+  font-size: 25px;
+}
+}
+
+@media screen and (max-width: 480px) {  
+
+  .application{
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .application h2 {
+    font-size: 20px;
+}
+.application a {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 11px;
+}
+}

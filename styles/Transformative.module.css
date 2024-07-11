@@ -1,0 +1,148 @@
+.tale{
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+
+.post {
+  border: 1px solid #F32F53;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.post img{
+  filter: grayscale(1);
+}
+.post img:hover{
+  filter: unset;
+}
+
+.newimg{
+  position: relative;
+}
+.super p{
+  max-width: 90%;
+}
+.fold{
+  position: relative;
+  width: 290px;
+  transition: ease-in .3s;
+}
+.fold1{
+  position: relative;
+  width: 160px;
+  transition: ease-in .3s;
+}
+.tak{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.fold img{
+  height: 450px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center center;
+}
+.fold1 img{
+  height: 350px;
+  border-radius: 15px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center center;
+  
+}
+.fold:hover, .fold1:hover{
+  position: relative;
+  width: 416px;
+  height: auto;
+
+}
+.details h3{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.fold:hover .details, .fold1:hover .details{
+  background-color: #F32F53;
+  border-radius: 30px;
+  position: absolute;
+    bottom: -62px;
+    width: 100%;
+    z-index: -1;
+    height: 98px;
+    padding-top: 11%;
+    white-space: nowrap;
+}
+.fold:hover .details h3, .fold1:hover .details h3{
+  font-size: 35px;
+  font-weight: bold;
+}
+.details{
+  position: absolute;
+  bottom: -58px;
+  left: 0;
+  right: 0;
+}
+
+.mewpo{
+  position: relative;
+}
+.mewpo::after{
+  position: absolute;
+  content: '';
+  background-color: #000000ba;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+}
+
+
+.fold:hover .mewpo::after , .fold1:hover .mewpo::after {
+  background-color: unset;
+}
+
+@media screen and (max-width: 991px) { 
+
+  .mewpo {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+}
+.startup1 h3{
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+}
+
+.mewpo::after{
+  display: none;
+}
+.startup1 h3 {
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width: 991px) {
+  .tale{
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+ }
+@media screen and (max-width: 767px) {
+  .tale{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+ }

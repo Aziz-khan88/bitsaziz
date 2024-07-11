@@ -1,0 +1,245 @@
+.providecustomweb .video img {
+  margin-top: -120px;
+  width: 90%;
+  margin-left: auto;
+  display: block;
+}
+
+.providebussinessweb {
+  margin-top: -180px;
+  width: 90%;
+  margin-left: auto;
+  display: block;
+}
+
+.providebussinessmweb {
+  background: #000;
+}
+
+.providebussinessmweb .video img {
+  width: 100%;
+  height: 100%;
+  margin-top: -120px;
+  display: block;
+  object-fit: contain;
+}
+
+.providebussinessmweb::before {
+  position: absolute;
+  content: "";
+  background-image: url(../../../public/servnew/customweb/bg.png);
+  background-position: center 11%;
+  background-size: 45%;
+  width: 70%;
+  height: 40%;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+}
+
+.providecustomweb::before {
+  position: absolute;
+  content: "";
+  background-image: url(../../../public/servnew/customweb/bg.png);
+  background-position: center 11%;
+  background-size: 65%;
+  width: 70%;
+  height: 77%;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+}
+
+.provideserv {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.providecustomweb {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.providecustom {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.providecustom .create {
+  width: unset;
+}
+.blocknew {
+  display: flex;
+  gap: 25px;
+}
+.create {
+  width: 500px;
+}
+
+/* bussiness intelligence start */
+.providebussiness {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.providebussiness .create {
+  width: unset;
+}
+
+.newrowbussiness {
+  margin-top: 30px;
+}
+
+.newrowbussiness video {
+  width: 100%;
+  height: 100%;
+}
+
+.bottomPadding {
+  padding-bottom: 12px;
+}
+
+.newrowbussinessthree img {
+  margin-top: -260px !important;
+}
+
+.bottomPaddingTwo {
+  padding-bottom: 20px;
+}
+
+.bottomPaddingTwo img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.bottomPaddingThree {
+  padding-bottom: 20px;
+}
+
+.bottomPaddingThree img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.bottomPadding img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.providebussiness .partical {
+  position: relative;
+}
+
+.providebussiness .partical::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../../public/servnew/customweb/bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 136%;
+  height: 151%;
+  right: 98px;
+  top: -115px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.providebussiness .video img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: -40px;
+}
+
+.provideuiux {
+  background-color: #000;
+  padding-bottom: 80px;
+}
+
+/* ==================== */
+
+@media screen and (max-width: 1199px) {
+  .providecustomweb .video img {
+    margin-top: unset;
+    width: 90%;
+    margin-left: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 991px) {
+  .provideserv {
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  .providecustom {
+    background-color: black;
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .newrowbussinessthree img {
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+  }
+
+  .providecustom .create {
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  .blocknew {
+    padding: 0 10px;
+  }
+  
+}
+@media screen and (max-width: 767px) {
+  .providebussiness {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .newrowbussiness {
+    margin-top: 0px;
+  }
+
+  .blocknew {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+
+  .create {
+    width: unset;
+  }
+
+  .providecustomweb {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .providecustomweb::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .provideserv {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .providecustom {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+}

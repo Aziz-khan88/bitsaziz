@@ -1,0 +1,261 @@
+.appStyles {
+    padding: 80px 0;
+    position: relative;
+    background: #fff;
+    z-index: 99;
+}
+
+.appStyles h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: black;
+}
+
+.appStyles h2 span {
+    color: #F32F53;
+}
+
+.appStyles p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 40px;
+    padding-right: 16px;
+    color: black;
+    width: 95%;
+}
+
+.featured {
+    background: linear-gradient(to bottom right, #4A78EF, #F32FC2, #F32F53);
+    padding: 20px;
+    height: 99%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn a {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    padding: 0 20px;
+    width: max-content;
+    height: 35px;
+    border-radius: 6px;
+    background: rgb(255 255 255 / 15%);
+    backdrop-filter: blur(1px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.featured h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 33px;
+    color: white;
+    margin: 20px 0;
+}
+
+.featured p {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.blackBtn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 20px;
+    width: max-content;
+    height: 45px;
+    border-radius: 6px;
+    background: black;
+    box-shadow: 0 5px 12px #00000075;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+}
+
+
+.blackBtn a:hover img {
+    margin-left: 5px;
+    transition: all ease-in-out 0.4s;
+}
+
+
+.counterMain {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.counterMain h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: white;
+    margin: 13px 0 6px;
+}
+
+.counterMain h5 {
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 25px;
+    color: white;
+}
+
+.slider {
+    position: relative;
+    border-radius: 6px;
+}
+
+.sliderTxt {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sliderTxt h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    line-height: 33px;
+}
+
+.sliderTxt p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+    padding-right: 65px;
+    letter-spacing: 1px;
+}
+
+.sliderBtn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 20px;
+    width: max-content;
+    height: 45px;
+    border-radius: 6px;
+    background: rgb(255 255 255 / 15%);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 5px 12px #00000075;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+    margin-right: 25px;
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1399px) {
+    .counterMain {
+        gap: 40px;
+    }
+
+    .counterMain h4 {
+        font-size: 18px;
+    }
+
+    .featured {
+        height: 96%;
+        margin-top: 5px;
+    }
+
+    .sliderTxt {
+        bottom: -20px;
+    }
+
+    .sliderTxt p {
+        line-height: 22px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .appStyles {
+        padding: 50px 0 0;
+    }
+
+    .featured {
+        height: 100%;
+    }
+
+    .appsSlider {
+        margin-top: 20px;
+    }
+
+    .btn a {
+        margin-top: 20px;
+    }
+
+    .counterMain {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .appStyles {
+        padding: 50px 0;
+    }
+
+    .sliderImage {
+        position: relative;
+        margin-top: 8px;
+    }
+
+    .sliderImage::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #00000075;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+
+    .appStyles h2 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+
+    .appStyles p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .sliderTxt {
+        flex-direction: column;
+        bottom: 65px;
+        left: 15px;
+        align-items: start;
+    }
+
+    .sliderBtn {
+        display: none;
+    }
+}

@@ -1,0 +1,519 @@
+.houston {
+    position: relative;
+    padding: 20px 0 60px;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.houston h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.applicationlong ul {
+    position: relative;
+    padding: 110px 0 20px;
+}
+
+.applicationlong {
+    position: relative;
+    background: #2E2E2E;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 60px 35px 40px 30px;
+}
+
+.applicationlong img {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 370px;
+    width: 5%;
+}
+
+.understand {
+    border: 1px solid #BCBCBC;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(../../public/services/understand-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 60px;
+}
+
+.understand h5 {
+    padding-top: 15px;
+    font-family: "SF-Pro-Display";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: black;
+}
+
+.topBorder {
+    border-top-left-radius: 40px;
+    padding: 36px 43px;
+}
+
+.topBorder p {
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 200px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.applicationlong a {
+    color: black;
+}
+
+.menusHeading {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    line-height: 27px !important;
+    padding-bottom: 10px !important;
+    letter-spacing: 1px !important;
+    /* color: black !important; */
+    text-align: left !important;
+    padding-right: 62px !important;
+    padding-left: 0px !important;
+    border-bottom: 2px solid #707070;
+    width: 100%;
+}
+
+.posto {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.tone {
+    align-items: center;
+    margin: 0;
+}
+
+/* .menuCols {
+    position: sticky;
+    top: 135px;
+  } */
+
+.understandContent {
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.application {
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.application h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    color: #f32f53;
+    font-family: "SF-Pro-Display";
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.txt {
+    margin-left: 110px;
+}
+
+.txt h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.application a {
+    width: fit-content;
+    height: 45px;
+    background-color: #f32f53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.understand h3 {
+    background-color: #f32f53;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: black;
+    font-size: 37px;
+    font-family: "SF-Pro-Display";
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.understand h2 {
+    color: #1e1e1e;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding-top: 0;
+    width: 100%;
+}
+
+.understand h2 span {
+    color: #f32f53;
+}
+
+.understand p {
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+    margin-bottom: 32px;
+}
+
+.number {
+    font-size: 20px;
+    line-height: 27px;
+    color: #f32f53;
+    font-weight: bold;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.understand ul li {
+    position: relative;
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.understand ul {
+    margin: 0;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.understand ul li::before {
+    position: absolute;
+    content: "";
+    background-color: #f32f53;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    left: -19px;
+    margin-top: 9px;
+    font-family: "SF-Pro-Display";
+    letter-spacing: 2px;
+}
+
+.applicationlong ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.applicationlong ul li {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.applicationlong ul li span {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 28px;
+    color: white;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    opacity: 0.3;
+}
+
+.applicationlong ul li span:first-of-type {
+    background-image: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.applicationlong ul li.active span {
+    color: #ffff !important;
+    opacity: 1;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 20px;
+    width: max-content;
+    height: 45px;
+    border-radius: 6px;
+    background: #f32f53;
+    box-shadow: 0px 5px 20px 5px #00000040;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+}
+
+.bgcolor_puple {
+    padding: 50px 0px;
+}
+
+.bgcolor_puple .applicationlong {
+    background-image: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+}
+
+.bgcolor_puple ul li span:first-of-type {
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bgcolor_puple .menusHeading {
+    border-bottom: 2px solid #fff;
+}
+
+/* ==================================== */
+@media only screen and (max-width: 1920px) {
+    .txt {
+        margin-left: 285px;
+    }
+
+    .applicationlong img {
+        height: 530px;
+    }
+}
+
+@media only screen and (max-width: 1799px) {
+    .txt {
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .txt {
+        margin-left: 95px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .txt {
+        margin-left: 115px;
+    }
+
+    .menusHeading {
+        font-size: 17px !important;
+        font-size: 17px !important;
+    }
+
+    .understand {
+        padding: 0px 40px;
+    }
+
+    .applicationlong {
+        padding: 45px 35px 25px 30px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .application h2 {
+        font-size: 30px;
+    }
+
+    .applicationlong ul li a {
+        font-size: 13px;
+    }
+
+    .understand h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .txt {
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .menusHeading {
+        padding-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .houston {
+        padding: 0px 0 25px;
+    }
+
+    .applicationlong {
+        background: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .txt h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .understand {
+        height: auto;
+        overflow: auto;
+        padding: 0px;
+        border: 0;
+    }
+
+    .understand h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .txt {
+        margin-left: 30px;
+    }
+
+    .posto {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 610px;
+    }
+
+    .houston select,
+    .bgcolor_puple select {
+        width: 100%;
+        margin: 0 auto;
+        height: 60px;
+        margin-top: 25px;
+        padding: 0 10px;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 11px;
+    }
+
+    .bgcolor_puple .applicationlong {
+        background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    }
+
+    .understandContent {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .houston {
+        padding-bottom: 0px;
+    }
+
+    .understand h2 {
+        font-size: 25px;
+    }
+
+    .houston select,
+    .bgcolor_puple select {
+        font-size: 13px;
+    }
+
+    .txt {
+        margin-left: 0;
+    }
+
+    .menuCols {
+        top: 36px;
+    }
+
+    .understand p {
+        margin: 0 0px 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .houston {
+        padding: 30px 0;
+    }
+
+    .txt h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .topBorder {
+        border-radius: 0;
+        padding: 20px 15px;
+    }
+
+    .topBorder p {
+        padding-right: 0;
+    }
+
+    .understand {
+        padding: 0;
+    }
+
+    .posto {
+        margin-top: 9px;
+        margin-bottom: 9px;
+        padding: 30px 0;
+    }
+
+    .understand {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin: 0px;
+    }
+
+    .understand h2 {
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .understand h5 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .applicationlong h3 {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .application h2 {
+        font-size: 20px;
+    }
+
+    .application a {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 15px;
+    }
+}

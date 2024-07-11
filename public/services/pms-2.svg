@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.001" height="50" viewBox="0 0 50.001 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="250.297" y1="0.46" x2="151.029" y2="117.153" gradientUnits="objectBoundingBox">
+      <stop offset="0.18" stop-color="#0052cc"/>
+      <stop offset="1" stop-color="#2684ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="257.021" y1="1.301" x2="142.195" y2="128.576" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="jira-1" transform="translate(-5.355 -10.712)">
+    <path id="Path_84444" data-name="Path 84444" d="M72,10.712H47.918A10.869,10.869,0,0,0,58.787,21.581h4.435v4.282A10.869,10.869,0,0,0,74.084,36.725V12.8A2.089,2.089,0,0,0,72,10.712Z" transform="translate(-18.728)" fill="#2684ff"/>
+    <path id="Path_84445" data-name="Path 84445" d="M50.72,32.136H26.643A10.869,10.869,0,0,0,37.5,43H41.94v4.3A10.869,10.869,0,0,0,52.809,58.149V34.225A2.089,2.089,0,0,0,50.72,32.136Z" transform="translate(-9.367 -9.427)" fill="url(#linear-gradient)"/>
+    <path id="Path_84446" data-name="Path 84446" d="M29.433,53.547H5.355A10.869,10.869,0,0,0,16.224,64.416h4.449V68.7A10.869,10.869,0,0,0,31.522,79.56V55.636A2.089,2.089,0,0,0,29.433,53.547Z" transform="translate(0 -18.848)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

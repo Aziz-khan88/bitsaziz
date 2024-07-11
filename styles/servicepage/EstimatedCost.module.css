@@ -1,0 +1,153 @@
+.estimateSec {
+    padding: 80px 0;
+}
+
+.estimateSec h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.estimateSec span {
+    color: #F32F53;
+}
+
+.txt p a {
+    text-decoration: underline !important;
+    color: black;
+}
+
+.estimateSec .card {
+    background: #F3F3F3;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.estimateSec .cardTop {
+    background: #ECECEC;
+    padding: 14px 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.estimateSec .card .cardDesc {
+    padding: 50px 25px;
+}
+
+.estimateSec .cardTwo .cardDesc {
+    padding: 0px 25px;
+    width: 385px;
+}
+
+.estimateSec .cardDesc h6 {
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.estimateSec .card .cardDesc h6 {
+    background-image: linear-gradient(to right, #4A78EF 0%, #F32FC2 10%, #F32F53 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.estimateSec .cardTwo {
+    background: linear-gradient(to bottom left, #f32f53, #f32fc2, #4a78ef);
+    border-radius: 15px;
+    height: 100%;
+}
+
+.estimateSec .cardTwo .cardImage {
+    background-image: url(../../public/services/cardImage-bg.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estimateSec .cardTwo .cardImage img {
+    width: 190px;
+}
+
+.estimateSec .cardBtn {
+    padding-bottom: 20px;
+}
+
+.estimateSec .cardBtn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 40px;
+    width: -moz-max-content;
+    width: max-content;
+    height: 50px;
+    border-radius: 6px;
+    background: #f32f53;
+    box-shadow: 0px 5px 20px 5px #00000040;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+    .estimateSec .cardDesc h6 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .estimateSec .cardTwo .cardDesc {
+        padding: 0px 20px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .estimateSec h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .estimateSec .cardTwo .cardImage {
+        display: none;
+    }
+
+    .estimateSec .cardTwo .cardDesc {
+        width: 100%;
+    }
+
+    .estimateSec .card .cardDesc {
+        padding: 30px 20px;
+    }
+
+    .estimateSec .cardTop {
+        padding: 10px 20px;
+    }
+
+    .estimateSec .cardBtn a {
+        font-size: 14px;
+        padding: 0 30px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .estimateSec {
+        padding: 50px 0 80px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .estimateSec h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

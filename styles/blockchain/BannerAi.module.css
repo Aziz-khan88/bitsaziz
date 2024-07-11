@@ -1,0 +1,269 @@
+.ctaForm {
+  padding: 25px 15px 25px 15px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  background-color: rgb(106 106 106 / 19%);
+  border: 0.5px solid rgb(49, 49, 49);
+}
+
+.FormHo::before {
+  background-image: url(../public/images/corner.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  left: -5px;
+  top: -4px;
+}
+.FormHo::after {
+  background-image: url(../public/images/corner-r.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  right: -5px;
+  top: -4px;
+}
+.FormHoo::before {
+  background-image: url(../public/images/corner-lb.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  left: -5px;
+  bottom: -4px;
+}
+.FormHoo::after {
+  background-image: url(../public/images/corner-rb.png);
+  width: 101px;
+  height: 89px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  right: -5px;
+  bottom: -4px;
+}
+.ctaForm input {
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid var(--white);
+  padding: 9px 20px 21px 3px;
+  color: var(--mry);
+  border-radius: 0px;
+}
+.ctaForm textarea {
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid var(--white);
+  padding: 9px 20px 21px 3px;
+  color: var(--mry);
+  width: 100%;
+  border-radius: 0px;
+  height: 110px;
+}
+.ctaForm input::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+.ctaForm textarea::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.ctaForm label {
+  color: var(--white);
+  font-size: 12px;
+}
+
+.ctaForm input:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+  outline: 0px;
+  border-bottom: 1px solid var(--mry);
+  background: transparent;
+}
+
+.ctaForm textarea:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+  outline: 0px;
+  border-bottom: 1px solid var(--mry);
+  background: transparent;
+}
+
+.ctaForm .btnprimary {
+  background: var(--mry);
+  border: none;
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 100%;
+  color: var(--white);
+}
+.ctaForm .btnprimary:hover {
+  color: var(--mry);
+  background-color: var(--white);
+}
+
+.input-group {
+  width: auto !important;
+}
+
+.partnerLogos {
+  padding: 12px 0px 12px 0px;
+  border-top: 1px solid #5c5c5c;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.Lcontent {
+  padding-top: 40px;
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+
+.ctaForm1 {
+  padding: 25px 15px 25px 15px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  background-color: rgb(106 106 106 / 19%);
+  border: 0.5px solid rgb(49, 49, 49);
+}
+
+.ctaForm2 {
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  background-color: rgb(106 106 106 / 19%);
+  border: 0.5px solid rgb(49, 49, 49);
+}
+
+.ctapara {
+  font-size: 12px;
+  color: var(--white);
+}
+.h42 {
+  font-size: 40px;
+  color: var(--mry);
+  font-weight: 700;
+}
+.h41 {
+  font-size: 15px;
+  color: var(--white);
+  font-weight: 400;
+}
+
+.para3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.cheading {
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--mry);
+  text-align: center;
+}
+.btnpri {
+  background: var(--mry) !important;
+  border: none !important;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 12px;
+  transition: 1s all ease;
+}
+
+.ctac {
+  padding: 25px 15px 25px 15px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  border-radius: 10px;
+  backdrop-filter: blur(0px);
+}
+
+.btnpri {
+  color: var(--white);
+  padding: 10px 20px 10px 20px;
+  line-height: 32px;
+}
+.btnpri:hover {
+  background-color: var(--white) !important;
+  color: var(--mry);
+}
+
+.btnpri1 {
+  color: var(--white);
+  padding: 10px 20px 10px 20px;
+  line-height: 32px;
+}
+.HomeBanner {
+  position: relative;
+  height: 100vh;
+  justify-content: end;
+}
+.Banners {
+  position: relative;
+  z-index: 2;
+}
+.homeVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  z-index: 0;
+}
+
+.vid {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: -110px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  z-index: 0;
+}
+.banner2 {
+  justify-content: end;
+  align-items: end;
+}
+@media (max-width: 768px) {
+  .Lcontent {
+    text-align: center;
+  }
+}

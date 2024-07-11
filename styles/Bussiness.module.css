@@ -1,0 +1,236 @@
+.transform{
+  padding-top: 70px;
+}
+.qtech{
+  color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.shoot{
+  display: flex !important;
+  width: 98% !important;
+  height: 230px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin: auto;
+}
+.qfind{
+  box-shadow: rgb(0 0 0 / 11%) 0px 3px 8px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2px;
+    margin-bottom: 2px;
+}
+.quotwe{
+  background-color: #F3F3F3;
+  border: 1px solid #E3E3E3;
+  width: 35%;
+  box-shadow: rgb(0 0 0 / 11%) 0px 3px 8px;
+}
+
+.qfind h4{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'SF-Pro-Display';
+  text-align: center;
+  color: black;
+}
+.qfind p{
+  color: #9A9A9A;
+  font-size: 9px;
+  font-family: 'SF-Pro-Display';
+  text-align: center;
+}
+.qfind h3{
+  font-size: 18px;
+  font-family: 'SF-Pro-Display';
+  text-align: center;
+  font-weight: 600;
+}
+.qfind a{
+  width: fit-content;
+  height: 40px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 13px;
+  margin: 0 auto;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
+.quotwe h5{
+  font-size: 25px;
+  font-family: 'SF-Pro-Display';
+  text-align: center;
+  font-weight: 600;
+  padding-top: 12%;
+  padding-bottom: 5%;
+}
+
+.freepost {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 2%;
+}
+
+.freepost h3{
+  font-size: 10px;
+  font-family: 'SF-Pro-Display';
+  font-weight:400;
+  color: #9A9A9A;
+}
+.freepost h4{
+  font-size: 10px;
+  font-family: 'SF-Pro-Display';
+  font-weight:400;
+  color: #9A9A9A;
+}
+
+.freepost1 img{
+  display: block;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.clintSlider{
+  margin-top: 3%;
+}
+
+@media screen and (min-width: 1600px) { 
+
+  .shoot {
+    height: 260px;
+}
+
+}
+
+@media screen and (min-width: 1900px) { 
+
+  .freepost h3 {
+    font-size: 14px;
+}
+.freepost h4 {
+  font-size: 14px;
+}
+  .quotwe h5 {
+    font-size: 35px;
+}
+
+  .shoot {
+    height: 325px;
+}
+
+.qfind h4 {
+  font-size: 20px;
+}
+.qfind p {
+
+  font-size: 14px;
+
+}
+
+.qfind h3 {
+  font-size: 23px;
+}
+}
+
+
+@media screen and (max-width: 1200px) {  
+  .qfind h3 {
+    font-size: 14px;
+
+}
+.qfind p {
+  color: #9A9A9A;
+  font-size: 8px;
+  font-family: 'SF-Pro-Display';
+  text-align: center;
+}
+
+.qfind a {
+
+  height: 34px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10px;
+}
+
+}
+
+@media screen and (max-width: 991px) {  
+
+  .qfind h3 {
+    font-size: 12px;
+}
+
+  .shoot {
+    flex-direction: column;
+    height: auto;
+    width: 95% !important;
+}
+.qfind {
+  box-shadow: rgb(0 0 0 / 11%) 0px 3px 8px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.quotwe {
+  background-color: #F3F3F3;
+  border: 1px solid #E3E3E3;
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 11%) 0px 3px 8px;
+  padding-bottom: 12%;
+}
+}
+
+@media screen and (max-width: 767px) { 
+
+
+  .qtech {
+    font-size: 30px;
+}
+
+}
+@media screen and (max-width: 480px) { 
+
+
+  .qfind h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'SF-Pro-Display';
+    text-align: center;
+    color: black;
+}
+
+  .qfind p {
+    font-size: 14px;
+ 
+}
+
+  .freepost h3 {
+    font-size: 15px;
+}
+.freepost h4 {
+  font-size: 15px;
+}
+  .qtech {
+    font-size: 25px;
+}
+
+}

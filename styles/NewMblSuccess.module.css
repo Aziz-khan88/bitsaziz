@@ -1,0 +1,169 @@
+.paddingBottom {
+  padding-bottom: 0 !important;
+}
+
+.happens {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.spacing {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.befImg {
+  position: absolute;
+  top: -2%;
+  right: 3%;
+  z-index: 2;
+}
+
+.happens h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.happens h5 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sucssBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+  height: 335px;
+  border: 1px solid #fff;
+  width: 30%;
+}
+
+.sucssBtn {
+  width: 198px;
+  height: 45px;
+  background-color: #f32f53;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.spacing2d {
+  padding-bottom: 100px;
+}
+
+.gameApp {
+  padding: 100px 0 150px;
+}
+
+@media screen and (max-width: 1400px) {
+  .befImg {
+    width: 93%;
+    height: 365px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .happens {
+    background-color: black;
+    padding-bottom: 50px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .befImg {
+    display: none;
+  }
+
+  .mainBox {
+    justify-content: flex-start;
+  }
+
+  .sucssBox {
+    width: 33.3%;
+    justify-content: space-evenly;
+    gap: 0;
+    height: 300px;
+    padding-bottom: 10px;
+  }
+
+  .sucssBox span:nth-child(1) {
+    font-size: 40px;
+  }
+
+  .sucssBox span:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .box2 span:nth-child(3) {
+    margin-bottom: 20px;
+  }
+
+  .spacing {
+    padding-top: 50px;
+  }
+
+  .happens h5 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .happens h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .happens {
+    padding: 0 0 80px;
+  }
+
+  .spacing2d{
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .happens {
+    background-color: black;
+    padding: 0px 0 50px;
+  }
+
+  .mainBox {
+    justify-content: flex-start;
+    width: 100%;
+    overflow: scroll;
+    gap: 30px;
+  }
+
+  .sucssBox {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .sucssBox span {
+    width: 324px;
+  }
+}

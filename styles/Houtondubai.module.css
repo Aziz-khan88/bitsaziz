@@ -1,0 +1,364 @@
+.houston {
+  position: relative;
+  /* padding: 100px 0; */
+  margin-bottom: 80px;
+}
+
+.applicationlong {
+  position: relative;
+  padding: 10px 0;
+}
+
+.headings {
+  padding: 100px 0;
+}
+
+.understand h3 {
+  font-family: "SF-Pro-Display";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: black;
+}
+
+.applicationlong a {
+  color: black;
+}
+
+.applicationlong h3 {
+  font-family: "SF-Pro-Display";  
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 24px;
+  padding-bottom: 4%;
+  letter-spacing: 1px;
+  color: black;
+  text-align: left;
+  padding-right: 90px;
+  padding-left: 20px;
+}
+
+.posto {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  border-radius: 0px;
+  padding: 50px;
+}
+
+.stickyTop {
+  position: sticky;
+  top: 0;
+}
+
+.houston {
+  background-color: #f3f3f3;
+}
+
+.tone {
+  align-items: self-start;
+}
+
+.application {
+  height: 600px;
+  padding-left: 30px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.application h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+  color: #f32f53;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.application a {
+  width: fit-content;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+} 
+
+.understand h2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 44px;
+  margin-bottom: 20px;
+}
+
+.understand h2 span {
+  color: #f32f53;
+}
+
+.understand p {
+  font-size: 17px;
+  line-height: 26px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.understand ul li {
+  position: relative;
+  margin-bottom: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.understand ul {
+  margin: 0;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.understand ul li::before {
+  position: absolute;
+  content: "";
+  background-color: #f32f53;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  left: -19px;
+  margin-top: 9px;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 2px;
+}
+
+.applicationlong::before {
+  content: "";
+  position: absolute;
+  left: -21px;
+  width: 8px;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+}
+
+.applicationlong ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.applicationlong ul li {
+  text-align: left;
+  position: relative;
+}
+
+.applicationlong ul li a {
+  font-family: "SF-Pro-Display";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: black;
+  text-align: left;
+  display: block;
+}
+
+.applicationlong ul li.active::before {
+  content: "";
+  position: absolute;
+  left: -18.5px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #f32f53;
+}
+
+.active a {
+  color: #f32f53 !important;
+}
+
+.btn button {
+  background-color: #f32f53;
+  color: white;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  border: 0;
+}
+
+.number {
+  font-size: 20px;
+  line-height: 27px;
+  color: #f32f53;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+  display: none;
+}
+
+.cross {
+  position: absolute;
+  top: -1.5%;
+  right: -1.5%;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-family: Poppins;
+  cursor: pointer;
+  border: 1px solid #ff004a;
+  background-color: #ff004a;
+}
+
+/* ==================================== */
+
+@media only screen and (max-width: 1399px) {
+  .understand h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .posto {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .application h2 {
+    font-size: 30px;
+  }
+
+  .applicationlong ul li a {
+    font-size: 13px;
+  }
+
+  .understand h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .houston {
+    padding: 30px 0;
+  }
+
+  .understand {
+    height: auto;
+    overflow: auto;
+    padding: 0px;
+  }
+
+  .understand h2 {
+    font-size: 33px;
+    line-height: 49px;
+  }
+
+  .posto {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 40px 20px 20px;
+  }
+
+  .houston select {
+    width: 95%;
+    margin: 0 auto;
+    height: 45px;
+    margin-top: 25px;
+    padding: 0 3px;
+    font-size: 16px;
+  }
+
+  .stickyTop {
+    position: sticky;
+    top: 40px;
+    z-index: 9999999;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .houston {
+    padding-bottom: 0px;
+  }
+
+  .understand h2 {
+    font-size: 25px;
+  }
+
+  .houston select {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .houston {
+    padding: 35px 0;
+    margin-bottom: 50px;
+  }
+
+  .understand {
+    padding: 0;
+  }
+
+  .posto {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 30px 30px 0;
+  }
+
+  .understand {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 0px;
+  }
+
+  .understand h2 {
+    line-height: 30px;
+    font-size: 23px;
+  }
+
+  .understand h5 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .applicationlong h3 {
+    font-size: 16px;
+    padding-right: 0;
+  }
+
+  .application h2 {
+    font-size: 20px;
+  }
+
+  .application a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+  }
+}

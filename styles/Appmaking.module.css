@@ -1,0 +1,235 @@
+.appmaking {
+  background-color: black;
+  padding-top: 100px;
+}
+
+.noroow {
+  display: flex;
+  gap: 10px;
+}
+
+.noroow1 {
+  display: flex;
+  gap: 10px;
+}
+
+.native::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+}
+
+.native {
+  position: relative;
+  padding: 70px 40px;
+  height: 580px;
+  padding-bottom: 40px;
+  border-radius: 24px;
+  border: 1px solid #fff;
+  box-shadow: 0 18px 32px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+  background-image: -webkit-linear-gradient(90deg, rgba(252, 40, 110, 1), rgba(80, 20, 173, 1) 100%);
+}
+
+.native2 {
+  position: relative;
+  padding: 70px 40px;
+  height: 580px;
+  padding-bottom: 40px;
+  background-color: black;
+  border-radius: 24px;
+  border: 1px solid #fff;
+  box-shadow: 0 18px 32px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+  background-image: -webkit-linear-gradient(90deg, #f52674 0%, #fbc725 100%);
+}
+
+.native2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+}
+
+
+
+.dev {
+  padding-left: 0;
+}
+
+.chat {
+  color: white;
+  border: 1px solid #fff;
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.platform {
+  justify-content: center;
+  margin: auto;
+}
+
+.dev {
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.dev li::before {
+  position: absolute;
+  content: '';
+  background-color: #FFFFFF;
+  width: 25px;
+  height: 3px;
+  border-radius: 50px;
+  margin-top: 2%;
+  left: 0;
+
+}
+
+.dev li {
+  margin-left: 42px;
+  font-size: 14px;
+}
+
+.live {
+  z-index: 1;
+  position: relative;
+  background-color: transparent;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+.noroow {
+  position: relative;
+  margin-top: 30px;
+}
+
+.noroow::before {
+  position: absolute;
+  content: '';
+  background-color: #fff;
+  width: 95px;
+  height: 3px;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.noroow1 {
+  position: relative;
+}
+
+.noroow1::after {
+  position: absolute;
+  content: '';
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+  bottom: 127px;
+  left: 65px;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+.noroow2 {
+  position: relative;
+  margin-top: 30px;
+}
+
+.noroow2::before {
+  position: absolute;
+  content: '';
+  background-color: #fff;
+  width: 35px;
+  height: 3px;
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.live1 {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  display: flex;
+  width: 300px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid #fff;
+}
+
+
+.post::after {
+  position: absolute;
+  background-image: url(../public/images/logoservices/shap1.png);
+  bottom: -186px;
+  height: 40%;
+  content: "";
+  background-position: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.appmaking {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .post::after {
+    display: none;
+  }
+
+  .appmaking {
+    background-color: black;
+    padding-bottom: 100px;
+  }
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .appmaking {
+    background-color: black;
+    padding-top: 0px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .live1 {
+    width: 100% !important;
+
+  }
+
+  .native2 {
+
+    height: 620px;
+  }
+
+}

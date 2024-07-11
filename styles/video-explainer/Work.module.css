@@ -1,0 +1,44 @@
+.workSec {
+    padding: 50px 0;
+    background: url(../../public/videoexplainer/process-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workSec h2 {
+    font-size: 30px;
+    color: #231f20;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.workSec p {
+    font-size: 18px;
+    color: #231f20;
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.workSec img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 567px) {
+    .workSec h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .workSec p {
+        font-size: 15px;
+        padding: 5px 0 20px;
+    }
+}

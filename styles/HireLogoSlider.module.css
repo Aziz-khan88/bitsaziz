@@ -1,0 +1,14 @@
+.newHomeBg {
+  background: #000;
+  margin-top: -80px;
+  padding: 0 0 50px;
+}
+
+/* =========================================== */
+
+@media screen and (max-width: 991px) {
+  .newHomeBg {
+    margin-top: 0px;
+    padding: 0;
+  }
+}

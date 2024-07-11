@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40">
+  <g id="Ebook-Education-Book-School-Tablet" transform="translate(-8 -2)">
+    <path id="Path_1119" data-name="Path 1119" d="M36.667,2H11.333A3.333,3.333,0,0,0,8,5.333V38.667A3.333,3.333,0,0,0,11.333,42H36.667A3.333,3.333,0,0,0,40,38.667V5.333A3.333,3.333,0,0,0,36.667,2Zm2,36.667a2.006,2.006,0,0,1-2,2H11.333a2.006,2.006,0,0,1-2-2V5.333a2.006,2.006,0,0,1,2-2H36.667a2.006,2.006,0,0,1,2,2Z" fill="#ed017c"/>
+    <path id="Path_1120" data-name="Path 1120" d="M37.333,6h-24A1.337,1.337,0,0,0,12,7.333V34a1.337,1.337,0,0,0,1.333,1.333h24A1.337,1.337,0,0,0,38.667,34V7.333A1.337,1.337,0,0,0,37.333,6Zm0,28h-24V7.333h24Z" transform="translate(-1.333 -1.333)" fill="#ed017c"/>
+    <path id="Path_1121" data-name="Path 1121" d="M31.667,52H29a2,2,0,0,0,0,4h2.667a2,2,0,1,0,0-4Zm0,2.667H29a.667.667,0,1,1,0-1.333h2.667a.667.667,0,0,1,0,1.333Z" transform="translate(-6.333 -16.667)" fill="#ed017c"/>
+    <path id="Path_1122" data-name="Path 1122" d="M35.667,17H30.333a3.329,3.329,0,0,0-2.667,1.353A3.329,3.329,0,0,0,25,17H19.667a.667.667,0,0,0-.667.667V31a.667.667,0,0,0,.667.667h16A.667.667,0,0,0,36.333,31V17.667A.667.667,0,0,0,35.667,17ZM20.333,30.333V29H25a2.009,2.009,0,0,1,1.887,1.333ZM27,28.353a3.283,3.283,0,0,0-2-.687H20.333V18.333H25a2.006,2.006,0,0,1,2,2Zm8,1.98H28.447A2.009,2.009,0,0,1,30.333,29H35Zm0-2.667H30.333a3.283,3.283,0,0,0-2,.687v-8.02a2.006,2.006,0,0,1,2-2H35Z" transform="translate(-3.667 -5)" fill="#ed017c"/>
+    <path id="Path_1123" data-name="Path 1123" d="M23,21h4v1.333H23Z" transform="translate(-5 -6.333)" fill="#ed017c"/>
+    <path id="Path_1124" data-name="Path 1124" d="M23,25h4v1.333H23Z" transform="translate(-5 -7.667)" fill="#ed017c"/>
+    <path id="Path_1125" data-name="Path 1125" d="M23,29h4v1.333H23Z" transform="translate(-5 -9)" fill="#ed017c"/>
+    <path id="Path_1126" data-name="Path 1126" d="M35,21h4v1.333H35Z" transform="translate(-9 -6.333)" fill="#ed017c"/>
+    <path id="Path_1127" data-name="Path 1127" d="M35,25h4v1.333H35Z" transform="translate(-9 -7.667)" fill="#ed017c"/>
+    <path id="Path_1128" data-name="Path 1128" d="M35,29h4v1.333H35Z" transform="translate(-9 -9)" fill="#ed017c"/>
+  </g>
+</svg>

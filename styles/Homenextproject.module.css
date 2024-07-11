@@ -1,0 +1,123 @@
+.closing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.texkp {
+  background-color: black;
+  padding: 80px 0;
+}
+
+.abtProject {
+  padding-top: 150px;
+}
+
+.closing h3 {
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.closing h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.closing a {
+  width: 300px;
+  height: 63px;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strpImg img {
+  filter: brightness(2);
+  width: 50%;
+}
+
+.minImg img {
+  width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+  .closing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .texkp {
+    padding-bottom: 80px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .closing h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .closing h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .closing a {
+    width: 235px;
+    height: 50px;
+    background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .texkp {
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+
+  .closing {
+    padding-bottom: 0;
+  }
+
+  .strpImg img {
+    width: 75%;
+  }
+
+  .minImg img {
+    width: 50%;
+  }
+
+  .closing h3 {
+    font-size: 24px;
+    margin-bottom: 3%;
+  }
+
+  .closing {
+    gap: 10px;
+  }
+}

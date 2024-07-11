@@ -1,0 +1,82 @@
+.newHomeBg {
+  position: relative;
+  background-color: #000;
+  padding-top: 100px;
+}
+
+.videobackground {
+  height: 750px;
+  overflow: hidden;
+}
+
+.newHomeOvrly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.polt {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.headContent {
+  max-width: unset;
+}
+
+.btn_txt {
+  color: white;
+  padding-right: 10px;
+}
+
+.sec_btn span {
+  padding-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .polt {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+  }
+
+  .videobackground {
+    height: 100%;
+  }
+
+  .newHomeOvrly h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .polt {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+  }
+
+  .newHomeOvrly h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .polt {
+    top: 48%;
+  }
+
+  .videobackground {
+    height: auto;
+  }
+}

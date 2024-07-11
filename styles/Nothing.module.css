@@ -1,0 +1,174 @@
+.nothingblockchain {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.nothingblockchain h3 {
+  color: #f32f53;
+  font-size: 30px;
+  font-weight: 900;
+}
+.nothingblockchain a {
+  border-radius: 12px;
+  font-family: "SF-Pro-Display";
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.nothingblockchain h2 {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+.nothingblockchain .strpImg p {
+  font-size: 14px;
+}
+.nothing,
+.nothingLp6 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.nothingLphomefy {
+  padding: 80px 0;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.nothingLphomefy h3 {
+  color: #f32f53;
+}
+.nothingLphomefy .btnpost {
+  border-radius: 10px;
+}
+.strpImg {
+  padding-bottom: 15px;
+  margin: 0 5px;
+}
+
+.nothing1 {
+  padding-top: 125px;
+  padding-bottom: 100px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+
+.btnpost {
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.startSlide {
+  position: relative;
+}
+
+.startSlide::before {
+  position: absolute;
+  content: "";
+  background-color: #707070;
+  width: 70%;
+  height: 2px;
+  left: 0;
+  bottom: -15px;
+}
+
+.nothingLp6 h3 {
+  color: #f32f53;
+}
+
+.verifiedImage {
+  filter: hue-rotate(152deg) brightness(1);
+}
+
+/* ========================================== */
+
+.nothingCase {
+  padding: 80px 0 80px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+
+.nothingCase h3 {
+  color: #f32f53;
+}
+
+/* ========================================== */
+
+@media screen and (min-width: 1400px) {
+  .nothing {
+    background-position: 953px center;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .nothing {
+    background-position: 1053px center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nothing {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+
+  .nothingLp6 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .nothingLphomefy {
+    padding: 0 0 80px;
+  }
+
+  .nothingCase {
+    padding: 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nothingLp6 {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .nothing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .nothingLphomefy {
+    padding: 0 0 50px;
+  }
+
+  .nothingCase {
+    padding: 0 0 50px;
+  }
+}

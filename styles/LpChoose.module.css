@@ -1,0 +1,190 @@
+.transform {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 600px center;
+  background-color: black;
+}
+.transformlp {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 600px center;
+  background-color: black;
+}
+.hybirf {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(../public/newHomePage/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 600px center;
+  background-color: black;
+}
+
+.dus {
+  width: max-content;
+  height: 55px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 0px;
+  padding: 0 15px;
+  border-radius: 6px;
+}
+
+.cart {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 3%;
+}
+
+.walk h2 {
+  font-size: 35px;
+  line-height: 45px;
+  color: #f32f53;
+}
+
+.walk p {
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+}
+
+.walk p span {
+  color: #f32f53;
+  font-weight: 600;
+}
+
+.post {
+  background-color: black;
+  height: 180px;
+  width: 195px;
+  border: 1px solid #565353;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 0px;
+  box-shadow: rgb(100 100 111 / 31%) 0px 7px 29px 0px;
+}
+
+.post p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .transform {
+    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 87%;
+    background-position: 374px center;
+    background-color: black;
+  }
+  .hybirf {
+    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 87%;
+    background-position: 374px center;
+    background-color: black;
+    padding-bottom: 150px;
+  }
+
+  .walk h2 {
+    font-size: 30px;
+  }
+
+  .walk p {
+    font-size: 14px;
+    max-width: 530px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .transform {
+    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 72%;
+    background-position: 550px center;
+    background-color: black;
+  }
+  .hybirf {
+    background-image: url(../public/newHomePage/images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 72%;
+    background-position: 550px center;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .post {
+    width: 175px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .transform {
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background-image: none;
+  }
+  .transformlp {
+    padding: 0 0 80px;
+    background-image: none;
+  }
+  .hybirf {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-image: none;
+  }
+
+  .post {
+    width: 90%;
+  }
+
+  .walk p {
+    max-width: 100%;
+  }
+
+  .marginTop {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .transform {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .transformlp {
+    padding: 0 0 50px;
+  }
+  .walk h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .dus {
+    padding: 0 10px;
+    width: 100%;
+    text-align: center;
+  }
+}

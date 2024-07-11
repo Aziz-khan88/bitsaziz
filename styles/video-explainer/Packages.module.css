@@ -1,0 +1,291 @@
+.packagesSec {
+    background: url(../../public/videoexplainer/price-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.txt h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.txt p {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Montserrat";
+    margin-bottom: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    position: relative;
+    padding: 20px 0;
+    overflow: hidden;
+    transition-duration: 1s;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 0 10px 30px 0 rgba(1, 1, 1, .08);
+}
+
+.card::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    content: '';
+    border-radius: 10px;
+    transform: translateY(-695px);
+    transition-duration: .7s;
+    z-index: 0;
+}
+
+.card:hover::before {
+    transform: translateY(0px);
+}
+
+.cardOne {
+    background-color: #c4df9b;
+}
+
+.cardOne::before {
+    background: #b5ce8f;
+}
+
+.cardTwo {
+    background: #ffc88d;
+}
+
+.cardTwo::before {
+    background: #ebb882;
+}
+
+.cardThree {
+    background: #ffd100;
+}
+
+.cardThree::before {
+    background: #ebc100;
+}
+
+.card_top {
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.card_top h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #231f20;
+    font-family: "Montserrat";
+}
+
+.card_top img {
+    margin: 20px 0 10px;
+}
+
+.card_top p {
+    margin: 0;
+    color: #231f20;
+    font-family: "Montserrat";
+}
+
+.card_top h4 {
+    margin: 10px 0;
+    padding: 10px 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: #231f20;
+    font-family: "poppins";
+}
+
+.listOne {
+    background: #b5ce8f;
+}
+
+.listTwo {
+    background: #ebb882;
+}
+
+.listThree {
+    background: #ebc100;
+}
+
+.card_list {
+    color: #fff;
+    position: relative;
+    padding: 30px 20px;
+    z-index: 1;
+}
+
+.card_list ul {
+    padding: 0;
+    padding-left: 5px;
+    height: 245px;
+    overflow-x: hidden;
+    overflow: auto;
+    list-style: none;
+}
+
+.card_list li {
+    line-height: 35px;
+    font-size: 14px;
+    color: #000;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.card_bottom {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 12px 25px 0;
+}
+
+.card_bottom a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f61253;
+}
+
+.card_bottom a span {
+    font-size: 16px;
+    color: #231f20;
+    font-family: "Montserrat";
+}
+
+.cardBtns {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px 0;
+    width: 100%;
+}
+
+.cardCtas {
+    position: relative;
+    z-index: 1;
+    margin: 35px 0 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.getStarted {
+    background: #231f20;
+    color: #fff !important;
+    box-shadow: none;
+    border: 1px solid #231f20;
+}
+
+.cardCtas a {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    transition-duration: .6s;
+    text-transform: capitalize;
+    font-family: poppins, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 11px 21px 0 rgb(0 0 0 / 16%);
+}
+
+.liveChart {
+    background: 0 0;
+    border: 1px solid #231f20;
+    color: #231f20 !important;
+    box-shadow: none;
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1024px) {
+    .card::before {
+        transform: translateY(-725px);
+    }
+
+    .card_top h3 {
+        font-size: 18px;
+    }
+
+    .cardCtas {
+        margin: 20px 0 20px;
+    }
+
+    .cardCtas a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .card_bottom a {
+        font-size: 12px;
+    }
+
+    .card_bottom a span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .rowGap {
+        gap: 30px 0;
+    }
+
+    .packagesSec p {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .card_top img {
+        display: none;
+    }
+
+    .txt h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .cardBtns {
+        display: none;
+    }
+
+    .card_top {
+        padding: 15px 0 0px;
+    }
+
+    .card_list ul {
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    .card_bottom {
+
+        height: 74px;
+    }
+}

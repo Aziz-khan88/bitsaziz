@@ -1,0 +1,143 @@
+.ecommerceSec {
+  padding: 90px 0;
+  background: #000;
+}
+
+.shopify {
+  background-image: url(../public/ecommerce/shopify-bg.webp);
+}
+
+.magento {
+  background-image: url(../public/ecommerce/magento-bg.webp);
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.WooCommerce {
+  background-image: url(../public/ecommerce/woocommerce-bg.webp);
+}
+
+.OpenCart {
+  background-image: url(../public/ecommerce/opencart-bg.webp);
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.XCart {
+  background-image: url(../public/ecommerce/xcart-bg.webp);
+}
+
+.BigCommerce {
+  background-image: url(../public/ecommerce/bigcommerce-bg.webp);
+  border-image: linear-gradient(0deg, #f32f5e, #4a78ef) 30;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.expendCard {
+  position: relative;
+  overflow: hidden;
+  margin-right: 0.5rem;
+  flex-grow: 1;
+  width: 0;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  padding: 2rem 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.expendCard:hover {
+  flex-grow: 3;
+}
+
+.flexCard {
+  flex-wrap: wrap;
+}
+
+.expendCard p {
+  max-width: 330px;
+}
+
+.expendCard a:first-child {
+  background-color: var(--w-color);
+  color: var(--b-color);
+  border: inherit;
+  border-radius: 5px;
+}
+
+.expendCard a:last-child {
+  background-color: transparent;
+  color: var(--w-color);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.expendCard a:first-child,
+.expendCard a:last-child {
+  width: max-content;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 0.7rem;
+  white-space: nowrap;
+  display: block;
+  font-size: 14px;
+}
+
+.btns {
+  opacity: 0;
+  transition: ease-in-out 0.4s;
+}
+
+.expendCard:hover .btns {
+  transition: ease-in-out 0.4s;
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+
+
+  .ecommerceSec {
+    padding: 90px 0;
+    background: #000;
+    padding-top: 0;
+  }
+
+  .flexCard {
+    display: hidden !important;
+  }
+
+  .expendCard {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) { 
+
+  .ecommerceSec h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .expendCard p{
+    max-width: 100%;
+  }
+  .expendCard h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .BigCommerce img{
+    
+  }
+
+}

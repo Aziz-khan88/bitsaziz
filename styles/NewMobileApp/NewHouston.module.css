@@ -1,0 +1,420 @@
+.houston {
+  position: relative;
+  padding: 60px 0;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.applicationlong ul {
+  position: relative;
+  padding: 110px 0 20px;
+}
+
+.applicationlong {
+  position: relative;
+  margin-top: 55px;
+}
+
+.applicationlong img {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 370px;
+  width: 5%;
+}
+
+.understand {
+  /* height: 750px; */
+  /* display: flex !important; */
+  align-items: center;
+  justify-content: center;
+}
+
+.understand h5 {
+  padding-top: 15px;
+  font-family: "SF-Pro-Display";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: black;
+}
+
+.topBorder {
+  border-top-left-radius: 40px;
+  padding: 36px 43px;
+}
+
+.topBorder p {
+  font-size: 16px;
+  line-height: 21px;
+  padding-right: 200px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.applicationlong a {
+  color: black;
+}
+
+.menusHeading {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 40px !important;
+  padding-bottom: 0 !important;
+  letter-spacing: 1px !important;
+  color: black !important;
+  text-align: left !important;
+  padding-right: 62px !important;
+  padding-left: 0px !important;
+}
+
+.posto {
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.tone {
+  align-items: center;
+  margin: 0;
+}
+
+/* .menuCols {
+  position: sticky;
+  top: 135px;
+} */
+
+.understandContent {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.application {
+  height: 600px;
+  padding-left: 30px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.application h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  color: #f32f53;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.txt {
+  margin-left: 110px;
+}
+
+.txt h2 {
+  font-size: 40px;
+  line-height: 53px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.application a {
+  width: fit-content;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+}
+
+.understand h3 {
+  background-color: #f32f53;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: black;
+  font-size: 37px;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.understand h2 {
+  color: #1e1e1e;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+.understand h2 span {
+  color: #f32f53;
+}
+
+.understand p {
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+  margin: 0 50px 50px;
+}
+
+.number {
+  font-size: 20px;
+  line-height: 27px;
+  color: #f32f53;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.understand ul li {
+  position: relative;
+  margin-bottom: 7px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.understand ul {
+  margin: 0;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.understand ul li::before {
+  position: absolute;
+  content: "";
+  background-color: #f32f53;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  left: -19px;
+  margin-top: 9px;
+  font-family: "SF-Pro-Display";
+  letter-spacing: 2px;
+}
+
+.applicationlong ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.applicationlong ul li {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.applicationlong ul li span {
+  font-family: "SF-Pro-Display";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  color: black;
+  text-align: left;
+  display: block;
+  text-decoration: none;
+}
+
+.applicationlong ul li.active span {
+  color: #f32f53 !important;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 20px;
+  width: max-content;
+  height: 45px;
+  border-radius: 6px;
+  background: #f32f53;
+  box-shadow: 0 5px 12px #00000075;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.4s;
+}
+
+
+/* ==================================== */
+@media only screen and (max-width: 1920px) {
+  .txt {
+    margin-left: 285px;
+  }
+
+  .applicationlong img {
+    height: 530px;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .txt {
+    margin-left: 85px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .application h2 {
+    font-size: 30px;
+  }
+
+  .applicationlong ul li a {
+    font-size: 13px;
+  }
+
+  .understand h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .txt {
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .houston {
+    padding: 70px 0;
+  }
+
+  .understand {
+    height: auto;
+    overflow: auto;
+    padding: 0px;
+  }
+
+  .understand h2 {
+    font-size: 33px;
+    line-height: 49px;
+  }
+
+  .posto {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 610px;
+  }
+
+  .houston select {
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+    margin-top: 25px;
+    padding: 0 3px;
+    font-size: 16px;
+  }
+
+  .understandContent {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .houston {
+    padding-bottom: 0px;
+  }
+
+  .understand h2 {
+    font-size: 25px;
+  }
+
+  .houston select {
+    font-size: 13px;
+  }
+
+  .txt {
+    margin-left: 0;
+  }
+
+  .menuCols {
+    top: 36px;
+  }
+
+  .understand p {
+    margin: 0 0px 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .houston {
+    padding: 50px 0;
+  }
+
+  .topBorder {
+    border-radius: 0;
+    padding: 20px 15px;
+  }
+
+  .topBorder p {
+    padding-right: 0;
+  }
+
+  .understand {
+    padding: 0;
+  }
+
+  .posto {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 30px 0;
+  }
+
+  .understand {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 0px;
+  }
+
+  .understand h2 {
+    line-height: 30px;
+    font-size: 23px;
+  }
+
+  .understand h5 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .applicationlong h3 {
+    font-size: 16px;
+    padding-right: 0;
+  }
+
+  .application h2 {
+    font-size: 20px;
+  }
+
+  .application a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+  }
+}

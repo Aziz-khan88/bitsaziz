@@ -1,0 +1,84 @@
+.conform {
+  background-color: black;
+  padding: 80px 0;
+  z-index: 99;
+  position: relative;
+}
+
+.formalign input {
+  height: 55px;
+  border: 2px solid #f32f53;
+  background-color: #0c0c0c;
+  border-radius: 13px;
+  color: white;
+  box-shadow: rgb(235 51 91 / 43%) 0px 7px 29px 0px;
+  width: 28%;
+  padding-left: 15px;
+}
+
+.formalign {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.formalign button {
+  width: 323px;
+  height: 52px;
+  background-color: #f32f53;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  border: unset;
+}
+
+.formalign input::placeholder {
+  padding-left: 15px;
+  color: #c5c5c5;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1600px) {
+  .formalign button {
+    height: 48px;
+  }
+
+  .formalign input {
+    height: 48px;
+    width: 30%;
+  }
+
+  .formalign {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .conform {
+    padding: 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .formalign {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .formalign input {
+    height: 48px;
+    width: 100%;
+  }
+
+  .formalign button {
+    width: 100%;
+  }
+
+  .conform {
+    padding: 0 0 50px;
+  }
+}

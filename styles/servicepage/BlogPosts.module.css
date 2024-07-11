@@ -1,0 +1,92 @@
+/*================= Read Sec Start */
+
+.readSec {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.readSec h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.readSec .card {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    border: 0;
+}
+
+.readSec .cardContent {
+    padding: 0 25px 25px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.readSec .cardContent p:first-of-type {
+    color: #F32F53;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    padding-top: 24px;
+}
+
+.readSec .cardContent h5 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+}
+
+.readSec .cardContent p:last-of-type {
+    font-size: 14px;
+    line-height: 25px;
+    padding-right: 10px;
+    margin-bottom: 0;
+}
+
+.readSec .cardContent .btn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.readSec .cardContent .btn a {
+    margin-left: auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.readSec .cardBottom {
+    padding: 25px 25px 20px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.readSec .cardBottomImg {
+    width: 30%;
+}
+
+.readSec .cardBottom .cardbottomContent h3 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.readSec .cardBottom .cardbottomContent p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #AEAEAE;
+    margin-bottom: 0;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 991px) {
+    .readSec {
+        padding-top: 0;
+    }
+
+    .readSec .cardBottomImg {
+        width: 13%;
+    }
+}

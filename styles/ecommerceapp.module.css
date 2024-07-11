@@ -1,0 +1,93 @@
+.EcommerceApp {
+  background: #000;
+  position: relative;
+}
+
+.appBox {
+  background: linear-gradient(to bottom, #ed017b 0, #ed1644 100%);
+  border-radius: 50px;
+  padding: 5rem 2rem;
+  position: relative;
+}
+
+.EcommerceApp a:last-child {
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  border-radius: 2px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 2rem;
+  font-size: 14px;
+  color: white;
+  border: 2px solid white;
+}
+
+.EcommerceApp a:first-child {
+  width: max-content;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 0.7rem;
+  white-space: nowrap;
+  display: block;
+  font-size: 14px;
+}
+
+.EcommerceApp a:first-child {
+  background-color: var(--w-color);
+  color: var(--b-color);
+  border: inherit;
+  border-radius: 2px;
+}
+
+.letsTalk::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../public/ecommerce/lets-talk.webp);
+  height: 393px;
+  width: 609px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .letsTalk::before {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .EcommerceApp {
+    background: linear-gradient(to bottom, #ed017b 0, #ed1644 100%);
+    padding: 1rem 0;
+  }
+
+  .appBox {
+    background: linear-gradient(to bottom, #ed017b 0, #ed1644 100%);
+    border-radius: 50px;
+    padding: 2rem 0rem;
+    position: relative;
+  }
+
+  .btns {
+    flex-wrap: wrap;
+  }
+
+  .letsTalk::before {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .EcommerceApp a:last-child {
+    width: 100%;
+  }
+
+  .EcommerceApp a:first-child {
+    width: 100%;
+  }
+}

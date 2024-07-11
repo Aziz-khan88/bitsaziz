@@ -1,0 +1,103 @@
+.tale{
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+
+.post {
+  border: 1px solid #F32F53;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.post img{
+  filter: grayscale(1);
+}
+.post img:hover{
+  filter: unset;
+}
+.super p{
+  max-width:960px;
+}
+.newimg{
+  position: relative;
+}
+.dumpost{
+  position: absolute;
+  top: 0;
+  padding-top: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.dumpost h4, .dumpost p{
+  color: white;
+}
+.dumpost h4{
+  font-weight: 600;
+  font-size: 25px;
+}
+.dumpost p{
+  font-size: 13px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.dumpost a{
+  color: white;
+  font-size: 17px;
+}
+
+
+.dumpost1{
+  position: absolute;
+  top: 0;
+  padding-top: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.dumpost1 h4, .dumpost1 p{
+  color: black;
+}
+.dumpost1 h4{
+  font-weight: 600;
+  font-size: 25px;
+}
+.dumpost1 p{
+  font-size: 13px;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.dumpost1 a{
+  color: black;
+  font-size: 17px;
+}
+@media screen and (min-width: 1400px) { 
+
+  .super p{
+    max-width:1150px;
+  }
+
+}
+@media screen and (max-width: 991px) {
+
+  .startup1 div{
+    margin: 2px;
+  }
+
+  .tale{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+ }
+@media screen and (max-width: 767px) {
+  .tale{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+ }

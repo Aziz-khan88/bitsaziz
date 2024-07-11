@@ -1,0 +1,163 @@
+.successfulSec {
+    padding: 80px 0;
+}
+
+.successfulSec h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.content {
+    overflow-y: hidden;
+    border-top: 1px solid #cecece;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+.content h3 {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.successfulSlider {
+    border-top: 1px solid #cecece;
+    padding-top: 25px;
+}
+
+.cardBtn a {
+    background: #F32F53;
+    border-radius: 6px;
+    width: 237px;
+    height: 45px;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 20px 5px #00000040;
+    margin: 20px 0 30px;
+}
+
+.card {
+    position: relative;
+    margin: 0 10px;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #CBCBCB;
+}
+
+.card .imageOne {
+    overflow: hidden;
+    border-radius: 13px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card .imageOne img {
+    object-fit: cover;
+    object-position: top;
+    transition: all 0.5s ease;
+    height: 100%;
+    transform: translateY(0px);
+    border-radius: 15px;
+}
+
+.card:hover .imageOne {
+    transition: all 0.5s ease-in-out;
+    /* height: 590px; */
+}
+
+.card:hover .imageOne img {
+    transform: translateY(-30px);
+    transition: all 0.5s ease;
+}
+
+.card:hover .hoverTxt {
+    max-height: max-content;
+    transition: all 0.4s ease;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.card:hover .content {
+    margin-top: 0px;
+    transition: all 0.5s ease;
+}
+
+.hoverTxt {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(95px);
+    transition: all 0.4s ease;
+}
+
+.sliderNumber p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.slider {
+    width: 80%;
+    margin: auto;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background: transparent;
+    position: relative;
+    margin-top: 20px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.progressBar {
+    height: 100%;
+    background: #CBCBCB;
+    transition: width 0.3s;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+    .content p {
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .successfulSec h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .successfulSec {
+        padding: 50px 0;
+    }
+
+    .successfulSec h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,122 @@
+.mainPopUp {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  z-index: 99999999;
+  width: 100%;
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.popup {
+  background: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 25px 40px;
+  height: 100px;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup h3 {
+  font-size: 25px;
+}
+
+.popup img {
+  margin: 0 auto;
+  display: block;
+}
+
+.popupBtn {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border: 2px solid white;
+  padding: 6px 12px;
+  width: 140px;
+  border-radius: 9px;
+  margin: -12px auto 0;
+  display: block;
+}
+
+.closeBtn {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  filter: brightness(0) invert(1);
+}
+
+.popBtn {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .popup {
+    max-width: 70%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .popup {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .popup {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .popup {
+    height: 259px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 51px 10px;
+  }
+
+  .popup img {
+    margin-top: 8px;
+  }
+
+  .popup p {
+    margin-top: 10px;
+  }
+
+  .popupBtn {
+    margin: 12px auto 0;
+  }
+
+  .closeBtn {
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    filter: brightness(0) invert(1);
+  }
+}

@@ -1,0 +1,104 @@
+.discussSec {
+    padding: 90px 0;
+    overflow-x: hidden;
+}
+
+.discussSec h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.form form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 260px;
+    height: 45px;
+    border: 2px solid #CECECE;
+    border-radius: 6px;
+    padding: 0 10px;
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.form input::placeholder {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.form button {
+    width: 260px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    border-radius: 6px;
+    background: #F32F53;
+    color: white;
+    border: 0;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+    .form form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .form form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .discussSec {
+        padding: 60px 0;
+    }
+
+    .discussSec h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .form input {
+        width: 335px;
+    }
+
+    .form button {
+        width: 335px;
+    }
+
+    .form form {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .discussSec h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .form .mainDiv {
+        width: 100%;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .form button {
+        width: 100%;
+    }
+}

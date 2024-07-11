@@ -1,0 +1,125 @@
+.whyChoose {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.feature {
+  padding: 30px;
+  margin: 20px auto;
+}
+
+.feature {
+  background-image: url(../../public/blockchain/images/why.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 166px;
+  width: 165px;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature p {
+  text-align: center;
+  color: #676767;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.gap2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature:hover {
+  background-image: url(../../public/blockchain/images/whyh.png);
+}
+
+.feature:hover span {
+  color: var(--mry);
+}
+
+.br1 {
+  border-right: 1px solid #f32f5a;
+}
+
+.bb1 {
+  border-bottom: 1px solid #f32f5a;
+}
+
+.feature:hover img {
+  -webkit-animation: flip 0.5s linear;
+  perspective: 0px;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes flip {
+  from {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes flip {
+  from {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+}
+
+@media (max-width: 1028px) {
+  .br1,
+  .bb1 {
+    border: none;
+  }
+
+  img.img-fluid {
+    display: inline !important;
+  }
+
+  .feature {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .whyChoose {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .feature {
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+  }
+
+  .feature p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .whyChoose {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .feature {
+    margin-top: 20px;
+  }
+}

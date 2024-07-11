@@ -1,0 +1,40 @@
+.yearsofexpertise {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+}
+
+.yearsofexpertise .allbest h4 {
+  text-align: center;
+}
+
+.yearsofexpertise .allbest h3 {
+  text-align: center;
+}
+
+.yearsofexpertise .allbest p {
+  text-align: center;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .desk {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .allbest h4 {
+    line-height: 1.3;
+  }
+  .yearsofexpertise {
+    margin-top: -1%;
+  }
+}

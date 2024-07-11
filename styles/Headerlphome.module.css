@@ -1,0 +1,319 @@
+.bannerhome {
+  background-color: black;
+  background: #000;
+  background-image: url(../public//images/lpheader/banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.xolpost h1 {
+  font-size: 45px;
+  color: white;
+}
+
+.xolpost h4 {
+  font-size: 21px;
+  color: white;
+  margin-top: 60px;
+}
+
+.xolpost p {
+  color: white;
+}
+
+.piza input {
+  height: 50px;
+  border: 1px solid #f32f53;
+  background-color: unset;
+  border-radius: 50px;
+  color: white;
+}
+
+.piza input::placeholder {
+  color: white;
+  font-size: 11px;
+}
+
+.piza input:focus,
+.piza textarea:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.piza textarea {
+  height: 50px;
+  border: 1px solid #f32f53;
+  background-color: unset;
+  border-radius: 50px;
+  color: white;
+  padding-top: 16px;
+}
+
+.piza textarea::placeholder {
+  color: white;
+  font-size: 11px;
+}
+
+.piza button {
+  background-color: #f52674;
+  width: 100%;
+  height: 80%;
+  border: unset;
+  border-radius: 50px;
+  color: white;
+  font-weight: 500;
+  display: block;
+  font-size: 13px;
+}
+
+.newtown h2 {
+  font-size: 39px;
+  color: white;
+}
+
+.newtown {
+  border-radius: 30px;
+  border: 2px solid white;
+  padding: 4%;
+  background-color: #0000002e;
+}
+
+.trustedsocial h3 {
+  font-size: 14px;
+}
+
+.trustedsocial {
+  display: flex;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-content: space-around;
+  border-radius: 50px;
+  padding: 10px 21px;
+  align-items: center;
+  gap: 30px;
+  height: 50px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons img {
+  width: 20px;
+  height: auto;
+  object-fit: contain;
+}
+
+.star img {
+  width: 70px;
+}
+
+.textcenter {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 5%;
+}
+
+.toasNotification {
+  position: absolute;
+  background-color: #f52674;
+  border-radius: 50px;
+  padding: 4px;
+  right: 0;
+  color: #fff;
+}
+
+.positionrelative {
+  position: relative;
+  display: flex;
+  justify-content: unset;
+  align-items: center;
+}
+
+.package {
+  font-size: 10px;
+}
+
+.ToastOpen {
+  background-color: white;
+  width: 100px;
+  height: 37px;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.innerborder {
+  background-color: #b80045;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  border-radius: 50px;
+  padding: 3px;
+  border: 1px solid #edc0d1;
+}
+
+.package {
+  padding-left: 10px;
+}
+
+.innerborder a {
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.innerborder span {
+  font-size: 10px;
+}
+
+.textth {
+  color: #fbc725;
+}
+
+.trust h3 {
+  position: relative;
+}
+
+.trust h3::after {
+  position: absolute;
+  content: "";
+  background-color: #bec4da;
+  width: 2px;
+  height: 33px;
+  margin-left: 14%;
+  top: -9px;
+}
+
+.icons {
+  position: relative;
+}
+
+.icons::after {
+  position: absolute;
+  content: "";
+  background-color: #bec4da;
+  width: 2px;
+  height: 33px;
+  top: -6px;
+  right: -15px;
+}
+
+.newpond li img {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.newpond {
+  position: fixed;
+  margin: 0;
+  z-index: 99;
+  left: 0;
+}
+
+.newpond li {
+  margin-bottom: -6px;
+  margin-top: 59%;
+  cursor: pointer;
+  z-index: 1;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #3a3a3a;
+}
+
+.bannerhome .new {
+  background-color: #ff3067;
+  border: 1px solid #ff3067;
+}
+
+@media screen and (max-width: 991px) {
+  .piza button {
+    height: 50px;
+    margin-bottom: 4%;
+  }
+
+  .newtown {
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 4%;
+    background-color: #0000002e;
+    margin-bottom: 6%;
+  }
+
+  .newtown h2 {
+    text-align: center;
+  }
+
+  .bannerhome {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .toasNotification {
+    display: none;
+  }
+
+  .newpond {
+    position: fixed;
+    margin: 0;
+    z-index: 99;
+    left: 0;
+    display: none;
+  }
+
+  .xolpost h1 {
+    font-size: 32px;
+  }
+
+  .xolpost h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .foldp {
+    min-width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  .positionrelative {
+    flex-direction: column;
+  }
+
+  .toasNotification {
+    position: unset;
+    display: none;
+  }
+
+  .innerborder {
+    flex-direction: column;
+  }
+
+  .innerborder a {
+    padding-left: 25px;
+    text-transform: capitalize;
+  }
+  .trust h3::after {
+    display: none;
+  }
+  .icons::after {
+    display: none;
+  }
+}

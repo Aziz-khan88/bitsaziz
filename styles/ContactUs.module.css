@@ -1,0 +1,246 @@
+.bannerContact {
+  padding: 50px 0;
+  background-image: url(../public/images/banner/contactbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  font-family: "Montserrat";
+  background-color: #000;
+}
+
+.contactCard {
+  background-color: #000;
+  opacity: 0.9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px 30px;
+}
+
+.locTxt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.locBtn {
+  border: 2px solid #707070;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.locSlider {
+  width: 100%;
+}
+
+.bannerContact input {
+  background-color: transparent;
+  height: 50px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: unset;
+  margin-bottom: 2%;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #f32f53;
+}
+
+.bannerContact textarea {
+  background-color: transparent;
+  height: 100px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: unset;
+  margin-bottom: 2%;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #f32f53;
+  resize: none;
+}
+
+.bannerContact input.cnFoFill {
+  background-color: transparent;
+  border-bottom: 0;
+  padding-left: 0;
+}
+
+.bannerContact ::placeholder {
+  color: #ababab;
+  letter-spacing: 1px;
+}
+
+.socialicons {
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialicons a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: #fff;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+}
+
+.bttns1 {
+  background-color: #f32f53;
+  width: 250px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.line1,
+.line2,
+.line3 {
+  position: relative;
+  z-index: 1;
+}
+
+.line1::before {
+  content: "USA";
+  position: absolute;
+  left: 24%;
+  top: -78px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.line2::before {
+  content: "Middle East";
+  position: absolute;
+  left: 46%;
+  top: -78px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.line3::before {
+  content: "ASIA";
+  position: absolute;
+  left: 72.5%;
+  top: -78px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.line1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #707070;
+  color: #707070;
+  left: 0;
+  top: -25px;
+}
+
+.notic {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.locImg {
+  text-align: center;
+}
+
+.asiaImg img {
+  width: 60%;
+}
+
+/* ============================= */
+
+.tabsBtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.tabsBtn {
+  height: 45px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #f32f53;
+  cursor: pointer;
+}
+
+.tabsBtn:hover,
+.active {
+  background-color: #f32f53;
+}
+
+/* ============================= */
+
+@media screen and (max-width: 991px) {
+  .bannerContact {
+    background-image: unset;
+  }
+
+  .contactCard {
+    background-color: #000;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bannerContact {
+    padding: 25px 0 0;
+  }
+
+  .contactCard {
+    padding: 120px 20px 10px;
+  }
+
+  .bttns1 {
+    width: 100%;
+  }
+
+  .locSlider {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .notic {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  .tabsBtn {
+    font-size: 13px;
+  }
+}

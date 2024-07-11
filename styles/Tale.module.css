@@ -1,0 +1,50 @@
+.tale{
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.tale p{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.post {
+  border: 1px solid #F32F53;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.post img{
+  filter: grayscale(1);
+}
+.post img:hover{
+  filter: unset;
+}
+
+@media screen and (max-width: 991px) {
+  .tale{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+ }
+@media screen and (max-width: 767px) {
+
+
+  .tale{
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+ }
+ @media screen and (max-width: 480px) {
+
+  .startup1 div{
+    margin: 1%;
+  }
+ 
+
+ }

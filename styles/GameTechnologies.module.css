@@ -1,0 +1,71 @@
+.tech {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.work {
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 76px;
+}
+
+.newyork {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  flex-wrap: wrap;
+  gap: 50px 160px;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 76px;
+}
+
+.newyork p {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.newyork div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .newyork {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px 45px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .work {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .tech {
+    padding: 0 0 50px ;
+  }
+
+  .work {
+    padding-bottom: 0px;
+  }
+
+  .newyork {
+    padding-top: 50px;
+  }
+}

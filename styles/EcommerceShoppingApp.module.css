@@ -1,0 +1,10 @@
+.shoppingApp {
+  padding: 0 0 130px;
+  background: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .shoppingApp {
+    padding: 0 0 50px;
+  }
+}

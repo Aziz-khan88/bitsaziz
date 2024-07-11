@@ -1,0 +1,86 @@
+.newHomeBg {
+  background: #000;
+  padding-bottom: 200px;
+}
+
+.newHomeBg {
+  background-image: url(../public/newHomePageImages/banner-bg.png);
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.secImagebg {
+  margin-top: -95px;
+}
+
+.wid {
+  max-width: 702px;
+  margin-left: auto;
+  line-height: 40px;
+  font-size: 35px;
+}
+
+.width {
+  color: white;
+  max-width: 690px;
+  margin-left: auto;
+}
+
+.text_content {
+  text-align: end;
+}
+
+.sec_btn {
+  text-align: end;
+}
+
+.btn_txt {
+  background: linear-gradient(to right, #f32f53 0%, #4a78ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+
+.btn_txt span {
+  margin-left: 17px;
+}
+
+.secImage {
+  position: relative;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 1399px) {
+  .secImage {
+    margin-top: 4%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .secImage {
+    width: 100%;
+    object-fit: contain;
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .secImage {
+    width: 100%;
+    max-height: 220px;
+  }
+
+  .wid {
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .btn_txt {
+    font-size: 19px;
+  }
+
+  .newHomeBg {
+    padding-bottom: 100px;
+  }
+}

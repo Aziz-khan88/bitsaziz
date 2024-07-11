@@ -1,0 +1,28 @@
+.error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.btn404 {
+  border: 0;
+  padding: 12px 30px;
+  border-radius: 0;
+  background-color: black;
+  color: #fff;
+  text-decoration: unset;
+  margin-left: 4px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.btn404:hover {
+  background-color: #223235;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .btn404 {
+    display: block;
+    margin-bottom: 2%;
+  }
+}

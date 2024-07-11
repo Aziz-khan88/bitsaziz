@@ -1,0 +1,105 @@
+.still {
+  background-color: #000;
+  margin-top: -250px;
+}
+
+.start {
+  position: relative;
+}
+
+.gulop {
+  background-color: #f32f53;
+  position: relative;
+  top: -100px;
+  border-radius: 25px;
+  padding: 30px 0;
+}
+
+.startproject {
+  position: absolute;
+  right: unset;
+  bottom: 0;
+  top: -110px;
+}
+
+.gulop h3 {
+  color: #fff;
+  font-size: 23px;
+}
+
+.gulop h4 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.number {
+  width: 208px;
+  height: 43px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: black;
+  border-radius: 10px;
+}
+
+.live {
+  width: 136px;
+  height: 43px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.home {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .startproject {
+    position: unset;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  .gulop h4 {
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) { 
+
+  .gulop {
+    top: 0px;
+  }
+  .still {
+    background-color: #000;
+    margin-top: 0px;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .number,
+  .live {
+    width: 100%;
+  }
+
+  .home {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+}

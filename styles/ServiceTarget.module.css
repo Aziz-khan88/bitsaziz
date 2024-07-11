@@ -1,0 +1,130 @@
+.tesla {
+  background-color: black;
+  background: #000;
+  background-image: url(../public/3d-game-development/images/target-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.gameApp {
+  background-image: url(../public/newHomePageImages/hero.png);
+}
+
+.after {
+  margin-bottom: 3%;
+}
+
+.after h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #eb335b;
+  text-align: center;
+}
+
+.after h2 {
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.after p {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.desigh h3 {
+  font-size: 27px;
+  color: white;
+  font-weight: bold;
+}
+
+.desigh p {
+  font-size: 13px;
+  line-height: 20px;
+  color: white;
+}
+
+.desigh {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  height: auto;
+  width: 100%;
+  border-color: #eb335b;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom: 0px;
+  position: relative;
+}
+
+.desigh a {
+  background: #eb335b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.desigh a img {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1700px) {
+  .tesla {
+    padding-bottom: 350px;
+  }
+
+  .gameApp {
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .tesla {
+    background-image: unset;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .after h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tesla {
+    padding-bottom: 0px;
+  }
+
+  .after h2 {
+    font-size: 30px;
+  }
+
+  .desigh h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .after h2 {
+    font-size: 30px;
+  }
+
+  .after h3 {
+    font-size: 15px;
+  }
+
+  .desigh h3 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+  }
+}

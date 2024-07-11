@@ -1,0 +1,149 @@
+.fuelingSec {
+    padding: 90px 0;
+    background-image: url(../../public/services/fuelingSec.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fuelingSec .txt {
+    position: sticky;
+    top: 20px;
+}
+
+.fuelingSec h2 {
+    font-size: 40px;
+    line-height: 55px;
+    color: #fff;
+}
+
+.fuelingSec p {
+    color: #fff
+}
+
+.fuelingSec .ideaPart {
+    background: linear-gradient(to bottom left, #f32f53, #f32fc2, #4a78ef);
+    display: flex;
+    align-items: center;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.fuelingSec .ideaPart .content {
+    padding: 20px;
+    width: 410px;
+}
+
+.fuelingSec .ideaPart .content h3 {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.fuelingSec .secBtn a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0 20px;
+    width: -moz-max-content;
+    width: max-content;
+    height: 45px;
+    border-radius: 6px;
+    background: #f32f53;
+    box-shadow: 0px 5px 20px 5px #00000040;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out 0.4s;
+    margin-top: 40px;
+}
+
+.fuelingSec .ideaPart .image {
+    margin-top: -45px;
+}
+
+.fuelingSec .fuelingItems {
+    padding-left: 120px;
+}
+
+.fuelingSec .fuelingItems li h3 {
+    font-size: 20px;
+    line-height: 27px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+
+.fuelingSec .fuelingItems li h3::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+}
+
+.bgcolor_black {}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1299px) {
+    .fuelingSec .fuelingItems {
+        padding-left: 50px;
+    }
+
+    .fuelingSec .ideaPart .content {
+        width: 430px;
+    }
+
+    .fuelingSec .ideaPart {
+        height: 225px;
+    }
+
+    .fuelingSec .ideaPart .content h3 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .fuelingSec .ideaPart .image {
+        margin-top: -70px;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .fuelingSec h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .fuelingSec .ideaPart .content {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .fuelingSec .fuelingItems {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .fuelingSec {
+        padding: 50px 0;
+    }
+
+    .fuelingSec h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .fuelingSec .ideaPart {
+        height: 180px;
+    }
+}

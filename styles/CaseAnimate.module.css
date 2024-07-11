@@ -1,0 +1,28 @@
+.animate {
+  background-color: #000;
+  padding: 120px 0 80px;
+}
+
+.imgBox {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .animate {
+    padding: 0 0 80px;
+  }
+
+  .secImg {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .secImg2 {
+    margin-top: 0px;
+  }
+
+  .animate {
+    padding: 0 0 50px;
+  }
+}

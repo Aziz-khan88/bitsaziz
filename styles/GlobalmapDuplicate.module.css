@@ -1,0 +1,128 @@
+.mapGlobal {
+    background-color: #f3f3f3;
+    margin: 0px 0 10px;
+    position: relative;
+    height: 67vh;
+}
+
+.newtimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+.newtimg h3 {
+    color: #f32f53;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.newtimg .address {
+    color: black;
+    font-size: 25px;
+    font-family: "SF-Pro-Display";
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timr {
+    width: 220px;
+    height: 45px;
+    background-color: #f32f53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.num {
+    color: #f32f53;
+}
+
+@media only screen and (max-width: 1920px) {
+    .mapGlobal {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .map {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .map {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .newtimg {
+        background-color: #f3f3f3;
+        height: auto;
+        margin-top: unset;
+        margin-bottom: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .newtimg h3 {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .newtimg h4 {
+        font-size: 24px;
+        width: 80%;
+    }
+
+    .mapGlobal {
+        margin: 25px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .newtimg {
+        padding: 30px 0;
+    }
+
+    .newtimg h3 {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .newtimg h4 {
+        font-size: 24px;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 567px) {
+    .newtimg h3 {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+
+    .newtimg .address {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 0;
+    }
+}

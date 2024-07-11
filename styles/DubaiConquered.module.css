@@ -1,0 +1,131 @@
+.conqueredSec {
+  padding: 80px 0;
+}
+
+.conqueredSec h2 {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.conqueredSec p {
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  color: black;
+}
+
+.mainCardDiv {
+  position: relative;
+}
+
+.mainCardDiv:hover .cardHover {
+  opacity: 1;
+  transition: ease-in-out 0.4s all;
+  transform: translateY(0%);
+}
+
+.cardHover {
+  background: #f32f53;
+  padding: 30px 24px;
+  border-radius: 35px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 400px;
+  transform: translateY(104%);
+  transition: ease-in-out 0.4s all;
+}
+
+.cardHover h5 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: white;
+}
+
+.cardHover p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card img {
+  height: 384px;
+}
+
+.lastImg {
+  border-radius: 35px;
+}
+
+/* Media Query start */
+@media only screen and (max-width: 1399px) {
+  .cardHover {
+    background: #f32f53;
+    padding: 20px 15px;
+    border-radius: 30px;
+    width: 100%;
+    min-height: 340px;
+  }
+
+  .cardHover p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .conqueredSec h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .conqueredSec p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .conqueredSec {
+    padding: 60px 0 60px;
+  }
+
+  .conqueredSec h2 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .conqueredSec p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .cardHover {
+    width: 90%;
+  }
+}

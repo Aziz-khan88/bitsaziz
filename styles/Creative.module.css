@@ -1,0 +1,116 @@
+.toge {
+  margin-top: -100px;
+}
+
+.newHomeBg {
+  padding-top: 100px;
+  background-color: black;
+}
+
+.flip img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -80px;
+}
+
+.flip {
+  position: relative;
+}
+
+.posting {
+  position: relative;
+  top: -120px;
+}
+
+.btncall {
+  text-align: center;
+  position: absolute;
+  bottom: unset;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  gap: 11px;
+  margin-top: 105px;
+}
+
+.btncall h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f32f53;
+}
+
+.call {
+  width: 245px;
+  display: flex;
+  margin: 0 auto;
+  height: 46px;
+  border: 3px solid #f32f53;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #261d4a;
+  font-weight: 700;
+}
+
+.chat {
+  width: 145px;
+  display: flex;
+  margin: 0 auto;
+  height: 46px;
+  border: 3px solid #f32f53;
+  background-color: #f32f53;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1400px) {
+  .newHomeBg {
+    padding-top: 150px;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .newHomeBg {
+    padding-top: 230px;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .btncall h4 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btncall {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.toge h2{
+  color: white;
+}
+  .posting {
+    top: 0px;
+    padding-top: 100px;
+}
+
+  .flip img {
+    position: unset;
+    display: none;
+  }
+  .call {
+    color: #ffffff;
+  }
+  .btncall {
+    margin-top: unset;
+  }
+}

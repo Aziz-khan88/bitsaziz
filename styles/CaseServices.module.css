@@ -1,0 +1,101 @@
+.services {
+  padding: 80px 0;
+  background: #000;
+  background-image: url(../public/images/case-studies/bg-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.services h3 {
+  line-height: 60px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.services h3 span {
+  color: #f32f53;
+}
+
+.services p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.services p img {
+  margin-top: 5px;
+}
+
+.servImg {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 28px;
+}
+
+/* ========================================== */
+
+@media screen and (max-width: 1399px) {
+  .servImg {
+    gap: 25px;
+  }
+
+  .servImg img {
+    width: 18%;
+  }
+
+  .servImg .serImg3 {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .services {
+    padding: 0 0 80px;
+    background-image: none;
+  }
+
+  .services h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .servImg {
+    flex-wrap: wrap;
+  }
+
+  .servImg img {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* ========================================== */
+
+@media screen and (max-width: 767px) {
+  .services {
+    padding: 0 0 50px;
+  }
+
+  .services h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .services p {
+    align-items: flex-start;
+  }
+
+  .services img {
+    margin-top: 6px;
+  }
+}

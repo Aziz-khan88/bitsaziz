@@ -1,0 +1,280 @@
+.bannerSec {
+    padding: 190px 0 100px;
+    background: url(../../public/videoexplainer/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -77px;
+}
+
+.bannerSec h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.bannerSec p {
+    color: #fff;
+    padding: 25px 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.bannerSec ul {
+    padding-left: 0;
+}
+
+.bannerSec ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.bannerSec ul li span {
+    font-family: "Montserrat";
+}
+
+.btn {
+    padding: 10px 30px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    transition-duration: .6s;
+    text-transform: uppercase;
+    font-family: "poppins", sans-serif;
+    border-radius: 5px;
+    background: #f6c501;
+}
+
+.spanOne {
+    color: #ffcb05;
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.spanTwo {
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.form {
+    margin: 0 75px 0 0px;
+    background: #003465;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0 0;
+    position: relative;
+    border: 6px solid #fff;
+    z-index: 1;
+}
+
+.form h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-family: "montserrat", sans-serif;
+}
+
+.form h3 strong {
+    font-size: 30px;
+    margin-left: 2rem;
+    font-weight: 900;
+    color: #f6c501;
+    font-family: "montserrat", sans-serif;
+}
+
+.form .txt {
+    position: relative;
+    padding: 10px 20px 0px;
+}
+
+.formFeilds {
+    padding: 5px 20px 30px;
+}
+
+.form .formFeilds input {
+    width: 100%;
+    margin-top: 10px !important;
+    padding: 13px 8px !important;
+    box-shadow: 0 0 0 0 transparent;
+    font-family: "poppins", sans-serif;
+    border: 0;
+    border-radius: 1px;
+    background: #f1f0f0;
+}
+
+.form .formFeilds textarea {
+    width: 100%;
+    margin-top: 10px !important;
+    padding: 13px 8px !important;
+    box-shadow: 0 0 0 0 transparent;
+    border: 0;
+    border-radius: 1px;
+    background: #f1f0f0;
+    font-family: "poppins", sans-serif;
+}
+
+.form .formFeilds button {
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #231f20;
+    padding: 13px 0;
+    border: 2px solid transparent;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px !important;
+    padding: 13px 8px !important;
+    box-shadow: 0 0 0 0 transparent;
+    font-family: "poppins", sans-serif;
+}
+
+.discountbg {
+    position: absolute;
+    right: 12px;
+    top: -7px;
+}
+
+.headingParticle {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: -29px;
+    font-size: 13px;
+    transform: rotate(-16deg);
+    font-weight: 700;
+    right: -58px;
+    text-align: right;
+    text-transform: uppercase;
+    left: 0;
+    margin: auto;
+    font-family: "Montserrat";
+}
+
+.discountbg h4 {
+    margin: 0;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    top: -8px;
+    font-size: 30px;
+    font-weight: 700;
+    right: -32px;
+    transform: rotate(-18deg);
+    font-family: "Montserrat";
+}
+
+.discountbg h5 {
+    margin: 0;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    top: -13px;
+    font-size: 11px;
+    font-weight: 700;
+    right: -42px;
+    transform: rotate(-18deg);
+    font-family: "Montserrat";
+}
+
+.headingParticle::before {
+    background-image: url(../../public/videoexplainer/form-line-img.png);
+    content: '';
+    width: 135px;
+    height: 52px;
+    position: absolute;
+    top: -18px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: rotate(9deg);
+    left: 0;
+    right: 0;
+}
+
+.discountbg::before {
+    background-image: url(../../public/videoexplainer/dis-form.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -51px;
+    top: -10px;
+    content: '';
+    width: 101px;
+    height: 83px;
+    z-index: 0;
+    animation: popup .5s infinite ease-in-out alternate;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 1099px) {
+    .form {
+        margin: 0 0px 0 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .form {
+        margin: 55px 0px 0 0px;
+    }
+
+    .bannerSec {
+        padding: 140px 0 100px;
+    }
+
+    .form h3 strong {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .discountbg {
+        display: none;
+    }
+
+    .bannerSec h1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+    .bannerSec p {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 10px 15px;
+    }
+
+    .bannerSec .value {
+        justify-content: center;
+        gap: 10px;
+    }
+}

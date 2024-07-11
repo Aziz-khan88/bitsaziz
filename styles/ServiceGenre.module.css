@@ -1,0 +1,223 @@
+.ourserve {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.ourserve p {
+  color: #f32f53;
+  line-height: 2px;
+}
+
+.which h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ourserve {
+  background-color: black;
+}
+
+.play h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.play p {
+  font-size: 15px;
+  color: white;
+  padding-right: 10px;
+  line-height: 20px !important;
+}
+
+.bod {
+  /* height: 610px; */
+  position: relative;
+  padding: 20px 20px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bod::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  padding: 2px;
+  background: linear-gradient(
+    358deg,
+    #f32f53,
+    #f32fc2,
+    #4a78ef,
+    #4a78ef,
+    #4a78ef45,
+    #fff0,
+    #fff0
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.bod img {
+  height: 250px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.gameApp .bod img {
+  width: 200px;
+  height: 250px;
+}
+
+.game3d .bod img {
+  width: 120px;
+  height: 180px;
+}
+
+.gameNft .bod img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.bod p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+  overflow: auto;
+  height: 100px;
+  z-index: 999;
+  position: relative;
+}
+
+.play a {
+  width: 65%;
+  margin: 0 auto;
+  height: 45px;
+  background: #f32f53;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 999;
+  position: relative;
+}
+
+.gameApp .which {
+  position: relative;
+}
+
+.gameApp .which::after {
+  position: absolute;
+  content: "";
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 383px;
+  height: 418px;
+  top: -53px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .ourserve {
+    background-color: black;
+    padding-bottom: 50px;
+  }
+
+  .play a {
+    width: 50%;
+  }
+
+  .bod {
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .gameApp .which::after {
+    display: none;
+  }
+
+  .which h3 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .ourserve {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .gameApp {
+    padding-bottom: 100px;
+  }
+
+  .bod p {
+    margin-bottom: 35px;
+    height: 65px;
+  }
+
+  .play a {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ourserve {
+    padding-bottom: 0px;
+  }
+
+  .which h2 {
+    font-size: 30px;
+  }
+
+  .which h3 {
+    font-size: 18px;
+  }
+
+  .play h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .bod p {
+    margin-bottom: 25px;
+    height: 85px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .which p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .which h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .play h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .ourserve p {
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,308 @@
+.appSec {
+    padding: 80px 0 0;
+    height: 95vh;
+    position: relative;
+    background: #fff;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.appSec h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+.appSec h2 span {
+    color: #F32F53;
+}
+
+.appSec .txt p {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 33px;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+}
+
+.cardsMain {
+    position: relative;
+}
+
+.appSec .card {
+    padding: 33px 17px;
+    background-image: url(../../public/newmobileapp/journey-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+}
+
+.cardTwo {
+    background-image: url(../../public/newmobileapp/journey-bg2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 108% 250%;
+    transition: all 0.4s ease-in-out;
+    padding: 50px 17px;
+    animation: shake 0.5s ease infinite;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    50% {
+        transform: rotate(-1deg);
+    }
+
+    75% {
+        transform: rotate(1deg);
+    }
+
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+.appSec .cardTwo p {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    opacity: 0.9;
+    margin: 0 30px 0px;
+}
+
+.appSec .card p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: black;
+    opacity: 0.9;
+    margin: 0 30px 22px;
+}
+
+.smallBanner {
+    background: #fff;
+    z-index: 99;
+    position: relative;
+    padding: 0px 0 150px;
+}
+
+.bannerWrapper {
+    background: linear-gradient(to right, #4A78EF, #F32FC2, #F32F53);
+    padding: 50px 35px;
+    border-radius: 22px;
+}
+
+.smallBanner h2 {
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    color: white;
+}
+
+.btn a {
+    width: 245px;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0 5px 12px #00000075;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 6px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.secImage {
+    position: absolute;
+    top: -30px;
+    width: 43%;
+}
+
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1920px) {
+    .appSec {
+        height: 85vh;
+    }
+
+    .secImage {
+        width: 34%;
+        top: -80px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+
+    .appSec {
+        height: 95vh;
+    }
+
+    .secImage {
+        width: 42%;
+        top: -81px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .secImage {
+        top: -50px;
+    }
+
+    .appSec .card p {
+        font-size: 16px;
+    }
+
+    .appSec .card {
+        padding: 21px 17px;
+    }
+
+    .cardTwo {
+        padding: 40px 22px;
+    }
+
+    .appSec .cardTwo p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .appSec {
+        height: 100vh;
+    }
+
+    .secImage {
+        width: 45%;
+        top: -35px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .secImage {
+        top: 102px;
+    }
+
+    .appSec .card {
+        padding: 40px 17px;
+    }
+
+    .appSec .card p {
+        margin: 0 58px 22px;
+    }
+
+    .appSec .cardTwo p {
+        margin: 0 70px 0px;
+    }
+
+    .appSec .cardFive {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .appSec {
+        padding: 50px 0;
+        height: 120vh;
+    }
+
+    .smallBanner {
+        padding: 50px 0 50px;
+    }
+
+    .appSec h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .appSec .card p {
+        font-size: 22px;
+        padding-right: 136px;
+    }
+
+    .appSec .card {
+        padding: 75px 17px;
+    }
+
+    .cardTwo {
+        padding: 90px 60px;
+        position: inherit;
+    }
+
+    .appSec .cardFive {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .appSec {
+        padding: 0px 0 50px;
+        height: 130vh;
+    }
+
+    .smallBanner {
+        padding: 0px 0px 50px;
+    }
+
+    .appSec h2 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .smallBanner h2 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .bannerWrapper {
+        padding: 26px 16px;
+    }
+
+    .appSec .card {
+        padding: 33px 17px;
+    }
+
+    .cardTwo {
+        padding: 35px 20px !important;
+    }
+
+    .appSec .card p {
+        margin: 0 30px 12px;
+        font-size: 16px;
+        padding-right: 0px;
+    }
+
+
+    .appSec .cardTwo p {
+        margin: 0 22px 0px;
+    }
+
+    .btn a {
+        margin: 20px auto 0;
+    }
+}

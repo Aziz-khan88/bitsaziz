@@ -1,0 +1,105 @@
+.hook {
+  background-color: black;
+  padding-bottom: 350px;
+  position: relative;
+}
+
+.hook a {
+  width: 207px;
+  height: 57px;
+  background-color: #f32f53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 18px;
+  box-shadow: rgb(235 51 91 / 43%) 0px 7px 29px 0px;
+  font-weight: 600;
+}
+
+.jis {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.jis a:hover {
+  background-color: #f32f53;
+  color: white;
+}
+
+.nomad::after {
+  position: absolute;
+  background-image: url(../public/images/projectprocess/done.png);
+  bottom: 0;
+  height: 16%;
+  content: "";
+  background-position: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1900px) {
+  .hook {
+    background-color: black;
+    padding-bottom: 565px;
+    position: relative;
+  }
+
+  .nomad::after {
+    position: absolute;
+    background-image: url(../public/images/projectprocess/done.png);
+    bottom: -1px;
+    height: 35%;
+    content: "";
+    background-position: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hook {
+    background-color: black;
+    padding-bottom: 565px;
+    position: relative;
+  }
+
+  .nomad::after {
+    position: absolute;
+    background-image: url(../public/images/projectprocess/done.png);
+    bottom: -1px;
+    height: 35%;
+    content: "";
+    background-position: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1200px)  {
+  .nomad::after {
+    background-image: unset;
+
+  }
+  .hook {
+    background-color: black;
+    padding-bottom: 100px;
+
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width: 991px) 
+{ 
+
+}

@@ -1,0 +1,102 @@
+.nothing {
+  background-color: black;
+  padding-top: 100px;
+  padding-top: 125px;
+  padding-bottom: 170px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+
+.nothing1 {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.lp6final {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+  background-image: url(../public/images/nothing/bg.png);
+  background-position: 886px center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-size: 27%;
+}
+.lp6final h2 {
+  color: #f32f53;
+}
+.lp6final .btnpost {
+  border-radius: unset;
+}
+
+.btnpost {
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.startSlide {
+  position: relative;
+}
+
+.startSlide::before {
+  position: absolute;
+  content: "";
+  background-color: #707070;
+  width: 70%;
+  height: 2px;
+  left: 0;
+  bottom: -15px;
+}
+
+@media screen and (min-width: 1400px) {
+  .nothing1 {
+    background-position: 953px center;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .nothing1 {
+    background-position: 1153px center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nothing1 {
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+
+  .nothing,
+  .nothing1,
+  .lp6final {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nothing1 {
+    padding-bottom: 50px;
+  }
+
+  .lp6final {
+    padding: 50px 0;
+  }
+}

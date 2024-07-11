@@ -1,0 +1,85 @@
+.IconText {
+  margin-bottom: 20px;
+}
+.IconText a a {
+  line-height: 1px;
+}
+.IconText {
+  color: var(--white);
+}
+.IconText p a {
+  font-size: 11px;
+}
+.IconText {
+  font-size: 11px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 15px;
+}
+.IconText img {
+  width: 30px;
+}
+
+.widgets ul li {
+  line-height: 30px;
+}
+.widgets ul li a {
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  transition: all 0.5s;
+  line-height: 15px;
+}
+.widgets ul li a:hover {
+  color: var(--mry);
+}
+.widgets ul {
+  margin-bottom: 20px;
+}
+.widgets ul h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 30px;
+}
+.IconText h4:hover {
+  color: var(--mry);
+}
+
+.formControl {
+}
+.social ul {
+  display: flex;
+}
+.social ul li {
+  background: var(--mry);
+}
+.social ul li a {
+  font-size: 28px;
+}
+
+.social ul li {
+  transition: 0.5s all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--mry);
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  padding: 24px;
+  color: #fff;
+  border-radius: 5px;
+}
+.social ul li:hover {
+  border-radius: 10px;
+  background: var(--white);
+  color: var(--dark);
+}
+.copyright {
+  border-top: 1px solid #029f4e;
+}
+.lineheight1 {
+  line-height: 1;
+}

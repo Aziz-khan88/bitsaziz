@@ -1,0 +1,234 @@
+.awardSec {
+  padding: 70px 0;
+}
+
+.awardsHeading {
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.awardSec p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 30px;
+  padding-right: 16px;
+  /* padding-right: 50px; */
+}
+
+.trustPilot {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.trustPilot span {
+  color: #7F7F7F;
+}
+
+.trustPilot .clientsPara {
+  font-size: 17px;
+  color: #7F7F7F;
+  margin-bottom: 0;
+}
+
+.btn a {
+  background: #f32f53;
+  border-radius: 4px;
+  height: 45px;
+  width: 246px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.pageReviews {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.pageReviews p {
+  font-size: 28px !important;
+  font-weight: 400;
+  line-height: 36px;
+  padding-right: 0 !important;
+}
+
+.pageReviews h4 {
+  font-size: 200px;
+  line-height: 185px;
+  font-weight: bold;
+  color: #f32f53;
+}
+
+.pageReviews .reviews {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pageReviews .reviews .icons {
+  color: #ffb800;
+  font-size: 50px;
+}
+
+/* ========================== */
+
+.awardsliderSec {
+  padding-bottom: 60px;
+}
+
+.sliderCards {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 25px 16px;
+}
+
+.sliderTxt h6 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.sliderTxt p {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  opacity: 0.6;
+  padding-right: 0;
+}
+
+.imageDiv {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1399px) {
+  .sliderTxt p {
+    font-size: 12px;
+  }
+
+  .sliderCards {
+    padding: 25px 10px;
+  }
+
+  .awardsHeading {
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 240px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .sliderCards {
+    min-height: 280px;
+    max-height: 300px;
+  }
+
+  .imageDiv {
+    min-height: 130px;
+    max-height: 130px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .awardsHeading {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .awardsHeading {
+    font-size: 32px;
+  }
+
+  .awardSec p {
+    font-size: 13px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+
+  .sliderTxt p {
+    font-size: 13px;
+  }
+
+  .trustPilot .clientsPara {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pageReviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .awardsliderSec {
+    padding-bottom: 0px;
+  }
+
+  .awardSec p {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .pageReviews p {
+    font-size: 22px !important;
+  }
+
+  .awardsHeading {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .awardSec p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0;
+  }
+
+  .txt p {
+    text-align: justify;
+  }
+
+  .pageReviews h4 {
+    font-size: 160px;
+    line-height: 145px;
+  }
+
+  .pageReviews .reviews .icons {
+    color: #ffb800;
+    font-size: 30px;
+  }
+
+  .awardSec {
+    padding: 50px 0 0px;
+  }
+
+  .awardsliderSec {
+    padding-bottom: 55px;
+  }
+
+  .trustPilot p {
+    padding-right: 13px;
+  }
+}
+
+/* Media Query End */

@@ -1,0 +1,302 @@
+.ourProject {
+  background-color: #1f1f1f;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.newproject {
+  margin-top: 30px;
+}
+
+.slideBox {
+  background-color: #262626;
+  padding: 40px;
+}
+
+.slideList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.slideList img {
+  width: 10px;
+}
+
+.slideCntnt {
+  color: #ececec;
+}
+
+.slideCntnt a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slideImg {
+  text-align: center;
+  width: 90%;
+}
+
+.bttns1:hover {
+  transition: background-color 2s;
+  background-color: #272727;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.bttns1 {
+  background-color: #fff;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6 {
+  margin-top: 50px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.line1::before {
+  content: "01";
+  position: absolute;
+  left: 110px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line2::before {
+  content: "02";
+  position: absolute;
+  left: 75px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line3::before {
+  content: "03";
+  position: absolute;
+  left: 45px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line4::before {
+  content: "04";
+  position: absolute;
+  left: 12px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line5::before {
+  content: "05";
+  position: absolute;
+  left: -18px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.line6::before {
+  content: "06";
+  position: absolute;
+  left: -50px;
+  top: -14px;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+
+.slidBtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.prjtBtns {
+  font-size: 0.75rem;
+  color: #afafaf;
+  background-color: transparent;
+  border: 1px solid #afafaf;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.slidLst {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.slidLst li {
+  padding: 5px 5px 1px 32px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  background: url(../public/images/digital/tick-point.png) no-repeat;
+  background-position: top 9px left 0;
+  filter: invert(0.1);
+}
+
+.solutn .slideImg {
+  width: 95%;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (min-width: 1366px) {
+  .solutn .slideBox {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .slideList p {
+    font-size: 15px;
+  }
+
+  .line1::before {
+    content: "01";
+    position: absolute;
+    left: 20px;
+    top: -14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .line2::before {
+    content: "02";
+    position: absolute;
+    left: 15px;
+    top: -14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .line3::before {
+    content: "03";
+    position: absolute;
+    left: 15px;
+    top: -14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .line4::before {
+    content: "04";
+    position: absolute;
+    left: 12px;
+    top: -14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .line5::before {
+    content: "05";
+    position: absolute;
+    left: 12px;
+    top: -14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .line6::before {
+    content: "06";
+    position: absolute;
+    left: 10px;
+    top: -14px;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slideImg {
+    display: flex;
+    align-items: center;
+  }
+
+  .ourProject {
+    padding: 70px 0 100px;
+  }
+
+  .slideCntnt {
+    width: 100%;
+  }
+
+  .slideCntnt p {
+    font-size: 21px;
+    margin-bottom: 25px;
+  }
+
+  .line {
+    width: 88%;
+  }
+
+  .bttns1 {
+    width: 270px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ourProject {
+    padding: 5 0px 0 80px;
+  }
+
+  .slideBox {
+    padding: 30px;
+  }
+
+  .slideCntnt h3 {
+    font-size: 30px;
+  }
+
+  .slideCntnt p {
+    font-size: 17px;
+    margin-bottom: 25px;
+  }
+
+  .slideList p {
+    font-size: 13px;
+  }
+
+  .line {
+    width: 78%;
+  }
+}

@@ -1,0 +1,46 @@
+.team {
+  background-color: black;
+  padding-top: 170px;
+  padding-bottom: 150px;
+}
+
+.high p {
+  font-size: 16px;
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.high h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.digi {
+  font-size: 12px !important;
+}
+
+.high {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .team {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .team h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}

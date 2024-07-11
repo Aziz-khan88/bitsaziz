@@ -1,0 +1,39 @@
+.counter{
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.caht{
+    width: fit-content;
+    height: 45px;
+    background-color: #f32f53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.counter h2{
+  font-size: 55px;
+    font-family: 'SF-Pro-Display';
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+.counter h2 span{
+
+    color: #F32F53;
+}
+@media screen and (max-width: 480px) {
+  .counter h2 {
+    font-size: 30px;
+    margin-bottom: 26px;
+}
+}

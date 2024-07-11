@@ -1,0 +1,27 @@
+.processLp6,
+.process {
+  background-color: black;
+  padding: 80px 0;
+}
+.process1 {
+  background-color: black;
+  padding-bottom: 150px;
+}
+
+.processLp6 h3 {
+  color: #f32f53;
+}
+
+@media screen and (max-width: 991px) {
+  .processLp6,
+  .process {
+    padding: 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .processLp6,
+  .process {
+    padding: 0 0 50px;
+  }
+}

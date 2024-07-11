@@ -1,0 +1,109 @@
+.socialSolution {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #000;
+}
+
+.smTxt h3 {
+  color: #f32f53;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.smTxt h2 {
+  color: #fff;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.smTxt p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.smImg {
+  text-align: center;
+}
+
+.smImg img {
+  width: 65%;
+}
+
+.smSolTxt h4 {
+  color: #f32f53;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.smSolTxt p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 991px) {
+  .socialSolution {
+    padding-top: 0px;
+    padding-bottom: 180px;
+  }
+
+  .smTxt h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .smTxt h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .smTxt p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .smSolTxt p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .smTxt h3 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+
+  .smTxt h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .smTxt p {
+    margin-bottom: 20px;
+  }
+
+  .smSolTxt h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 5px;
+  }
+
+  .smSolTxt p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+}

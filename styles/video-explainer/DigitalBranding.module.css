@@ -1,0 +1,64 @@
+.DigitalBranding {
+    background: url(../../public/videoexplainer/why-ex-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 80px;
+}
+
+.txt h2 {
+    font-size: 30px;
+    color: #231f20;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.txt p {
+    font-size: 18px;
+    color: #231f20;
+    font-weight: 400;
+    padding: 20px 0;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: #231f20;
+    font-weight: 700;
+    padding: 25px 0 15px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.card p {
+    font-size: 16px;
+    width: 93%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+/* Media Query Start */
+@media only screen and (max-width: 567px) {
+    .DigitalBranding {
+        padding: 50px 0 50px;
+    }
+
+    .txt h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+
+    .card h3 {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 20px 0 10px;
+    }
+
+    .txt p {
+        font-size: 15px;
+    }
+}

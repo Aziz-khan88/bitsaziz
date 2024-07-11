@@ -1,0 +1,79 @@
+.banner {
+  background: #000;
+  padding: 200px 0 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../public/images/case-studies/case-monkey/banner-bg.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banSec {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banSec h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.banSec p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+.about {
+  width: 260px;
+  height: 50px;
+  background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.pont {
+  display: flex;
+  gap: 20px;
+  margin-top: 1%;
+  justify-content: center;
+}
+
+/* =========================================== */
+
+@media screen and (max-width: 991px) {
+  .banner {
+    padding: 50px 0 0px;
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .banSec h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .banSec p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

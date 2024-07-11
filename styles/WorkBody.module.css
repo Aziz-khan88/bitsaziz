@@ -1,0 +1,196 @@
+.workBg {
+  padding: 75px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.workImg {
+  margin-left: -55px;
+  text-align: center;
+}
+
+.workBg h4 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.workBg p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.workBg .workText {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 35px 50px 50px 40px;
+  margin: 85px 0 0;
+}
+
+.workBg.travel .workText {
+  background-image: url(/images/ourwork/folio1a.png);
+}
+
+.workBg.estate .workText {
+  background-image: url(/images/ourwork/folio2a.png);
+}
+
+.workBg.ecommerce .workText {
+  background-image: url(/images/ourwork/folio3a.png);
+}
+
+.workBg.scribe .workText {
+  background-image: url(/images/ourwork/folio4a.png);
+}
+
+.workBg.grease .workText {
+  background-image: url(/images/ourwork/folio5a.png);
+}
+
+.workBg.sponsord .workText {
+  background-image: url(/images/ourwork/folio6a.png);
+}
+
+.workBg.health .workText {
+  background-image: url(/images/ourwork/folio7a.png);
+}
+
+.workBg.ride .workText {
+  background-image: url(/images/ourwork/folio8a.png);
+}
+
+.workBg.fit .workText {
+  background-image: url(/images/ourwork/folio9a.png);
+}
+
+.workBg.ready .workText {
+  background-image: url(/images/ourwork/folio10a.png);
+}
+
+.workBg.crave .workText {
+  background-image: url(/images/ourwork/folio11a.png);
+}
+
+.workBg.home .workText {
+  background-image: url(/images/ourwork/folio12a.png);
+}
+
+.workBg.beats .workText {
+  background-image: url(/images/ourwork/folio13a.png);
+}
+
+.btns {
+  width: 50%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+}
+
+.workBg.travel .btns {
+  background-color: #ff6a03;
+}
+
+.workBg.estate .btns {
+  background-color: #238be7;
+}
+
+.workBg.ecommerce .btns {
+  background-color: #8d44eb;
+}
+
+.workBg.scribe .btns {
+  background-color: #002292;
+}
+
+.workBg.grease .btns {
+  background-color: #e86a13;
+}
+
+.workBg.sponsord .btns {
+  background-color: #050424;
+}
+
+.workBg.health .btns {
+  background-color: #00bbd8;
+}
+
+.workBg.ride .btns {
+  background-color: #4ce4b1;
+  color: #000;
+}
+
+.workBg.fit .btns {
+  background-color: #ccff00;
+  color: #000;
+}
+
+.workBg.ready .btns {
+  background-color: #0165fc;
+}
+
+.workBg.crave .btns {
+  background-color: #ff6a03;
+}
+
+.workBg.home .btns {
+  background-color: #5b6d85;
+}
+
+.workBg.beats .btns {
+  background-color: #e4f81e;
+  color: #000;
+}
+
+/* ===================================== */
+
+@media screen and (max-width: 1390px) {
+  .workBg p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .workBg h4 {
+    font-size: 35px;
+  }
+
+  .workBg {
+    height: auto;
+    padding: 0;
+  }
+
+  .workBg.beats{
+    padding-bottom: 70px;
+  }
+
+  .workImg {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .workBg .workText {
+    padding: 35px 20px;
+    background-position: unset;
+  }
+}

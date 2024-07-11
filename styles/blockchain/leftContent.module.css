@@ -1,0 +1,11 @@
+.secPad {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 991px) {
+  .secPad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

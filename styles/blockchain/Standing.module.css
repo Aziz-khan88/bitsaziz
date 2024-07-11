@@ -1,0 +1,75 @@
+.secPad {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.feature {
+  margin-bottom: 20px;
+}
+
+.feature {
+  transition: all 1s;
+  margin: 20px 20px 0px 20px;
+  filter: drop-shadow(0 0 3rem rgb(255, 72, 209));
+}
+
+.feature img {
+  transition: all 1s ease;
+  width: 100%;
+}
+
+.feature img:hover {
+  filter: grayscale(1);
+}
+
+.feature span {
+  text-align: center;
+  color: #676767;
+}
+
+.gap2 {
+  padding-left: 2rem;
+  padding-right: 1.2rem;
+}
+
+.feature:hover span {
+  color: var(--mry);
+}
+
+.standing h4:hover {
+  color: var(--mry);
+}
+
+.br1 {
+  border-right: 1px solid #676767;
+}
+
+.bb1 {
+  border-bottom: 1px solid #676767;
+}
+
+@media (max-width: 1028px) {
+  .br1,
+  .bb1 {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .secPad {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .secPad {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .br1,
+  .bb1 {
+    border: none;
+  }
+}

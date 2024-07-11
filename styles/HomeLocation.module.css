@@ -1,0 +1,81 @@
+.locations {
+  background-color: #000;
+  position: relative;
+  z-index: 3;
+  padding-top: 80px;
+}
+
+.mapVideo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.mapVideo .map > video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.upside {
+  z-index: 99;
+  position: relative;
+}
+
+.loctnDetls .heading {
+  border-top: 1px solid var(--dg-color);
+  border-bottom: 1px solid var(--dg-color);
+  padding: 5px 0 10px;
+}
+
+.detail {
+  padding: 12px 0;
+}
+
+.detail a:hover {
+  color: var(--p-color);
+}
+
+.lctnslide .loctnDetls {
+  text-align: center;
+}
+
+.locations a {
+  color: white !important;
+}
+
+.positionDiv {
+  position: relative;
+}
+
+.locationImage {
+  position: absolute;
+  left: -20%;
+  top: -75px;
+  object-fit: contain;
+}
+
+/* =================Media Queries=================== */
+@media screen and (max-width: 1199px) {
+  .locationImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .locations {
+    padding-top: 0px;
+  }
+
+  .mapVideo {
+    display: none;
+  }
+
+  .lctnMain {
+    text-align: center;
+  }
+}

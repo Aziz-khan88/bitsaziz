@@ -1,0 +1,295 @@
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Montserrat";
+}
+
+.getInTch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.touch {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.loctn {
+  align-items: flex-start;
+}
+
+.touch svg {
+  font-size: 20px;
+  color: #797979;
+}
+
+.touch span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #525252;
+  font-family: "Montserrat";
+}
+
+.social h5 {
+  color: #8b8b8b;
+}
+
+.socialIcn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.socialIcn svg {
+  color: #797979;
+  font-size: 24px;
+}
+
+.socialIcn svg:hover {
+  color: #000;
+}
+
+.socialIcn img {
+  filter: invert(1);
+  filter: brightness(0.5);
+  width: 22px;
+  height: 22px;
+}
+
+.socialIcn img:hover {
+  filter: brightness(0);
+}
+
+.cntcForm form label {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 37.5px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  display: block;
+}
+
+.cntcForm form label span {
+  color: #f32f4d;
+}
+
+.cntcForm form input,
+.cntcForm form select {
+  min-height: 52px;
+  background-color: #fff;
+  border: 1px #000;
+  border-bottom: 1px solid #c9c9c9;
+  border-radius: 0;
+  padding: 14px 0;
+  width: 100%;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 1.4;
+  display: block;
+}
+.cntcForm form select option {
+  color: black;
+}
+.cntcForm form textarea {
+  height: 120px;
+  min-height: 52px;
+  background-color: #fff;
+  border: 1px #000;
+  border-bottom: 1px solid #c9c9c9;
+  border-radius: 0;
+  padding: 14px 0;
+  width: 100%;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 1.4;
+  display: block;
+  resize: none;
+}
+
+.cntcForm form input:focus,
+.cntcForm form select,
+.cntcForm form textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #3898ec;
+}
+
+.cntcForm form ::placeholder {
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+.btns {
+  background-color: #272727;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btns:hover {
+  transition: background-color 2s;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.formPara p {
+  color: #8b8b8b;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.link {
+  color: #f32f4d;
+}
+
+.newBgSpc {
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.newBg {
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+}
+
+.newBgSpc .cntcForm form input,
+.newBgSpc .cntcForm form select,
+.newBgSpc .cntcForm form textarea,
+.newBg .cntcForm form input,
+.newBg .cntcForm form select,
+.newBg .cntcForm form textarea {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.newBgSpc .cntcForm form ::placeholder,
+.newBg .cntcForm form ::placeholder {
+  color: #fff;
+}
+
+.newBgSpc .cntcForm form .btns,
+.newBg .cntcForm form .btns {
+  border: 0;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 2s;
+}
+
+.newBgSpc .cntcForm form .btns:hover,
+.newBg .cntcForm form .btns:hover {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: background-color 2s;
+}
+
+.newBgSpc .touch svg,
+.newBgSpc .touch span,
+.newBgSpc .social h5,
+.newBgSpc .socialIcn svg,
+.newBg .touch svg,
+.newBg .touch span,
+.newBg .social h5,
+.newBg .socialIcn svg {
+  color: #fff;
+}
+
+.newBgSpc .socialIcn img,
+.newBg .socialIcn img {
+  filter: invert(0);
+}
+
+.newBgSpc .cntcTxt p,
+.newBgSpc .formPara p,
+.newBg .cntcTxt p,
+.newBg .formPara p {
+  color: #fff;
+}
+
+.newBgSpc .cntcTxt h2,
+.newBg .cntcTxt h2 {
+  color: #fff;
+}
+
+.newBgSpc .cntcForm form label,
+.newBg .cntcForm form label {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 37.5px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  display: block;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (max-width: 991px) {
+  .newBgSpc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .cntcTxt h4 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .social h5,
+  .cntcTxt p {
+    font-size: 20px;
+  }
+
+  .cntcForm form input,
+  .cntcForm form select {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .newBgSpc {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .cntcTxt h2 {
+    line-height: 45px;
+  }
+
+  .cntcTxt h4 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .social h5,
+  .cntcTxt p {
+    font-size: 16px;
+  }
+
+  .cntcForm form label {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

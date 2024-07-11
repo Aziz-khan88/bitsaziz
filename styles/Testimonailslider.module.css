@@ -1,0 +1,128 @@
+.posting {
+  text-align: center;
+}
+
+.posting h3 {
+  color: #f32f53;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.posting p {
+  font-weight: 500;
+}
+
+.hook {
+  background-color: black;
+  position: relative;
+  background-image: url(../public/images/projectprocess/remain1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1380px;
+  padding-top: 9%;
+}
+
+.clintSlider img {
+  width: 40%;
+}
+
+.clintSlider h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f32f53;
+}
+
+.clintSlider h5 {
+  font-size: 13px;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 4%;
+}
+
+.clintSlider h4 {
+  font-size: 30px;
+  font-family: 200;
+  color: #f32f53;
+  margin-bottom: 20px;
+}
+
+.clintSlider {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clintSlider img {
+  display: block;
+  margin: 55px auto;
+}
+
+.clintSlider p {
+  color: white;
+  font-size: 13px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@-moz-document url-prefix() {
+  .hook {
+    height: 1363px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .clintSlider p {
+    font-size: 17px;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+
+  .hook {
+    padding-top: 9%;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .hook {
+    padding-top: 3%;
+    height: 1625px;
+    padding-top: 9%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .clintSlider p {
+    font-size: 17px;
+    max-width: max-content;
+    margin: 0 auto;
+  }
+
+  .hook {
+    height: 1916px;
+    padding-top: 16%;
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .hook {
+
+    background-image: unset;
+    height: unset;
+    padding-bottom: 100px;
+    margin-top: 100px;
+  }
+  .hook h3, .hook p{
+    color: white!important;
+  }
+
+
+}
+
+@media screen and (max-width: 991px) { 
+  .hook{
+    padding-top: 70px;
+  }
+}

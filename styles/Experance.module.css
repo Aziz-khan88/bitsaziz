@@ -1,0 +1,80 @@
+.tale{
+  background-color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+
+.startups{
+  padding-bottom: 45px;
+  background-image: url(../public/dubailp/hold/hold.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+}
+.super p{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+.startups{
+  padding-top: 80px;
+}
+
+.dust {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.dustpost h4{
+  color: white;
+    font-weight: 900;
+    font-size: 55px;
+}
+.dustpost p{
+  color: white;
+}
+.moutn{
+  position: relative;
+}
+.moutn::after{
+  position: absolute;
+  content: '';
+  background-color: white;
+  width: 5px;
+  height: 107px;
+  top: 0;
+  right: 0;
+}
+.moutn::before{
+  position: absolute;
+  content: '';
+  background-color: white;
+  width: 5px;
+  height: 107px;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .tale{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+ }
+@media screen and (max-width: 767px) {
+  .tale{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .startups{
+    background-image: unset;
+    padding-top: 0px;
+  }
+  .moutn::after, .moutn::before{
+    display: none;
+  }
+
+ }

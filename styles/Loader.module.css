@@ -1,0 +1,22 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  z-index: 99999;
+}
+
+.loader p {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 700;
+  background: linear-gradient(to right, #eb335b 35%, #4a78ef 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

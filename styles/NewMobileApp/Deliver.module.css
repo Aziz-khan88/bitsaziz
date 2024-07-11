@@ -1,0 +1,135 @@
+.deliver {
+  position: relative;
+  z-index: 99;
+  padding: 80px 0 50px;
+  background-color: #fff;
+}
+
+.deliver h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.deliver h2 span {
+  color: #f32f53;
+}
+
+.mainDeliver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.card {
+  width: 100%;
+  height: 320px;
+  border-radius: 20px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(5deg);
+}
+
+.card2 {
+  margin-top: 2px;
+  transform: rotate(-5deg);
+}
+
+.card3 {
+  margin-top: 40px;
+}
+
+.card:hover {
+  background: linear-gradient(to right, #4a78ef, #f32fc2, #f32f53);
+  transform: rotate(0deg);
+}
+
+.card:hover .active {
+  background-color: #000 !important;
+}
+
+.active {
+  background: linear-gradient(to right, #4a78ef, #f32fc2, #f32f53);
+  transform: rotate(0deg);
+}
+
+.imgBox {
+  width: 10%;
+  height: auto;
+}
+
+.card h3 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.card p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.btns a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0 20px;
+  width: max-content;
+  height: 45px;
+  border-radius: 6px;
+  background: #f32f53;
+  box-shadow: 0 5px 12px #00000075;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.4s;
+  margin: 80px auto 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .card {
+    transform: rotate(0deg);
+  }
+
+  .card2 {
+    transform: rotate(0deg);
+  }
+
+  .deliver {
+    padding: 50px 0 0;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .deliver h2 {
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+  }
+
+  .btns a {
+    margin: 60px auto 0;
+  }
+}

@@ -1,0 +1,64 @@
+.wework {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.weworkLp6 {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.weworkLpnewhomefy {
+  background-color: black;
+  padding: 80px 0;
+}
+
+.wework h2 span,
+.weworkLp6 h2 span {
+  color: #f32f53;
+}
+.weworkLpnewhomefy h2 {
+  color: #f32f53;
+}
+.dem {
+  border: 1px solid #373636;
+  padding: 45px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+
+.dem h4 {
+  font-size: 23px;
+  color: white;
+  font-weight: 500;
+}
+
+.dem p {
+  font-size: 15px;
+  color: #91999e;
+}
+
+@media screen and (max-width: 991px) {
+  .weworkLp6 {
+    padding: 0 0 70px;
+  }
+  .weworkLpnewhomefy {
+    padding: 0 0 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .weworkLp6 {
+    padding: 0 0 60px;
+  }
+  .weworkLpnewhomefy {
+    padding: 30px 0 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .weworkLp6 {
+    padding: 0 0 60px;
+  }
+}

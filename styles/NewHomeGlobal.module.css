@@ -1,0 +1,98 @@
+.team {
+  background-color: black;
+  position: relative;
+  padding-bottom: 130px;
+  padding-top: 123px;
+  background-image: url(../public/newHomePage/images/team-bg.png);
+  background-position: left;
+  background-size: cover;
+}
+
+.game3d {
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.success {
+  font-size: 100px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f32f5e, #4a78ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  margin-bottom: 4%;
+}
+
+.pipe img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pont {
+  position: relative;
+  left: -40px;
+}
+
+.lctnslide {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .newHomeBg {
+    padding-bottom: 50px;
+    height: 100%;
+  }
+
+  .pipe img {
+    width: 29%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .team {
+    padding-bottom: 50px;
+  }
+
+  .pipe img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .postpoint {
+    display: none;
+  }
+
+  .lctnslide {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .success {
+    font-size: 50px;
+  }
+
+  .team {
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .success {
+    font-size: 35px;
+  }
+
+  .team {
+    padding: 0 0 20px;
+  }
+
+  .home {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .team {
+    text-align: center;
+  }
+}

@@ -1,0 +1,108 @@
+.newHomeBg {
+  padding-top: 55px;
+  padding-bottom: 50px;
+  background: #000;
+}
+
+.smTxt {
+  position: relative;
+  z-index: 4;
+}
+
+.smTxt h3 {
+  color: #f32f53;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.smTxt h1 {
+  color: #fff;
+  line-height: 55px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.smTxt p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.smTxt p span {
+  text-decoration: underline;
+  font-weight: 600;
+  display: block;
+}
+
+.smImg {
+  text-align: center;
+}
+
+.smImg .BanVideo {
+  width: 90%;
+  margin-top: -230px;
+}
+
+@media screen and (max-width: 1399px) {
+  .smImg .BanVideo {
+    width: 100%;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .newHomeBg {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .smImg .BanVideo {
+    margin-top: -100px;
+    margin-bottom: 10px;
+  }
+
+  .smTxt h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .smTxt h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .smTxt p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .smImg .BanVideo {
+    margin-top: -50px;
+    margin-bottom: 0;
+  }
+
+  .smTxt h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .smTxt h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .smTxt p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

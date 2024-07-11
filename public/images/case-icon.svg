@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310" height="225" viewBox="0 0 310 225">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a78ef"/>
+      <stop offset="0.498" stop-color="#f32fc2"/>
+      <stop offset="1" stop-color="#f32f53"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_1">
+      <rect width="310" height="225"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_644" data-name="Group 644" transform="translate(-1764.531 -2933.564) rotate(-9)">
+      <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="99.404" cy="65.051" rx="99.404" ry="65.051" transform="translate(1318.026 3245)" fill="url(#linear-gradient)"/>
+      <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(1282 3219)" fill="none" stroke="#fff" stroke-width="1">
+        <ellipse cx="135.43" cy="91.051" rx="135.43" ry="91.051" stroke="none"/>
+        <ellipse cx="135.43" cy="91.051" rx="134.93" ry="90.551" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

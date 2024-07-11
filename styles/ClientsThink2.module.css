@@ -1,0 +1,157 @@
+.ourClientsMbl {
+  display: none;
+}
+
+.ourClients {
+  padding: 150px 0 150px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.slideBox {
+  overflow: hidden;
+}
+
+.slideInner {
+  border: 1px solid #fff;
+  padding: 10px 0 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slideImg {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slideImg img {
+  width: 100%;
+  height: 364px;
+}
+
+.slideCntnt {
+  padding: 10px 20px 0;
+}
+
+.slideCntnt .hight {
+  font-size: 17px;
+  height: 100px;
+  overflow-x: unset;
+  overflow-y: auto;
+}
+
+.sliderli {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.sliderli li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: "Montserrat";
+}
+.sliderli li span {
+  color: #fff;
+}
+.bttns1 {
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+
+.bttns1:hover {
+  transition: background-color 2s;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/* ===============Media Queries================ */
+
+@media screen and (min-width: 1920px) {
+  .slideImg img {
+    width: 100%;
+    height: 418px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .slideCntnt img {
+    margin-bottom: 10px;
+  }
+  .slideCntnt h5 {
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sliderli li {
+    padding: 5px 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .slideCntnt .hight {
+    font-size: 17px;
+    height: auto;
+    overflow-x: unset;
+    overflow-y: unset;
+  }
+
+  .ourClients {
+    display: none;
+  }
+
+  .ourClientsMbl {
+    display: block;
+    padding: 50px 0 100px;
+  }
+
+  .clintSlider {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .slideImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slideImg img {
+    width: 100%;
+  }
+
+  .bttns1 {
+    width: 270px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clintSlider {
+    width: 100%;
+  }
+
+  .ourClientsMbl {
+    display: block;
+    padding: 50px 0 85px;
+  }
+}

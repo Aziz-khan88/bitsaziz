@@ -1,0 +1,116 @@
+.steps {
+  padding: 80px 0;
+  background: #000;
+}
+
+.steps h2 {
+  line-height: 70px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #eb335b 55%, #4a78ef 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.steps p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.stepBox {
+  border-radius: 25px;
+  padding: 30px;
+  height: 320px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  transition: all 0.5s ease-in-out;
+}
+
+.stepBox:hover {
+  transform: scale(1.05);
+}
+
+.stepBox img {
+  transition: all 0.5s ease-in-out;
+}
+
+.stepBox:hover img {
+  transform: scale(0.8);
+}
+
+.stepBox h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 0;
+  border: 1px solid #fff;
+}
+
+.stepBox h6 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* =========================================== */
+
+@media screen and (max-width: 991px) {
+  .steps h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .steps p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .steps {
+    padding: 50px 0 100px;
+  }
+
+  .steps h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .stepBox:hover,
+  .stepBox:hover img {
+    transform: unset;
+  }
+
+  .mblSlider ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .mblSlider ul li,
+  .mblSlider ul li button {
+    border-radius: 100%;
+    background-color: transparent;
+  }
+
+  .mblSlider ul li button:before {
+    background-image: linear-gradient(to right, #f32f53, #f32fc2, #4a78ef);
+    background-color: unset;
+    border-radius: 100%;
+    color: transparent;
+    opacity: 0.5;
+  }
+}

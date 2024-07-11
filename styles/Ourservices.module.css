@@ -1,0 +1,129 @@
+.ourservices {
+  background-color: #000;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.abtServices {
+  margin-bottom: 0;
+}
+
+.bttns1:hover {
+  transition: background-color 2s;
+  background-color: #272727;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.bttns1 {
+  background-color: #fff;
+  width: 100%;
+  height: 45px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.project {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #707070;
+}
+
+.imgapost {
+  position: relative;
+}
+
+.imgapost img {
+  position: absolute;
+  max-width: 100%;
+}
+
+.imgapost1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.imgapost1 {
+  margin-top: 6%;
+}
+
+.bottom4 {
+  max-width: 100%;
+  height: auto;
+  animation: buger-bottom;
+  animation-delay: 1ms;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transform: translate(0, 200%);
+}
+
+@keyframes buger-bottom {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .imgapost img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -20px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .imgapost img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .ourservices {
+    padding-top: 90px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .ourservices {
+    background-color: #272727;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .imgapost img {
+    position: unset;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: block;
+  }
+
+  .bttns1 {
+    width: 270px;
+  }
+}

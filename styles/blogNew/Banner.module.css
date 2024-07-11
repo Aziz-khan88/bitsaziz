@@ -1,0 +1,99 @@
+.bannerSec {
+    padding: 120px 0;
+    background: #000;
+    background-image: url(../../public/newblogs/blogs-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerSec .txt h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.bannerSec .txt p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 200;
+    margin: 20px 0 50px;
+}
+
+.bannerSec .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerSec .form form {
+    position: relative;
+}
+
+.bannerSec .form form input {
+    width: 662px;
+    height: 60px;
+    background: #242424;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.bannerSec .form form button {
+    background-color: #F32F53;
+    width: max-content;
+    height: 46px;
+    border-radius: 8px;
+    padding: 0 30px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+/* Media Query Start */
+
+@media only screen and (max-width: 1099px) {
+    .bannerSec {
+        padding: 80px 0;
+    }
+
+    .bannerSec .txt h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .bannerSec {
+        padding: 50px 0;
+    }
+
+    .bannerSec .txt h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .bannerSec .form form {
+        width: 100%;
+    }
+
+    .bannerSec .form form input {
+        width: 100%;
+    }
+
+
+    .bannerSec .txt p {
+        font-size: 14px;
+        margin: 7px 0 30px;
+    }
+}
