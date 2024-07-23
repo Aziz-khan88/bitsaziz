@@ -18,14 +18,16 @@ const ApplicationOffer = ({ content, bg }) => {
     return (
         <>
             <section id='process' className={bg === 'yes' ? `${styles.bgcolor_puple} ` : `${styles.houston}`}>
-                <Row className="m-0 align-items-center">
-                    <Col lg={12}>
-                        <div className={styles.txt}>
-                            <h2 className='manrope font-bold'>{title}</h2>
-                            <p className='manrope font16 font-medium mb-2 mb-lg-5 pb-2'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. <br className='d-xl-block d-none' /> We bring your iOS app ideas to life by using our comprehensive We bring your iOS app ideas to life by using our</p>
-                        </div>
-                    </Col>
-                </Row>
+                <Container>
+                    <Row>
+                        <Col lg={12}>
+                            <div className={styles.txt}>
+                                <h2 className='manrope font-bold'>{title}</h2>
+                                <p className='manrope font16 font-medium mb-2 mb-lg-5 pb-2'>We bring your iOS app ideas to life by using our comprehensive approach to development, combining UI/UX app design. <br className='d-xl-block d-none' /> We bring your iOS app ideas to life by using our comprehensive We bring your iOS app ideas to life by using our</p>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
                 <Container>
                     <Row>
                         <Col lg={6} className='p-md-0'>

@@ -51,9 +51,12 @@
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 80vh;
+  height: calc(100vh - 65px);
 }
 
+.BannerIndustry h1 span {
+  color: #f32f53;
+}
 
 /* =================== */
 

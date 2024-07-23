@@ -63,7 +63,13 @@ const industrydeveloper = () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 1.5,
+                }
+            },
+            {
+                breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
                 }

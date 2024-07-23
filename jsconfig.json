@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"],
-      "media/*": ["./public/*"]
+      "@/*": [
+        "./*"
+      ],
+      "media/*": [
+        "./public/*"
+      ]
     }
   }
 }

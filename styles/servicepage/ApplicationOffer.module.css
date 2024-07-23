@@ -128,9 +128,9 @@
     padding-bottom: 10px;
 }
 
-.txt {
+/* .txt {
     margin-left: 110px;
-}
+} */
 
 .txt h2 {
     font-size: 40px;
@@ -305,9 +305,9 @@
 
 /* ==================================== */
 @media only screen and (max-width: 1920px) {
-    .txt {
+    /* .txt {
         margin-left: 285px;
-    }
+    } */
 
     .applicationlong img {
         height: 530px;
@@ -315,21 +315,21 @@
 }
 
 @media only screen and (max-width: 1799px) {
-    .txt {
+    /* .txt {
         margin-left: 190px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1599px) {
-    .txt {
+    /* .txt {
         margin-left: 95px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1399px) {
-    .txt {
+    /* .txt {
         margin-left: 115px;
-    }
+    } */
 
     .menusHeading {
         font-size: 17px !important;
@@ -359,9 +359,9 @@
         line-height: 30px;
     }
 
-    .txt {
+    /* .txt {
         margin-left: 55px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1099px) {
@@ -398,9 +398,9 @@
         line-height: 45px;
     }
 
-    .txt {
+    /* .txt {
         margin-left: 30px;
-    }
+    } */
 
     .posto {
         margin-top: 20px;
@@ -443,9 +443,9 @@
         font-size: 13px;
     }
 
-    .txt {
+    /* .txt {
         margin-left: 0;
-    }
+    } */
 
     .menuCols {
         top: 36px;

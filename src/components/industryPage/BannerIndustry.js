@@ -15,7 +15,7 @@ const BannerIndustry = ({ content }) => {
                 <Row className='align-items-center'>
                     <Col lg={7} xl={6} className='p-lg-0'>
                         <div className="txt">
-                            <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>Healthcare App Development Company</h1>
+                            <h1 className='text-black mb-3 mb-lg-4 manrope font-bold'>Healthcare <span>App Development</span> Company</h1>
                             <p className='font16 text-black fw500 mt-2 mt-xl-3 mb-3 mb-xl-4 mb-0 manrope'>We tailor custom medical software solutions to address specific challenges healthcare providers face. With customized MedTech systems, healthcare organizations can streamline their operations, improve patient outcomes, and achieve greater efficiency in We tailor custom medical software solutions</p>
                             <div className="btn d-flex align-items-center gap-4 px-0">
                                 <a href="javascript:;" className={`${styles.demoBtn} font-bold manrope`}>

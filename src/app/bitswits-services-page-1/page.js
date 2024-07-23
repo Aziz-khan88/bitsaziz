@@ -20,6 +20,8 @@ import Faqs from '@/src/components/servicePage/Faqs/Faqs'
 import BlogPosts from '@/src/components/servicePage/BlogPosts/BlogPosts'
 import GlobalPresence from '@/src/components/servicePage/GlobalPresence/GlobalPresence'
 import ImageOne from "media/services/smallBannerImg.svg"
+
+
 const page = () => {
     const smallBannerContent = {
         title: "No Risks With An MVP! Launch Your IDEA To See How They Like It!",
