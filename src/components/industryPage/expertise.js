@@ -89,14 +89,14 @@ const ExpertiseIndustry = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col xxl={4} xl={4} lg={4} md={4}>
+                    <Col xxl={4} xl={4} lg={4} md={12}>
                         <div className={styles.techExpert}>
                             <h3 className="manrope font-bold">Technology Excellence</h3>
                             <p className="font16 font-medium manrope">We tailor custom medical software solutions to address specific challenges healthcare providers face. With customized MedTech systems, healthcare organizations can streamline their operations, improve patient outcomes, and achieve greater</p>
                             <Link href='#' className={`${styles.button_main}`}>Let’s Discuss Your Project</Link>
                         </div>
                     </Col>
-                    <Col xxl={4} xl={4} lg={4} md={4}>
+                    <Col xxl={4} xl={4} lg={4} md={6}>
                         {expertItems1.map((item, index) => (
                             <div
                                 key={index}
@@ -112,7 +112,7 @@ const ExpertiseIndustry = () => {
                             </div>
                         ))}
                     </Col>
-                    <Col xxl={4} xl={4} lg={4} md={4}>
+                    <Col xxl={4} xl={4} lg={4} md={6}>
                         {expertItems2.map((item, index) => (
                             <div
                                 key={index}
