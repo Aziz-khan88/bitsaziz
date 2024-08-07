@@ -1,4 +1,11 @@
 /* Industry Section */
+
+.BannerIndustry {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 .IndustrySec {
     padding: 50px 0;
     overflow-x: hidden;

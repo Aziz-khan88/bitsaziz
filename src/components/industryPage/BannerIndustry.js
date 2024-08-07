@@ -4,13 +4,14 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from "@/styles/servicepage/Banner.module.css"
 // Images 
-import BannerImg from "media/services/banner-img.svg"
+import BannerImg from "media/industry/imgSlider.webp"
+import BgImg from "media/industry/bgImg.png"
 import logos from "media/services/logos.svg"
 
 const BannerIndustry = ({ content }) => {
 
     return (
-        <section className={`${styles.bannerSec} ${styles.BannerThree} ${styles.bannerOne}  ${styles.BannerIndustry}`}>
+        <section className={`${styles.bannerSec} ${styles.BannerThree} ${styles.bannerOne} ${styles.BannerIndustry}`} style={{ backgroundImage: `url(${BgImg.src})` }}>
             <Container>
                 <Row className='align-items-center'>
                     <Col lg={7} xl={6} className='p-lg-0'>
